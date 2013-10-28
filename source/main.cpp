@@ -26,20 +26,23 @@ void UpdateScreenSize()
     if (g_ScreenSizeChanged)
     {
         g_ScreenSizeChanged = false;
-
+		/*
 		IwGxScreenOrient t = IwGxGetScreenOrient();
 
 		if (t == IW_GX_ORIENT_NONE ||
 			t == IW_GX_ORIENT_180)
-		{
+		{*/
 			IwGxSetScreenOrient(IW_GX_ORIENT_270);
-		}
-		else 
-		{
-			IwGxSetScreenOrient(IW_GX_ORIENT_NONE);
-		}
+		//}
+		//else 
+		//{
+		//	IwGxSetScreenOrient(IW_GX_ORIENT_NONE);
+		//}
+
+		SetupImages();
 
         font = Iw2DCreateFontResource("font");
+		fontLarge = Iw2DCreateFontResource("font_large");
         Iw2DSetFont(font);
 
 		screen = CIwSVec2(IwGxGetScreenWidth(), IwGxGetScreenHeight());

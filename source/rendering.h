@@ -22,6 +22,7 @@ class CIw2DFont;
 class TitleScreen;
 
 extern CIw2DFont* font;
+extern CIw2DFont* fontLarge;
 
 extern CIwSVec2 screen;
 
@@ -31,6 +32,7 @@ void DrawTitleScreen(TitleScreen *title);
 void DrawGameBackground();
 void DrawGround();
 void DrawBootSequence();
+void DrawGameOverScreen();
 void DrawScale(CIwFVec2 aim);
 
 // Global variable used by the rendering functions to scale graphics.

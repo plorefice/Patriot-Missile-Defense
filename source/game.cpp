@@ -39,6 +39,9 @@ void UpdateInput(int deltaTimeMs)
     s3ePointerUpdate();
     s3eKeyboardUpdate();
 
+	if (g_GameMode != MODE_GAMEPLAY)
+		return;
+
 	delta_x = delta_y = 0;
 	fired = false;
 
@@ -214,6 +217,8 @@ void Game::Render()
 	for (std::list<Missile>::iterator it = missiles.begin(); it != missiles.end(); it++) {
 		(*it).Render();
 	}
+
+	Iw2DSetFont(font);
 	
 	std::string s;
 	std::stringstream out;
@@ -236,6 +241,11 @@ void Game::Render()
 		IW_2D_FONT_ALIGN_LEFT, IW_2D_FONT_ALIGN_TOP);
 
 	g_EffectsManager->Render();
+
+	if (mode == MODE_GAME_OVER) 
+	{
+		DrawGameOverScreen();
+	}
 }
 
 
@@ -317,6 +327,7 @@ void Game::Update(int deltaTimeMs)
 			if (((*it).pos - (*it).traj.end).GetLength() < 1.0F) 
 			{
 				it = missiles.erase(it);
+				mode = MODE_GAME_OVER;
 			}
 
 			for (std::list<ExplosionEffect*>::iterator et = explosions.begin(); et != explosions.end(); et++)

@@ -24,9 +24,18 @@ private:
     int timer;
 
 public:
+	CIwFVec2 btnDim, btnTopLeft;
+
+public:
     TitleScreen()
     {
         timer = 0;
+
+		btnDim.x = 200.0f;
+		btnDim.y = 80.0f;
+
+		btnTopLeft.x = (screen.x - btnDim.x)/2;
+		btnTopLeft.y = (screen.y - btnDim.y)/2 + 80;
     }
 
     void Update(int deltaTimeMs)
@@ -57,7 +66,14 @@ public:
 		int x = s3ePointerGetX();
 		int y = s3ePointerGetY();
 
-		return true;
+		if ((s3ePointerGetState(S3E_POINTER_BUTTON_SELECT) & S3E_POINTER_STATE_PRESSED)
+			&& (x >= btnTopLeft.x && x <= btnTopLeft.x + btnDim.x)
+			&& (y >= btnTopLeft.y && y <= btnTopLeft.y + btnDim.y))
+		{
+			return true;
+		}
+
+		return false;
 	}
 };
 

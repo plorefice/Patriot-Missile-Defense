@@ -4,4 +4,5 @@ CIwResGroup
 	name "resources"
 	
 	fonts/font.gxfont
+	fonts/font_large.gxfont
 }

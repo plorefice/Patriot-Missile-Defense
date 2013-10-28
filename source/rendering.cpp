@@ -19,12 +19,14 @@
 #include "localise.h"
 
 CIw2DFont* font;
+CIw2DFont* fontLarge;
 
 CIwSVec2 screen;
 
 void CleanupImages()
 {
     delete font;
+	delete fontLarge;
 }
 
 void SetupImages(void)
@@ -34,15 +36,22 @@ void SetupImages(void)
 
 void DrawTitleScreen(TitleScreen *title)
 {
-	int w = 200, h = 80;
 	int border = 10;
 
 	Iw2DSetColour(0xffffffff);
-	Iw2DFillRect(CIwFVec2((screen.x - w)/2, (screen.y - h)/2), CIwFVec2(w,h));
+	Iw2DFillRect(title->btnTopLeft, title->btnDim);
 
 	Iw2DSetColour(0xff000000);
-	Iw2DFillRect(CIwFVec2((screen.x - w)/2 + border, (screen.y - h)/2 + border),
-				 CIwFVec2(w - 2*border, h - 2*border));
+	Iw2DFillRect(CIwFVec2(title->btnTopLeft.x + border, title->btnTopLeft.y + border),
+				 CIwFVec2(title->btnDim.x - 2 * border, title->btnDim.y - 2 * border));
+	
+	Iw2DSetFont(fontLarge);
+	int fh = fontLarge->GetHeight();
+	int sw = Iw2DGetStringWidth("P L A Y");
+
+	Iw2DSetColour(0xffffffff);
+	Iw2DDrawString("P L A Y", CIwFVec2(title->btnTopLeft.x + border, title->btnTopLeft.y + border),
+		CIwFVec2(title->btnDim.x - 2 * border, title->btnDim.y - 2 * border), IW_2D_FONT_ALIGN_CENTRE, IW_2D_FONT_ALIGN_TOP);
 }
 
 void DrawGameBackground()
@@ -65,6 +74,8 @@ void DrawGround()
 
 void DrawBootSequence()
 {
+	Iw2DSetFont(font);
+
 	int h = font->GetHeight();
 
 	for (unsigned i = 0; i < g_Current_Line; i++) {
@@ -74,6 +85,25 @@ void DrawBootSequence()
 		Iw2DDrawString(g_Bootup_Sequence[i], CIwFVec2(0, i*h),
 			CIwFVec2(w, h), IW_2D_FONT_ALIGN_LEFT, IW_2D_FONT_ALIGN_TOP);
 	}
+}
+
+void DrawGameOverScreen()
+{
+	int border = 10;
+	CIwFVec2 dialogDim(480.f, 120.f);
+
+	CIwFVec2 outerTopLeft((screen.x - dialogDim.x)/2, (screen.y - dialogDim.y)/2);
+	CIwFVec2 innerTopLeft((screen.x - dialogDim.x)/2 + border, (screen.y - dialogDim.y)/2 + border);
+
+	Iw2DSetColour(0xffffffff);
+	Iw2DFillRect(outerTopLeft, dialogDim);
+	Iw2DSetColour(0xff000000);
+	Iw2DFillRect(innerTopLeft, CIwFVec2(dialogDim.x - 2 * border, dialogDim.y - 2 * border));
+
+	Iw2DSetColour(0xffffffff);
+	Iw2DSetFont(fontLarge);
+
+	Iw2DDrawString("G A M E   O V E R", outerTopLeft, dialogDim, IW_2D_FONT_ALIGN_CENTRE, IW_2D_FONT_ALIGN_CENTRE);
 }
 
 void DrawScale(CIwFVec2 aim)
