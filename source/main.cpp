@@ -13,40 +13,15 @@
 #include "titlescreen.h"
 
 
-bool g_ScreenSizeChanged = true;
-
-int32 ScreenSizeChangeCallback(void* systemData, void* userData)
+void SetupScreen()
 {
-    //g_ScreenSizeChanged = true;
-    return 0;
-}
+	SetupImages();
 
-void UpdateScreenSize()
-{
-    if (g_ScreenSizeChanged)
-    {
-        g_ScreenSizeChanged = false;
-		/*
-		IwGxScreenOrient t = IwGxGetScreenOrient();
+    font = Iw2DCreateFontResource("font");
+	fontLarge = Iw2DCreateFontResource("font_large");
+    Iw2DSetFont(font);
 
-		if (t == IW_GX_ORIENT_NONE ||
-			t == IW_GX_ORIENT_180)
-		{*/
-			IwGxSetScreenOrient(IW_GX_ORIENT_270);
-		//}
-		//else 
-		//{
-		//	IwGxSetScreenOrient(IW_GX_ORIENT_NONE);
-		//}
-
-		SetupImages();
-
-        font = Iw2DCreateFontResource("font");
-		fontLarge = Iw2DCreateFontResource("font_large");
-        Iw2DSetFont(font);
-
-		screen = CIwSVec2(IwGxGetScreenWidth(), IwGxGetScreenHeight());
-    }
+	screen = CIwSVec2(IwGxGetScreenWidth(), IwGxGetScreenHeight());
 }
 
 
@@ -57,8 +32,7 @@ int main(int argc, char* argv[])
 
     IwGetResManager()->LoadGroup("resources.group");
 
-    UpdateScreenSize();
-    s3eSurfaceRegister(S3E_SURFACE_SCREENSIZE, ScreenSizeChangeCallback, NULL);
+    SetupScreen();
 
 	g_EffectsManager = new EffectManager;
 
@@ -75,8 +49,6 @@ int main(int argc, char* argv[])
 
         if (s3eDeviceCheckQuitRequest())
             break;
-
-        UpdateScreenSize();
 		
 		IwGxClear(IW_GX_COLOUR_BUFFER_F | IW_GX_DEPTH_BUFFER_F);
 
@@ -106,8 +78,6 @@ int main(int argc, char* argv[])
 
         Iw2DSurfaceShow();
     }
-
-    s3eSurfaceUnRegister(S3E_SURFACE_SCREENSIZE, ScreenSizeChangeCallback);
 
 	delete g_EffectsManager;
 

@@ -1,0 +1,199 @@
+# This is the global system configuration file for Marmalade applications.
+# This file is automatically included in all application deployments and
+# used when debugging an x86 build.
+#
+# Most of the settings in this are per-device configuration setting for the
+# S3E loader.  These settings are almost all in the [S3E] section, with
+# a few under [GL].
+
+[S3E]
+SysFastLockDisable=1
+SysStackSwitchFastDisable=1
+
+#Always have heap 6 waiting as a "direct to OS" heap
+MemSize6=0
+MemFlags6=OS_DIRECT
+
+{OS=WINDOWS}
+#SysStackSwitch=1
+[GL]
+#Shader compilation settings to create WP8 binaries
+PreCompileShaderBinariesToolPath="angle_dx11/compiletool.exe"
+PreCompileShaderBinariesVertexArgs="vertex <sourceFile> output <outputFile>"
+PreCompileShaderBinariesPixelArgs ="pixel  <sourceFile> output <outputFile>"
+PreCompileShaderBinariesFormat=0x93B0 #The GLenum GL_SHADER_BINARY_ANGLE_DX11 in gl2ext.h
+PreCompileShaderBinariesOutputDir="shader_bin_wp8"
+
+{OS=WP8}
+[GL]
+LoadPreCompiledShaderBinaries=1
+PreCompileShaderBinariesOutputDir="shader_bin_wp8"
+
+{OS=QNX}
+[GL]
+EGL_RED_SIZE=8
+EGL_BLUE_SIZE=8
+EGL_GREEN_SIZE=8
+EGL_ALPHA_SIZE=8
+AlphaInFrameBuffer=1
+[S3E]
+
+{OS=LINUX}
+[GL]
+EGL_DEPTH_SIZE=24
+[S3E]
+
+{ID=ANDROID "Emulator"}
+DisableSound=1
+
+{ID=ANDROID "HTC Dream", "T-Mobile G1", "HTC Magic", "T-Mobile myTouch 3G", "HTC Hero", "T-Mobile G2 Touch" }
+AndroidPointEventWaitTime=16
+
+{ID=ANDROID "SHW-M290K"}
+KeyHasDirnKeys=0
+
+{ID=ANDROID "HTC Hero", "T-Mobile G2 Touch" }
+AndroidPointMultiEnable=1
+
+{ID=ANDROID "Eris" }
+AndroidPointMultiEnable=1
+
+{ID=ANDROID "Nexus One"}
+WinMobAudioSupportAAC=0
+WinMobAudioSupportAACPLUS=0
+WinMobAudioSupportMP4=1
+AndroidKeyHasBackLeft=1
+PointCapTouchArea=1
+
+{ID=ANDROID "Nexus S"}
+AndroidKeyHasBackLeft=1
+
+{ID=ANDROID "SKY IM-A630K"}
+KeyHasDirnKeys=0
+
+{ID=ANDROID "Galaxy I7500"}
+KeyHasDirnKeys=1
+
+{ID=ANDROID "Droid", "Milestone"}
+[GX]
+GlesDepthBuffFixedPoint=1
+[S3E]
+AndroidIgnoreResizeWhilePaused=1
+AndroidKeyHasBackLeft=1
+
+{ID=ANDROID "DROID2"}
+[GX]
+GlesDepthBuffFixedPoint=1
+[S3E]
+
+{OS=ANDROID}
+[GL]
+EGL_DEPTH_SIZE=16
+EGLTerminateOnSuspend=1
+[S3E]
+SysGlesSuspendWithApp=1
+
+{OS=BADA}
+[S3E]
+BadaSilentModePromptEnable=1
+BadaSilentModePrompt="Enable sound in Silent mode?"
+BadaSilentModePrompt_fra="Activer le son en mode silencieux?"
+BadaVolKeysRotWithSurf=1
+SoundOutputFreq=11025
+#bada devices are loud
+AudioVolScale=70
+VideoVolScale=70
+SoundVolScale=70
+#This seems to be needed for GL init in Bada
+[GL]
+EGL_ALPHA_SIZE=8
+{}
+
+{OS=BADA == 1.1}
+[S3E]
+BadaDevYieldDefaultTime=5
+{}
+
+# Samsung Wave
+{ID=BADA 0x2d016484}
+[S3E]
+AudioVolDefault=50
+SoundVolDefault=50
+AccelShiftX=50
+AccelShiftY=-100
+AccelShiftZ=0
+
+# Samsung Wave 2
+{ID=BADA 0x2d0164e1}
+[S3E]
+AudioVolDefault=50
+SoundVolDefault=50
+AccelShiftX=75
+AccelShiftY=-85
+AccelShiftZ=0
+
+# LGTV
+{ID=LINUX "LG TV", "LG TV GP4 L9", "LG TV GP4 MTK"}
+[S3E]
+AccelScaleFactor=7
+AccelFlipX=1
+WinWidth=1280
+WinHeight=720
+WinFullScreen=1
+DevVolNumSteps=100
+
+[GL]
+EGL_RED_SIZE=8
+EGL_BLUE_SIZE=8
+EGL_GREEN_SIZE=8
+EGL_ALPHA_SIZE=8
+AlphaInFrameBuffer=1
+
+[GX]
+DrawCursor=1
+Rasterisation=HW
+Transform=HW
+Lighting=HW
+
+# OSX
+{OS=OSX}
+Transform=HW
+
+{OS=ROKU}
+[S3E]
+SurfUseGles=1
+PointCapTouchArea=1
+[GL]
+# GLES2 Driver work around
+MergeShaderStringArrays=1
+AlphaInFrameBuffer=1
+{}
+
+{OS=LGTV_NC40}
+[S3E]
+SurfUseGles=1
+WinWidth=1280
+WinHeight=720
+WinFullScreen=1
+DevVolNumSteps=100
+
+[GL]
+EGL_RED_SIZE=8
+EGL_BLUE_SIZE=8
+EGL_GREEN_SIZE=8
+EGL_ALPHA_SIZE=8
+AlphaInFrameBuffer=1
+
+[GX]
+DrawCursor=1
+Rasterisation=HW
+Transform=HW
+Lighting=HW
+
+# Must reset before end of file
+{ID=ANY}
+{CLASS=ANY}
+
+[TRACE]
+IWCRT_VERBOSE=0
+# -- END S3E.ICF --

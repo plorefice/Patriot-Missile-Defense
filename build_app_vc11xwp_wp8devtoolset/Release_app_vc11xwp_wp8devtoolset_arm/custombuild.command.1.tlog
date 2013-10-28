@@ -1,0 +1,2 @@
+^C:\USERS\PIETRO\DOCUMENTS\GITHUB\PATRIOT-MISSILE-DEFENSE\APP.MKB
+"C:\Marmalade\6.3\s3e\python\python.exe" "C:\Marmalade\6.3\s3e\makefile_builder\mkb.py" "--buildenv=VC11XWP" "--buildenv-toolset=WP8DEV" "c:/Users/Pietro/Documents/GitHub/Patriot-Missile-Defense/app.mkb" "--default-buildenv=vc11xwp" --msvc-project

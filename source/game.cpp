@@ -30,7 +30,8 @@ GameMode g_GameMode = MODE_TITLE;
 //
 
 float delta_x, delta_y;
-int position_x, position_y;
+int position_x = 200, position_y = 200;
+int pointerTimer = 0;
 bool usingKeyboard = true;
 bool fired = false;
 
@@ -89,8 +90,23 @@ void UpdateInput(int deltaTimeMs)
 	int x = s3ePointerGetX();
 	int y = s3ePointerGetY();
 
+	if (s3ePointerGetState(S3E_POINTER_BUTTON_SELECT) & S3E_POINTER_STATE_PRESSED)
+	{
+		pointerTimer = 0;
+	}
+
+	if (s3ePointerGetState(S3E_POINTER_BUTTON_SELECT) & S3E_POINTER_STATE_RELEASED)
+	{
+		if (pointerTimer < 150)
+			fired = true;
+		else
+			pointerTimer = 0;
+	}
+
 	if (s3ePointerGetState(S3E_POINTER_BUTTON_SELECT) & S3E_POINTER_STATE_DOWN)
 	{
+		pointerTimer += deltaTimeMs;
+
 		if ((x >= RANGE_X.x && x <= RANGE_X.y) &&
 			(y >= GAME_HEIGHT && y <= screen.y))
 		{
@@ -363,6 +379,7 @@ void Game::Update(int deltaTimeMs)
 			{
 				mode = MODE_PLAYING;
 				timer = 0;
+				g_Current_Line = 0;
 			}
 		}
 		else if (timer > (rand() % 1000))

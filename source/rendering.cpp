@@ -52,6 +52,8 @@ void DrawTitleScreen(TitleScreen *title)
 	Iw2DSetColour(0xffffffff);
 	Iw2DDrawString("P L A Y", CIwFVec2(title->btnTopLeft.x + border, title->btnTopLeft.y + border),
 		CIwFVec2(title->btnDim.x - 2 * border, title->btnDim.y - 2 * border), IW_2D_FONT_ALIGN_CENTRE, IW_2D_FONT_ALIGN_TOP);
+	Iw2DDrawString("Patriot Missile Defense", CIwFVec2(0.f, 0.f), CIwFVec2(screen.x, screen.y / 2),
+		IW_2D_FONT_ALIGN_CENTRE, IW_2D_FONT_ALIGN_CENTRE);
 }
 
 void DrawGameBackground()

@@ -69,7 +69,7 @@ struct Game
 	};
 
 	GameMode mode;
-    int timer;          
+    int timer, pointerTimer;          
     int score;          
     int level;
 	int interval;

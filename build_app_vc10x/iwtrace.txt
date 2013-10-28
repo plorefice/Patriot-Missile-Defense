@@ -11,1105 +11,545 @@ System Info:
  Unique ID    : SIMULATOR_ID
  Device Name  : My Computer
  Memory       : 1048576KiB
-28/10/13 22:24:14.866: [0x360] DEVICE: Initialising FIBRE
-28/10/13 22:24:14.867: [0x360] DEVICE: Initialising THREAD
-28/10/13 22:24:14.867: [0x360] THREAD: s3eThreadCreateMain
-28/10/13 22:24:14.868: [0xfa0] DEVICE: Initialising SURFACE
-28/10/13 22:24:14.868: [0xfa0] SURFACE: s3eSurfaceSetup: PixelType=RGB565, pitch=0, ptr=0x00000000, blit=0
-28/10/13 22:24:14.869: [0xfa0] SURFACE: s3eSurfaceSetup: matches native type
-28/10/13 22:24:14.869: [0xfa0] SURFACE: s3eSurfaceSetup: no user surface needed
-28/10/13 22:24:14.870: [0xfa0] SURFACE: done s3eSurfaceInit: 800x600 p:1600 (800x600 p:1600) o:0
-28/10/13 22:24:14.870: [0xfa0] DEVICE: Initialising EXT
-28/10/13 22:24:14.871: [0xfa0] EXT: registering extension: s3eLibrary [0xe6dd6ce5]
-28/10/13 22:24:14.871: [0xfa0] EXT: registering extension: s3eExtLoadLibaray [0xf23d6d85]
-28/10/13 22:24:14.872: [0xfa0] EXT: registering extension: s3eCamera [0xa3e23039]
-28/10/13 22:24:14.872: [0xfa0] EXT: registering extension: s3eWindow [0xd31aa8a8]
-28/10/13 22:24:14.873: [0xfa0] EXT: registering extension: s3eVFS [0x17f48c9f]
-28/10/13 22:24:14.874: [0xfa0] EXT: registering extension: s3eContacts [0x5e39d2af]
-28/10/13 22:24:14.874: [0xfa0] EXT: registering extension: s3eSoundRecord [0x579dbf78]
-28/10/13 22:24:14.875: [0xfa0] EXT: registering extension: s3eTouchpad [0x1dbd7ce8]
-28/10/13 22:24:14.875: [0xfa0] EXT: registering extension: s3eDebugHeap [0xc667a795]
-28/10/13 22:24:14.876: [0xfa0] EXT: registering extension: s3eExtDebugHeap [0xff96de46]
-28/10/13 22:24:14.877: [0xfa0] EXT: registering extension: s3eClipboard [0xd68f3420]
-28/10/13 22:24:14.877: [0xfa0] EXT: registering extension: s3eOSExec [0xc121bcf7]
-28/10/13 22:24:14.878: [0xfa0] EXT: registering extension: s3eExtOSExec [0x20380948]
-28/10/13 22:24:14.879: [0xfa0] EXT: registering extension: s3eEval [0x167d1038]
-28/10/13 22:24:14.879: [0xfa0] EXT: registering extension: s3eExtEval [0xf0421449]
-28/10/13 22:24:14.880: [0xfa0] EXT: registering extension: s3eHighResTimer [0x41f2dedb]
-28/10/13 22:24:14.880: [0xfa0] EXT: registering extension: s3eOSReadString [0x9fe3ea45]
-28/10/13 22:24:14.881: [0xfa0] EXT: registering extension: s3eCameraCapture [0xd36aceed]
-28/10/13 22:24:14.881: [0xfa0] EXT: registering extension: s3eTestEmulatorConfig [0x4a0d0a4f]
-28/10/13 22:24:14.882: [0xfa0] EXT: registering extension: s3eThread [0xcc0b4a28]
-28/10/13 22:24:14.883: [0xfa0] EXT: registering extension: s3eCompass [0x40d632c6]
-28/10/13 22:24:14.883: [0xfa0] EXT: registering extension: Compass [0xd3653f1b]
-28/10/13 22:24:14.884: [0xfa0] EXT: registering extension: s3eSocketOpt [0x09cdcdec]
-28/10/13 22:24:14.884: [0xfa0] EXT: registering extension: s3eExtSocketOpt [0x42fd049d]
-28/10/13 22:24:14.885: [0xfa0] EXT: registering extension: s3eImagePicker [0xd2fc1d51]
-28/10/13 22:24:14.885: [0xfa0] EXT: registering extension: s3eTest [0x168503f0]
-28/10/13 22:24:14.886: [0xfa0] EXT: registering extension: s3eSMS [0x17f480c3]
-28/10/13 22:24:14.886: [0xfa0] EXT: registering extension: s3eMetrics [0x2bc8e047]
-28/10/13 22:24:14.887: [0xfa0] EXT: registering extension: Metrics [0xbe57ec9c]
-28/10/13 22:24:14.887: [0xfa0] EXT: registering extension: s3eLocation [0x91944229]
-28/10/13 22:24:14.888: [0xfa0] EXT: registering extension: Location [0x7604d91e]
-28/10/13 22:24:14.888: [0xfa0] EXT: registering extension: Win32Surface [0x909755c1]
-28/10/13 22:24:14.889: [0xfa0] EXT: registering extension: Win32UIProcessMessage [0x48f2a5ba]
-28/10/13 22:24:14.890: [0xfa0] EXT: registering extension: Win32DataDirChange [0xbfcfc057]
-28/10/13 22:24:14.890: [0xfa0] DEVICE: Initialising CONFIG
-28/10/13 22:24:14.891: [0xfa0] DEVICE: Initialising TIMER
-28/10/13 22:24:14.891: [0xfa0] DEVICE: Initialising COMPRESSION
-28/10/13 22:24:14.892: [0xfa0] DEVICE: DeviceInit done: services=0x0a216148
-28/10/13 22:24:14.893: [0xfa0] EXT: s3eExtGetHash: 0xd31aa8a8 [0x00000000 size=0]
-28/10/13 22:24:14.893: [0xfa0] EXT: initializing extension: s3eWindow
-28/10/13 22:24:14.894: [0xfa0] EXT: initializing extension: s3eWindow 0x5c6857a0
-28/10/13 22:24:14.894: [0xfa0] DEVICE: SetupPaths: NULL
-28/10/13 22:24:14.895: [0xfa0] LOADER: ParseCommandLineData [-via:"c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\app_vc10x_debug.via"]
-28/10/13 22:24:14.895: [0xfa0] LOADER: setting [commandline]  via=c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\app_vc10x_debug.via
-28/10/13 22:24:14.896: [0xfa0] LOADER: parsing via file: c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\app_vc10x_debug.via
-28/10/13 22:24:14.897: [0xfa0] FILE: s3eFileOpen('c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\app_vc10x_debug.via', 'r') succeeded, id=1550711856 p=0x5c6dfc30
-28/10/13 22:24:14.897: [0xfa0] LOADER: reading 1024 bytes from via files
-28/10/13 22:24:14.897: [0xfa0] FILE: s3eFileClose h=0x5c6dfc30
-28/10/13 22:24:14.898: [0xfa0] LOADER: ParseCommandLineData [-via:"c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\app_vc10x_debug.via" --dll="c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\Debug_app_VC1
-28/10/13 22:24:14.899: [0xfa0] LOADER: setting [commandline]  via=c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\app_vc10x_debug.via
-28/10/13 22:24:14.899: [0xfa0] LOADER: setting [commandline]  dll=c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\Debug_app_VC10X_x86\app.s86
-28/10/13 22:24:14.900: [0xfa0] LOADER: setting [commandline]  data=c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\data
-28/10/13 22:24:14.900: [0xfa0] LOADER: setting [commandline]  checks3edir=1
-28/10/13 22:24:14.901: [0xfa0] LOADER: setting [commandline]  app-icf1=c:/Users/Pietro/Documents/GitHub/Patriot-Missile-Defense/data/app.icf
-28/10/13 22:24:14.901: [0xfa0] LOADER: setting [commandline]  config-txt1=c:/Users/Pietro/Documents/GitHub/Patriot-Missile-Defense/data/app.config.txt
-28/10/13 22:24:14.902: [0xfa0] LOADER: setting [commandline]  config-txt2=c:/marmalade/6.3/modules/iw2d/docs/iw2d.config.txt
-28/10/13 22:24:14.902: [0xfa0] LOADER: setting [commandline]  config-txt3=c:/marmalade/6.3/modules/iwgeom/docs/iwgeom.config.txt
-28/10/13 22:24:14.903: [0xfa0] LOADER: setting [commandline]  config-txt4=c:/marmalade/6.3/modules/iwgl/docs/iwgl.config.txt
-28/10/13 22:24:14.903: [0xfa0] LOADER: setting [commandline]  config-txt5=c:/marmalade/6.3/modules/iwgx/docs/iwgx.config.txt
-28/10/13 22:24:14.904: [0xfa0] LOADER: setting [commandline]  config-txt6=c:/marmalade/6.3/modules/iwgxfont/docs/iwgxfont.config.txt
-28/10/13 22:24:14.904: [0xfa0] LOADER: setting [commandline]  config-txt7=c:/marmalade/6.3/modules/iwresmanager/docs/iwresmanager.config.txt
-28/10/13 22:24:14.905: [0xfa0] LOADER: setting [commandline]  config-txt8=c:/marmalade/6.3/modules/iwutil/docs/iwutil.config.txt
-28/10/13 22:24:14.905: [0xfa0] LOADER: setting [commandline]  config-txt9=c:/marmalade/6.3/s3e/s3e.config.txt
-28/10/13 22:24:14.906: [0xfa0] LOADER: setting [commandline]  config-txt10=c:/marmalade/6.3/s3e\s3e.config.txt
-28/10/13 22:24:14.907: [0xfa0] LOADER: setting [commandline]  s3e-dir=c:/marmalade/6.3/s3e
-28/10/13 22:24:14.908: [0xfa0] FILE: new filesystem: drive=0 type=0 ro=1 name=rom://
-28/10/13 22:24:14.908: [0xfa0] FILE: fs[00]: system[rom://] 'c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\data'
-28/10/13 22:24:14.909: [0xfa0] FILE: fs[03]: system[raw://] ''
-28/10/13 22:24:14.910: [0xfa0] FILE: listed 2 active filesystems
-28/10/13 22:24:14.910: [0xfa0] FILE: new filesystem: drive=1 type=0 ro=0 name=ram://
-28/10/13 22:24:14.911: [0xfa0] FILE: fs[00]: system[rom://] 'c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\data'
-28/10/13 22:24:14.911: [0xfa0] FILE: fs[01]: system[ram://] 'c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\data-ram'
-28/10/13 22:24:14.912: [0xfa0] FILE: fs[03]: system[raw://] ''
-28/10/13 22:24:14.912: [0xfa0] FILE: listed 3 active filesystems
-28/10/13 22:24:14.917: [0xfa0] FILE: new filesystem: drive=0 type=0 ro=1 name=rom://
-28/10/13 22:24:14.918: [0xfa0] FILE: new filesystem: drive=1 type=0 ro=0 name=ram://
-28/10/13 22:24:14.919: [0xfa0] LOADER: Using data directory c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\data as ROM drive
-28/10/13 22:24:14.919: [0xfa0] LOADER: Using directory c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\data-ram as RAM drive
-28/10/13 22:24:14.920: [0xfa0] FILE: s3eFileOpen('raw://c:/Users/Pietro/Documents/GitHub/Patriot-Missile-Defense/data/app.config.txt', 'r') succeeded, id=1000 p=0x5c6e12ac
-28/10/13 22:24:14.920: [0xfa0] FILE: s3eFileClose h=0x5c6e12ac
-28/10/13 22:24:14.921: [0xfa0] FILE: s3eFileOpen('raw://c:/marmalade/6.3/modules/iw2d/docs/iw2d.config.txt', 'r') succeeded, id=1001 p=0x5c6e13c8
-28/10/13 22:24:14.922: [0xfa0] FILE: s3eFileClose h=0x5c6e13c8
-28/10/13 22:24:14.922: [0xfa0] FILE: s3eFileOpen('raw://c:/marmalade/6.3/modules/iwgeom/docs/iwgeom.config.txt', 'r') succeeded, id=1002 p=0x5c6e14e4
-28/10/13 22:24:14.923: [0xfa0] FILE: s3eFileClose h=0x5c6e14e4
-28/10/13 22:24:14.923: [0xfa0] FILE: s3eFileOpen('raw://c:/marmalade/6.3/modules/iwgl/docs/iwgl.config.txt', 'r') succeeded, id=1003 p=0x5c6e1600
-28/10/13 22:24:14.924: [0xfa0] FILE: s3eFileClose h=0x5c6e1600
-28/10/13 22:24:14.924: [0xfa0] FILE: s3eFileOpen('raw://c:/marmalade/6.3/modules/iwgx/docs/iwgx.config.txt', 'r') succeeded, id=1004 p=0x5c6e171c
-28/10/13 22:24:14.926: [0xfa0] FILE: s3eFileClose h=0x5c6e171c
-28/10/13 22:24:14.926: [0xfa0] FILE: s3eFileOpen('raw://c:/marmalade/6.3/modules/iwgxfont/docs/iwgxfont.config.txt', 'r') succeeded, id=1005 p=0x5c6e1838
-28/10/13 22:24:14.927: [0xfa0] FILE: s3eFileClose h=0x5c6e1838
-28/10/13 22:24:14.927: [0xfa0] FILE: s3eFileOpen('raw://c:/marmalade/6.3/modules/iwresmanager/docs/iwresmanager.config.txt', 'r') succeeded, id=1006 p=0x5c6e1954
-28/10/13 22:24:14.928: [0xfa0] FILE: s3eFileClose h=0x5c6e1954
-28/10/13 22:24:14.928: [0xfa0] FILE: s3eFileOpen('raw://c:/marmalade/6.3/modules/iwutil/docs/iwutil.config.txt', 'r') succeeded, id=1007 p=0x5c6e1a70
-28/10/13 22:24:14.929: [0xfa0] FILE: s3eFileClose h=0x5c6e1a70
-28/10/13 22:24:14.930: [0xfa0] FILE: s3eFileOpen('raw://c:/marmalade/6.3/s3e/s3e.config.txt', 'r') succeeded, id=1008 p=0x5c6e1b8c
-28/10/13 22:24:14.935: [0xfa0] FILE: s3eFileClose h=0x5c6e1b8c
-28/10/13 22:24:14.936: [0xfa0] FILE: s3eFileOpen('raw://c:/marmalade/6.3/s3e\s3e.config.txt', 'r') succeeded, id=1009 p=0x5c6e1ca8
-28/10/13 22:24:14.942: [0xfa0] FILE: s3eFileClose h=0x5c6e1ca8
-28/10/13 22:24:14.944: [0xfa0] FILE: s3eFileOpen('raw://c:\marmalade\6.3\s3e/s3e.icf', 'rb') succeeded, id=1010 p=0x5c6e1dc4
-28/10/13 22:24:14.944: [0xfa0] LOADER: Loading config from: c:\marmalade\6.3\s3e/s3e.icf
-28/10/13 22:24:14.946: [0xfa0] FILE: s3eFileClose h=0x5c6e1dc4
-28/10/13 22:24:14.947: [0xfa0] LOADER: Loading app-icf from command line specified location c:/Users/Pietro/Documents/GitHub/Patriot-Missile-Defense/data/app.icf
-28/10/13 22:24:14.948: [0xfa0] FILE: s3eFileOpen('raw://c:/Users/Pietro/Documents/GitHub/Patriot-Missile-Defense/data/app.icf', 'rb') succeeded, id=1011 p=0x5c6e1ee0
-28/10/13 22:24:14.948: [0xfa0] LOADER: Loading config from: raw://c:/Users/Pietro/Documents/GitHub/Patriot-Missile-Defense/data/app.icf
-28/10/13 22:24:14.949: [0xfa0] FILE: s3eFileClose h=0x5c6e1ee0
-28/10/13 22:24:14.950: [0xfa0] LOADER: ParseCommandLineData [-via:"c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\app_vc10x_debug.via"]
-28/10/13 22:24:14.950: [0xfa0] LOADER: setting [commandline]  via=c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\app_vc10x_debug.via
-28/10/13 22:24:14.950: [0xfa0] LOADER: parsing via file: c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\app_vc10x_debug.via
-28/10/13 22:24:14.951: [0xfa0] FILE: s3eFileOpen('c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\app_vc10x_debug.via', 'r') succeeded, id=1012 p=0x5c6e1ffc
-28/10/13 22:24:14.951: [0xfa0] LOADER: reading 1024 bytes from via files
-28/10/13 22:24:14.952: [0xfa0] FILE: s3eFileClose h=0x5c6e1ffc
-28/10/13 22:24:14.952: [0xfa0] LOADER: ParseCommandLineData [-via:"c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\app_vc10x_debug.via" --dll="c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\Debug_app_VC1
-28/10/13 22:24:14.952: [0xfa0] LOADER: setting [commandline]  via=c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\app_vc10x_debug.via
-28/10/13 22:24:14.953: [0xfa0] LOADER: setting [commandline]  dll=c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\Debug_app_VC10X_x86\app.s86
-28/10/13 22:24:14.953: [0xfa0] LOADER: setting [commandline]  data=c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\data
-28/10/13 22:24:14.953: [0xfa0] LOADER: setting [commandline]  checks3edir=1
-28/10/13 22:24:14.953: [0xfa0] LOADER: setting [commandline]  app-icf1=c:/Users/Pietro/Documents/GitHub/Patriot-Missile-Defense/data/app.icf
-28/10/13 22:24:14.954: [0xfa0] LOADER: setting [commandline]  config-txt1=c:/Users/Pietro/Documents/GitHub/Patriot-Missile-Defense/data/app.config.txt
-28/10/13 22:24:14.954: [0xfa0] LOADER: setting [commandline]  config-txt2=c:/marmalade/6.3/modules/iw2d/docs/iw2d.config.txt
-28/10/13 22:24:14.954: [0xfa0] LOADER: setting [commandline]  config-txt3=c:/marmalade/6.3/modules/iwgeom/docs/iwgeom.config.txt
-28/10/13 22:24:14.955: [0xfa0] LOADER: setting [commandline]  config-txt4=c:/marmalade/6.3/modules/iwgl/docs/iwgl.config.txt
-28/10/13 22:24:14.955: [0xfa0] LOADER: setting [commandline]  config-txt5=c:/marmalade/6.3/modules/iwgx/docs/iwgx.config.txt
-28/10/13 22:24:14.955: [0xfa0] LOADER: setting [commandline]  config-txt6=c:/marmalade/6.3/modules/iwgxfont/docs/iwgxfont.config.txt
-28/10/13 22:24:14.956: [0xfa0] LOADER: setting [commandline]  config-txt7=c:/marmalade/6.3/modules/iwresmanager/docs/iwresmanager.config.txt
-28/10/13 22:24:14.956: [0xfa0] LOADER: setting [commandline]  config-txt8=c:/marmalade/6.3/modules/iwutil/docs/iwutil.config.txt
-28/10/13 22:24:14.956: [0xfa0] LOADER: setting [commandline]  config-txt9=c:/marmalade/6.3/s3e/s3e.config.txt
-28/10/13 22:24:14.957: [0xfa0] LOADER: setting [commandline]  config-txt10=c:/marmalade/6.3/s3e\s3e.config.txt
-28/10/13 22:24:14.957: [0xfa0] LOADER: setting [commandline]  s3e-dir=c:/marmalade/6.3/s3e
-28/10/13 22:24:14.957: [0xfa0] LOADER: s3eExecMemoryCheck: Memory free: 1048576K
-28/10/13 22:24:14.959: [0xfa0] FILE: s3eFileOpen('raw://C:\Users\Pietro\AppData\Local\Temp\\_marm_temp_test_', 'w') succeeded, id=1013 p=0x5c6e2118
-28/10/13 22:24:14.959: [0xfa0] FILE: s3eFileClose h=0x5c6e2118
-28/10/13 22:24:14.960: [0xfa0] FILE: new filesystem: drive=4 type=0 ro=0 name=tmp://
-28/10/13 22:24:14.961: [0xfa0] FILE: fs[00]: system[rom://] 'c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\data'
-28/10/13 22:24:14.962: [0xfa0] FILE: fs[01]: system[ram://] 'c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\data-ram'
-28/10/13 22:24:14.963: [0xfa0] FILE: fs[03]: system[raw://] ''
-28/10/13 22:24:14.963: [0xfa0] FILE: fs[04]: system[tmp://] 'C:\Users\Pietro\AppData\Local\Temp\'
-28/10/13 22:24:14.964: [0xfa0] FILE: listed 4 active filesystems
-28/10/13 22:24:14.999: [0xfa0] SURFACE: scaling=1
-28/10/13 22:24:15.127: [0xfa0] SURFACE: s3eSurfaceSetup: PixelType=RGB565, pitch=0, ptr=0x00000000, blit=0
-28/10/13 22:24:15.128: [0xfa0] SURFACE: s3eSurfaceSetup: matches native type
-28/10/13 22:24:15.128: [0xfa0] SURFACE: s3eSurfaceSetup: no user surface needed
-28/10/13 22:24:15.154: [0xfa0] EXT: Registering user-supplied extensions
-28/10/13 22:24:15.155: [0xfa0] FIBRE: stack switch : enabled
-28/10/13 22:24:15.155: [0xfa0] FIBRE: fast switch  : disabled
-28/10/13 22:24:15.156: [0xfa0] FIBRE: global lock  : enabled
-28/10/13 22:24:15.157: [0xfa0] FIBRE: fast lock    : disabled
-28/10/13 22:24:15.157: [0xfa0] FIBRE: thunks       : enabled
-28/10/13 22:24:15.158: [0xfa0] LOADER: Calling s3eDeviceInit()
-28/10/13 22:24:15.158: [0xfa0] DEVICE: DeviceInit: services=0xfffdffff [0xe5dc9eb7]
-28/10/13 22:24:15.159: [0xfa0] DEVICE: Initialising CALLBACKS
-28/10/13 22:24:15.160: [0xfa0] DEVICE: Initialising CRYPTO
-28/10/13 22:24:15.160: [0xfa0] DEVICE: Initialising ERROR
-28/10/13 22:24:15.161: [0xfa0] DEVICE: Initialising SOCKET
-28/10/13 22:24:15.162: [0xfa0] DEVICE: Initialising STORAGE
-28/10/13 22:24:15.163: [0xfa0] DEVICE: Initialising VIBRA
-28/10/13 22:24:15.163: [0xfa0] DEVICE: Initialising KEYBOARD
-28/10/13 22:24:15.165: [0xfa0] DEVICE: Initialising POINTER
-28/10/13 22:24:15.165: [0xfa0] DEVICE: Initialising ACCELEROMETER
-28/10/13 22:24:15.166: [0xfa0] ACCELEROMETER: damping=0 scaling=0
-28/10/13 22:24:15.166: [0xfa0] DEVICE: Initialising SOUND
-28/10/13 22:24:15.211: [0xfa0] SOUND: stereo sound enabled
-28/10/13 22:24:15.212: [0xfa0] SOUND: s3eSoundStop: started=0
-28/10/13 22:24:15.213: [0xfa0] SOUND: SetMasterVolume: 255 -> 256
-28/10/13 22:24:15.213: [0xfa0] DEVICE: Initialising AUDIO
-28/10/13 22:24:15.214: [0xfa0] AUDIO: Number of channels = 16
-28/10/13 22:24:15.214: [0xfa0] DEVICE: Initialising VIDEO
-28/10/13 22:24:15.215: [0xfa0] DEVICE: Initialising LICENSE
-28/10/13 22:24:15.215: [0xfa0] DEVICE: Initialising GL
-28/10/13 22:24:15.216: [0xfa0] DEVICE: DeviceInit done: services=0xfffdffff
-28/10/13 22:24:15.217: [0xfa0] SPLASH: displaying debug splash-screen
-28/10/13 22:24:15.230: [0x142c] SURFACE: s3eSurfaceSetup: PixelType=RGB565, pitch=0, ptr=0x00000000, blit=0
-28/10/13 22:24:15.231: [0x142c] SURFACE: s3eSurfaceSetup: matches native type
-28/10/13 22:24:15.232: [0x142c] SURFACE: s3eSurfaceSetup: no user surface needed
-28/10/13 22:24:15.237: [0xfa0] SPLASH: No splash screen specified
-28/10/13 22:24:15.241: [0xfa0] LOADER: s3eExecInit Done
-28/10/13 22:24:15.244: [0xfa0] LOADER: found initial S3E file: raw://c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\Debug_app_VC10X_x86\app.s86
-28/10/13 22:24:15.245: [0xfa0] DEVICE: s3eExecPushNext: raw://c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\Debug_app_VC10X_x86\app.s86 [root=NULL 0x00000000 0x00000000]
-28/10/13 22:24:15.246: [0xfa0] DEVICE: s3eExecPushNext: raw://c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\Debug_app_VC10X_x86\app.s86
-28/10/13 22:24:15.246: [0xfa0] LOADER: s3eExecDoExecuteLoop
-28/10/13 22:24:15.268: [0xfa0] LOADER: AppVersion: 4 36
-28/10/13 22:24:15.269: [0xfa0] LOADER: S3E Version    : 4.36.0
-28/10/13 22:24:15.269: [0xfa0] LOADER: Arch           : X86
-28/10/13 22:24:15.270: [0xfa0] LOADER: VFP            : 1
-28/10/13 22:24:15.271: [0xfa0] LOADER: App S3E Version: 4.36.0
-28/10/13 22:24:15.271: [0xfa0] LOADER: App arch       : X86
-28/10/13 22:24:15.272: [0xfa0] LOADER: App VFP        : 0
-28/10/13 22:24:15.273: [0xfa0] LOADER: new s3eExecHandle = 0x01485270
-28/10/13 22:24:17.223: [0xfa0] LOADER: Calling s3eDeviceInit(S3E_DEVICE_INIT_MEMORY)
-28/10/13 22:24:17.224: [0xfa0] DEVICE: DeviceInit: services=0x00020000 [0x00020000]
-28/10/13 22:24:17.225: [0xfa0] DEVICE: Initialising MEMORY
-28/10/13 22:24:17.227: [0xfa0] MEMORY: Loader heap size=30000
-28/10/13 22:24:17.237: [0xfa0] MEMORY: Initialised heap 0 [0x075b1f64-0x088c4c64] size=20000000
-28/10/13 22:24:17.238: [0xfa0] MEMORY: Initialised heap 7 [0x03d71464-0x03d7dc64] size=51200
-28/10/13 22:24:17.239: [0xfa0] MEMORY: s3eMemorySetUserMemMgr 0x012a3628 0x012a3868 0x012a3340
-28/10/13 22:24:17.240: [0xfa0] DEVICE: DeviceInit done: services=0x00020000
-28/10/13 22:24:17.241: [0xfa0] LOADER: IwS3EGetEntryPoint -> 0x5711848d
-28/10/13 22:24:17.241: [0xfa0] LOADER: Executing S3E 0x01485270 [c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\Debug_app_VC10X_x86\app.s86] entry=0x5711848d
-28/10/13 22:24:17.243: [0xfa0] EXT: s3eExtGetHash: 0xcc0b4a28 [0x5aa8e720 size=76]
-28/10/13 22:24:17.244: [0xfa0] EXT: initializing extension: s3eThread
-28/10/13 22:24:17.245: [0xfa0] EXT: initializing extension: s3eThread 0x5c661d10
-28/10/13 22:24:17.246: [0xfa0] MEMORY: s3eMemorySetUserMemMgr 0x57118f46 0x57118f64 0x57110490
-28/10/13 22:24:17.247: [0xfa0] GX_VERBOSE: IwGxInitBase()
-28/10/13 22:24:17.248: [0xfa0] EXT: s3eExtGetHash: 0x2bc8e047 [0x5aa8e4d0 size=72]
-28/10/13 22:24:17.249: [0xfa0] EXT: initializing extension: s3eMetrics
-28/10/13 22:24:17.250: [0xfa0] EXT: s3eExtGetHash: 0xc667a795 [0x5ba4d6f8 size=8]
-28/10/13 22:24:17.250: [0xfa0] EXT: initializing extension: s3eDebugHeap
-28/10/13 22:24:17.251: [0xfa0] MEMORY: s3eExtDebugHeapAlloc: 20000000 bytes allocated for system debug heap
-28/10/13 22:24:17.255: [0xfa0] UTIL: IwCallStackInit
-28/10/13 22:24:17.257: [0xfa0] GX_VERBOSE: Registering for S3E_SURFACE_SCREENSIZE callback
-28/10/13 22:24:17.258: [0xfa0] SURFACE: s3eSurfaceSetup: PixelType=RGB565, pitch=0, ptr=0x00000000, blit=4
-28/10/13 22:24:17.259: [0xfa0] SURFACE: s3eSurfaceSetup: matches native type
-28/10/13 22:24:17.260: [0xfa0] SURFACE: s3eSurfaceSetup: no user surface needed
-28/10/13 22:24:17.261: [0xfa0] GX: IwGxSetScreenOrient: 0
-28/10/13 22:24:17.273: [0xfa0] IW_GL: EGL: eglGetDisplay returned 03FB31E8
-28/10/13 22:24:17.413: [0xfa0] IW_GL: eglInitialise succeeded - version 1.4
-28/10/13 22:24:17.415: [0xfa0] IW_GL: S3E_EGL_VERSION: 0104
-28/10/13 22:24:17.416: [0xfa0] IW_GL: S3E_GL_VERSION: 0200
-28/10/13 22:24:17.416: [0xfa0] IW_GL: EGL_VENDOR: Google Inc.
-28/10/13 22:24:17.417: [0xfa0] IW_GL: EGL_VERSION: 1.4 (ANGLE 1.0.0.1275)
-28/10/13 22:24:17.418: [0xfa0] IW_GL:     EGL_EXT_create_context_robustness
-28/10/13 22:24:17.419: [0xfa0] IW_GL:     EGL_ANGLE_d3d_share_handle_client_buffer
-28/10/13 22:24:17.419: [0xfa0] IW_GL:     EGL_ANGLE_query_surface_pointer
-28/10/13 22:24:17.420: [0xfa0] IW_GL:     EGL_ANGLE_surface_d3d_texture_2d_share_handle
-28/10/13 22:24:17.421: [0xfa0] IW_GL:     EGL_NV_post_sub_buffer
-28/10/13 22:24:17.421: [0xfa0] GL_CORE: rejecting config 0: EGL_DEPTH_SIZE < 16
-28/10/13 22:24:17.422: [0xfa0] GL_CORE: rejecting config 4: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
-28/10/13 22:24:17.423: [0xfa0] GL_CORE: rejecting config 5 RGB < 565
-28/10/13 22:24:17.423: [0xfa0] GL_CORE: rejecting config 6: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
-28/10/13 22:24:17.424: [0xfa0] GL_CORE: rejecting config 7 RGB < 565
-28/10/13 22:24:17.424: [0xfa0] GL_CORE: rejecting config 8: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
-28/10/13 22:24:17.425: [0xfa0] GL_CORE: rejecting config 9 RGB < 565
-28/10/13 22:24:17.426: [0xfa0] GL_CORE: rejecting config 10: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
-28/10/13 22:24:17.426: [0xfa0] GL_CORE: rejecting config 11 RGB < 565
-28/10/13 22:24:17.427: [0xfa0] GL_CORE: rejecting config 12: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
-28/10/13 22:24:17.427: [0xfa0] GL_CORE: rejecting config 13: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
-28/10/13 22:24:17.428: [0xfa0] GL_CORE: rejecting config 14: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
-28/10/13 22:24:17.429: [0xfa0] GL_CORE: rejecting config 15: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
-28/10/13 22:24:17.429: [0xfa0] GL_CORE: EGL: Chose EGL_CONFIG_ID 3
-28/10/13 22:24:17.457: [0xfa0] IW_GL: GL_VENDOR: Google Inc.
-28/10/13 22:24:17.458: [0xfa0] IW_GL: GL_RENDERER: ANGLE (AMD Radeon HD 6470M/7400M Series)
-28/10/13 22:24:17.459: [0xfa0] IW_GL: GL_VERSION: OpenGL ES 2.0 (ANGLE 1.0.0.1275)
-28/10/13 22:24:17.460: [0xfa0] IW_GL: GL properties reported by driver:
-28/10/13 22:24:17.460: [0xfa0] IW_GL:     GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS: 20
-28/10/13 22:24:17.461: [0xfa0] IW_GL:     GL_SHADER_COMPILER: 1
-28/10/13 22:24:17.462: [0xfa0] IW_GL:     GL_MAX_VERTEX_ATTRIBS: 16
-28/10/13 22:24:17.462: [0xfa0] IW_GL:     GL_MAX_VERTEX_UNIFORM_VECTORS: 254
-28/10/13 22:24:17.463: [0xfa0] IW_GL:     GL_MAX_VARYING_VECTORS: 10
-28/10/13 22:24:17.464: [0xfa0] IW_GL:     GL_MAX_TEXTURE_IMAGE_UNITS: 16
-28/10/13 22:24:17.465: [0xfa0] IW_GL:     GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS: 4
-28/10/13 22:24:17.466: [0xfa0] IW_GL:     GL_MAX_FRAGMENT_UNIFORM_VECTORS: 221
-28/10/13 22:24:17.466: [0xfa0] IW_GL:     GL_MAX_CUBE_MAP_TEXTURE_SIZE: 16384
-28/10/13 22:24:17.467: [0xfa0] IW_GL:     GL_IMPLEMENTATION_COLOR_READ_FORMAT: GL_RGB
-28/10/13 22:24:17.468: [0xfa0] IW_GL:     GL_IMPLEMENTATION_COLOR_READ_TYPE: GL_UNSIGNED_SHORT_5_6_5
-28/10/13 22:24:17.468: [0xfa0] IW_GL:     GL_MAX_RENDERBUFFER_SIZE: 16384
-28/10/13 22:24:17.469: [0xfa0] IW_GL:     GL_POINT_SIZE_MAX: -1
-28/10/13 22:24:17.470: [0xfa0] IW_GL:     GL_MAX_TEXTURE_SIZE: 16384
-28/10/13 22:24:17.470: [0xfa0] IW_GL:     GL_MAX_VIEWPORT_DIMS: (16384, 16384)
-28/10/13 22:24:17.471: [0xfa0] IW_GL: Supported GL_EXTENSIONS:
-28/10/13 22:24:17.472: [0xfa0] IW_GL:     GL_OES_packed_depth_stencil
-28/10/13 22:24:17.473: [0xfa0] IW_GL:     GL_OES_element_index_uint
-28/10/13 22:24:17.473: [0xfa0] IW_GL:     GL_OES_texture_half_float_linear
-28/10/13 22:24:17.474: [0xfa0] IW_GL:     GL_NV_fence
-28/10/13 22:24:17.475: [0xfa0] IW_GL:     GL_EXT_read_format_bgra
-28/10/13 22:24:17.475: [0xfa0] IW_GL:     GL_OES_get_program_binary
-28/10/13 22:24:17.476: [0xfa0] IW_GL:     GL_OES_rgb8_rgba8
-28/10/13 22:24:17.476: [0xfa0] IW_GL:     GL_EXT_texture_compression_dxt1
-28/10/13 22:24:17.477: [0xfa0] IW_GL:     GL_ANGLE_texture_compression_dxt3
-28/10/13 22:24:17.478: [0xfa0] IW_GL:     GL_ANGLE_texture_compression_dxt5
-28/10/13 22:24:17.478: [0xfa0] IW_GL:     GL_ARB_texture_env_combine
-28/10/13 22:24:17.479: [0xfa0] IW_GL:     GL_OES_texture_npot
-28/10/13 22:24:17.480: [0xfa0] IW_GL:     GL_EXT_texture_format_BGRA8888
-28/10/13 22:24:17.481: [0xfa0] IW_GL:     GL_OES_texture_half_float
-28/10/13 22:24:17.481: [0xfa0] IW_GL:     GL_ANGLE_framebuffer_multisample
-28/10/13 22:24:17.482: [0xfa0] IW_GL:     GL_ANGLE_framebuffer_blit
-28/10/13 22:24:17.483: [0xfa0] IW_GL:     GL_OES_standard_derivatives
-28/10/13 22:24:17.483: [0xfa0] IW_GL:     GL_OES_texture_float
-28/10/13 22:24:17.484: [0xfa0] IW_GL:     GL_OES_texture_float_linear
-28/10/13 22:24:17.484: [0xfa0] IW_GL:     GL_EXT_texture_filter_anisotropic
-28/10/13 22:24:17.485: [0xfa0] SURFACE: s3eSurfaceSetup: PixelType=RGB565, pitch=0, ptr=0x00000000, blit=4
-28/10/13 22:24:17.486: [0xfa0] SURFACE: s3eSurfaceSetup: matches native type
-28/10/13 22:24:17.486: [0xfa0] SURFACE: s3eSurfaceSetup: no user surface needed
-28/10/13 22:24:17.493: [0xfa0] FILE: s3eFileOpen('tmp://source_41', 'wb') succeeded, id=1014 p=0x5c6e2234
-28/10/13 22:24:17.494: [0xfa0] FILE: s3eFileClose h=0x5c6e2234
-28/10/13 22:24:17.496: [0xfa0] EXT: s3eExtGetHash: 0xc121bcf7 [0x5aa8e53c size=4]
-28/10/13 22:24:17.497: [0xfa0] EXT: initializing extension: s3eOSExec
-28/10/13 22:24:17.498: [0xfa0] DEVICE: s3eOSExecExecute [0] '"angle_dx11/compiletool.exe" vertex "C:\Users\Pietro\AppData\Local\Temp\source_41" output "C:\Users\Pietro\AppData\Local\Temp/binary_41"'
-28/10/13 22:24:17.652: [0xfa0] DEVICE: s3eOSExecExecute -> 0
-28/10/13 22:24:17.654: [0xfa0] FILE: s3eFileOpen('tmp://binary_41', 'rb') succeeded, id=1015 p=0x5c6e2350
-28/10/13 22:24:17.655: [0xfa0] FILE: s3eFileClose h=0x5c6e2350
-28/10/13 22:24:17.656: [0xfa0] FILE: s3eFileOpen('shader_bin_wp8/f9726e28.bin', 'wb') succeeded, id=1016 p=0x5c6e246c
-28/10/13 22:24:17.657: [0xfa0] FILE: s3eFileClose h=0x5c6e246c
-28/10/13 22:24:17.659: [0xfa0] IW_GL: Compiled shader binary. binaryFormat: 0x93B0, fileName: shader_bin_wp8/f9726e28.bin
-28/10/13 22:24:17.661: [0xfa0] FILE: s3eFileOpen('tmp://source_18467', 'wb') succeeded, id=1017 p=0x5c6e2588
-28/10/13 22:24:17.662: [0xfa0] FILE: s3eFileClose h=0x5c6e2588
-28/10/13 22:24:17.663: [0xfa0] DEVICE: s3eOSExecExecute [0] '"angle_dx11/compiletool.exe" pixel  "C:\Users\Pietro\AppData\Local\Temp\source_18467" output "C:\Users\Pietro\AppData\Local\Temp/binary_18467"'
-28/10/13 22:24:17.801: [0xfa0] DEVICE: s3eOSExecExecute -> 0
-28/10/13 22:24:17.803: [0xfa0] FILE: s3eFileOpen('tmp://binary_18467', 'rb') succeeded, id=1018 p=0x5c6e26a4
-28/10/13 22:24:17.804: [0xfa0] FILE: s3eFileClose h=0x5c6e26a4
-28/10/13 22:24:17.805: [0xfa0] FILE: s3eFileOpen('shader_bin_wp8/4c5a10f0.bin', 'wb') succeeded, id=1019 p=0x5c6e27c0
-28/10/13 22:24:17.805: [0xfa0] FILE: s3eFileClose h=0x5c6e27c0
-28/10/13 22:24:17.807: [0xfa0] IW_GL: Compiled shader binary. binaryFormat: 0x93B0, fileName: shader_bin_wp8/4c5a10f0.bin
-28/10/13 22:24:17.826: [0xfa0] GX: Parsing GL driver strings
-28/10/13 22:24:17.827: [0xfa0] GX_VERBOSE: Hardware capabilities:
-28/10/13 22:24:17.828: [0xfa0] FILE: s3eFileOpen('resource_cache/cachedSize.bin', 'rb') succeeded, id=1020 p=0x5c6e28dc
-28/10/13 22:24:17.829: [0xfa0] FILE: s3eFileClose h=0x5c6e28dc
-28/10/13 22:24:17.830: [0xfa0] UTIL: Added class factory for CIwGxShaderTechnique (hash 0x62ab11c4)
-28/10/13 22:24:17.831: [0xfa0] UTIL: Added class factory for CIwGxCubeMap (hash 0x5474a064)
-28/10/13 22:24:17.831: [0xfa0] GX_VERBOSE: IwGxInit() end
-28/10/13 22:24:17.832: [0xfa0] GX_VERBOSE: _IwGxInitGL()
-28/10/13 22:24:17.833: [0xfa0] GX_VERBOSE: Reported: Max texture stages 20. Max dimensions 16384x16384
-28/10/13 22:24:17.833: [0xfa0] GX_VERBOSE: Default framebuffer binding is 0
-28/10/13 22:24:17.834: [0xfa0] GX_VERBOSE: _IwGxInitGL() end
-28/10/13 22:24:17.835: [0xfa0] FILE: s3eFileClose h=0x5c6e29f8
-28/10/13 22:24:17.836: [0xfa0] EXT: s3eExtGetHash: 0x167d1038 [0x5aa8e4b8 size=8]
-28/10/13 22:24:17.837: [0xfa0] EXT: initializing extension: s3eEval
-28/10/13 22:24:17.838: [0xfa0] FILE: s3eFileClose h=0x5c6e2b14
-28/10/13 22:24:17.839: [0xfa0] UTIL: Added class factory for CIwResTemplateImage (hash 0x4d5ab6b1)
-28/10/13 22:24:17.839: [0xfa0] UTIL: Added class factory for CIwResTemplateMTL (hash 0x3a22b5bb)
-28/10/13 22:24:17.840: [0xfa0] UTIL: Added class factory for CIwResTemplateGROUP (hash 0x4d3980fb)
-28/10/13 22:24:17.840: [0xfa0] UTIL: Added class factory for CIwMaterial (hash 0x2544f997)
-28/10/13 22:24:17.841: [0xfa0] UTIL: Added class factory for CIwResGroup (hash 0xf446397f)
-28/10/13 22:24:17.842: [0xfa0] UTIL: Added class factory for CIwTexture (hash 0x3521f539)
-28/10/13 22:24:17.842: [0xfa0] UTIL: Added class factory for CIwResBuildStyle (hash 0xa59f2593)
-28/10/13 22:24:17.843: [0xfa0] RESMANAGER: Added serialise block for ResGroupMembers
-28/10/13 22:24:17.843: [0xfa0] RESMANAGER: Added serialise block for ResGroupBuildData
-28/10/13 22:24:17.844: [0xfa0] RESMANAGER: Added serialise block for ResGroupChildPaths
-28/10/13 22:24:17.844: [0xfa0] RESMANAGER: Added serialise block for ResGroupHST
-28/10/13 22:24:17.845: [0xfa0] RESMANAGER: Added serialise block for ResGroupDirectory
-28/10/13 22:24:17.845: [0xfa0] RESMANAGER: Added serialise block for ResGroupResources
-28/10/13 22:24:17.846: [0xfa0] RESMANAGER: Added serialise block for ResGroupResourcesOptimised
-28/10/13 22:24:17.847: [0xfa0] RESMANAGER: Setting build style to 'gles2-dx11'
-28/10/13 22:24:17.848: [0xfa0] UTIL: Added class factory for CIwGxFont (hash 0xa68776be)
-28/10/13 22:24:17.848: [0xfa0] UTIL: Added class factory for CIwGxFontTTFont (hash 0xc084661d)
-28/10/13 22:24:17.849: [0xfa0] UTIL: Added class factory for CIwResTemplateGXFONT (hash 0xf4d12aa4)
-28/10/13 22:24:17.875: [0xfa0] UTIL: Found 'resources.group' using default path
-28/10/13 22:24:17.876: [0xfa0] FILE: s3eFileOpen('resources.group', 'r') succeeded, id=1023 p=0x5c6e2c30
-28/10/13 22:24:17.876: [0xfa0] FILE: s3eFileClose h=0x5c6e2c30
-28/10/13 22:24:17.877: [0xfa0] RESMANAGER: Reading asset: fonts/font.gxfont
-28/10/13 22:24:17.878: [0xfa0] UTIL: Found 'fonts/font.gxfont' using default path
-28/10/13 22:24:17.880: [0xfa0] UTIL: Found 'fonts/font.gxfont' using default path
-28/10/13 22:24:17.881: [0xfa0] FILE: s3eFileOpen('fonts/font.gxfont', 'r') succeeded, id=1024 p=0x5c6e2d4c
-28/10/13 22:24:17.882: [0xfa0] FILE: s3eFileClose h=0x5c6e2d4c
-28/10/13 22:24:17.883: [0xfa0] UTIL: Found 'fonts/font.tga' using default path
-28/10/13 22:24:17.884: [0xfa0] FILE: s3eFileOpen('fonts/font.tga', 'rb') succeeded, id=1025 p=0x5c6e2e68
-28/10/13 22:24:17.885: [0xfa0] FILE: s3eFileClose h=0x5c6e2e68
-28/10/13 22:24:17.887: [0xfa0] GX_FONT_VERBOSE: Font build took 5 ms
-28/10/13 22:24:17.888: [0xfa0] RESMANAGER: Reading asset: fonts/font_large.gxfont
-28/10/13 22:24:17.889: [0xfa0] UTIL: Found 'fonts/font_large.gxfont' using default path
-28/10/13 22:24:17.890: [0xfa0] UTIL: Found 'fonts/font_large.gxfont' using default path
-28/10/13 22:24:17.891: [0xfa0] FILE: s3eFileOpen('fonts/font_large.gxfont', 'r') succeeded, id=1026 p=0x5c6e2f84
-28/10/13 22:24:17.891: [0xfa0] FILE: s3eFileClose h=0x5c6e2f84
-28/10/13 22:24:17.893: [0xfa0] UTIL: Found 'fonts/font_large.tga' using default path
-28/10/13 22:24:17.894: [0xfa0] FILE: s3eFileOpen('fonts/font_large.tga', 'rb') succeeded, id=1027 p=0x5c6e30a0
-28/10/13 22:24:17.898: [0xfa0] FILE: s3eFileClose h=0x5c6e30a0
-28/10/13 22:24:17.935: [0xfa0] GX_FONT_VERBOSE: Font build took 43 ms
-28/10/13 22:24:17.937: [0xfa0] UTIL: Found 'data-gles2-dx11/resources.group.bin' using path global 'data-gles2-dx11'
-28/10/13 22:24:17.938: [0xfa0] FILE: s3eFileOpen('data-gles2-dx11/resources.group.bin', 'wb') succeeded, id=1028 p=0x5c6e31bc
-28/10/13 22:24:17.939: [0xfa0] UTIL: Found 'data-gles2-dx11/resources.group.bin.txt' using path global 'data-gles2-dx11'
-28/10/13 22:24:17.940: [0xfa0] FILE: s3eFileOpen('data-gles2-dx11/resources.group.bin.txt', 'wt') succeeded, id=1029 p=0x5c6e32d8
-28/10/13 22:24:17.941: [0xfa0] RESMANAGER: Serialising CIwResList of 2 items
-28/10/13 22:24:17.942: [0xfa0] RESMANAGER: Serialising item 0
-28/10/13 22:24:17.945: [0xfa0] FILE: s3eFileOpen('resource_cache/DXT3/resources.group.bin_font_page0.bin', 'rb') succeeded, id=1030 p=0x5c6e33f4
-28/10/13 22:24:17.946: [0xfa0] FILE: s3eFileClose h=0x5c6e33f4
-28/10/13 22:24:17.948: [0xfa0] UTIL: Found 'resource_cache/DXT3/resources.group.bin_font_page0.bin' using default path
-28/10/13 22:24:17.949: [0xfa0] FILE: s3eFileOpen('resource_cache/DXT3/resources.group.bin_font_page0.bin', 'rb') succeeded, id=1031 p=0x5c6e3510
-28/10/13 22:24:17.950: [0xfa0] FILE: s3eFileClose h=0x5c6e3510
-28/10/13 22:24:17.951: [0xfa0] RESMANAGER: Wrote item: classname 0xa68776be, name 0x7c96e4fc
-28/10/13 22:24:17.951: [0xfa0] RESMANAGER: Serialising item 1
-28/10/13 22:24:17.957: [0xfa0] FILE: s3eFileOpen('resource_cache/DXT3/resources.group.bin_font_large_page0.bin', 'rb') succeeded, id=1000 p=0x5c6e12ac
-28/10/13 22:24:17.958: [0xfa0] FILE: s3eFileClose h=0x5c6e12ac
-28/10/13 22:24:17.960: [0xfa0] UTIL: Found 'resource_cache/DXT3/resources.group.bin_font_large_page0.bin' using default path
-28/10/13 22:24:17.961: [0xfa0] FILE: s3eFileOpen('resource_cache/DXT3/resources.group.bin_font_large_page0.bin', 'rb') succeeded, id=1001 p=0x5c6e13c8
-28/10/13 22:24:17.962: [0xfa0] FILE: s3eFileClose h=0x5c6e13c8
-28/10/13 22:24:17.968: [0xfa0] FILE: s3eFileOpen('resource_cache/DXT3/resources.group.bin_font_large_page1.bin', 'rb') succeeded, id=1002 p=0x5c6e14e4
-28/10/13 22:24:17.969: [0xfa0] FILE: s3eFileClose h=0x5c6e14e4
-28/10/13 22:24:17.970: [0xfa0] UTIL: Found 'resource_cache/DXT3/resources.group.bin_font_large_page1.bin' using default path
-28/10/13 22:24:17.971: [0xfa0] FILE: s3eFileOpen('resource_cache/DXT3/resources.group.bin_font_large_page1.bin', 'rb') succeeded, id=1003 p=0x5c6e1600
-28/10/13 22:24:17.972: [0xfa0] FILE: s3eFileClose h=0x5c6e1600
-28/10/13 22:24:17.978: [0xfa0] FILE: s3eFileOpen('resource_cache/DXT3/resources.group.bin_font_large_page2.bin', 'rb') succeeded, id=1004 p=0x5c6e171c
-28/10/13 22:24:17.979: [0xfa0] FILE: s3eFileClose h=0x5c6e171c
-28/10/13 22:24:17.980: [0xfa0] UTIL: Found 'resource_cache/DXT3/resources.group.bin_font_large_page2.bin' using default path
-28/10/13 22:24:17.981: [0xfa0] FILE: s3eFileOpen('resource_cache/DXT3/resources.group.bin_font_large_page2.bin', 'rb') succeeded, id=1005 p=0x5c6e1838
-28/10/13 22:24:17.982: [0xfa0] FILE: s3eFileClose h=0x5c6e1838
-28/10/13 22:24:17.988: [0xfa0] FILE: s3eFileOpen('resource_cache/DXT3/resources.group.bin_font_large_page3.bin', 'rb') succeeded, id=1006 p=0x5c6e1954
-28/10/13 22:24:17.989: [0xfa0] FILE: s3eFileClose h=0x5c6e1954
-28/10/13 22:24:17.991: [0xfa0] UTIL: Found 'resource_cache/DXT3/resources.group.bin_font_large_page3.bin' using default path
-28/10/13 22:24:17.992: [0xfa0] FILE: s3eFileOpen('resource_cache/DXT3/resources.group.bin_font_large_page3.bin', 'rb') succeeded, id=1007 p=0x5c6e1a70
-28/10/13 22:24:17.992: [0xfa0] FILE: s3eFileClose h=0x5c6e1a70
-28/10/13 22:24:17.994: [0xfa0] RESMANAGER: Wrote item: classname 0xa68776be, name 0x9ef93f86
-28/10/13 22:24:17.994: [0xfa0] FILE: s3eFileClose h=0x5c6e32d8
-28/10/13 22:24:17.995: [0xfa0] FILE: s3eFileClose h=0x5c6e31bc
-28/10/13 22:24:17.996: [0xfa0] UTIL: Found 'data-gles2-dx11/resources.group.bin.debug' using path global 'data-gles2-dx11'
-28/10/13 22:24:17.997: [0xfa0] FILE: s3eFileOpen('data-gles2-dx11/resources.group.bin.debug', 'wb') succeeded, id=1008 p=0x5c6e1b8c
-28/10/13 22:24:17.999: [0xfa0] UTIL: Found 'data-gles2-dx11/resources.group.bin.debug.txt' using path global 'data-gles2-dx11'
-28/10/13 22:24:18.000: [0xfa0] FILE: s3eFileOpen('data-gles2-dx11/resources.group.bin.debug.txt', 'wt') succeeded, id=1009 p=0x5c6e1ca8
-28/10/13 22:24:18.000: [0xfa0] FILE: s3eFileClose h=0x5c6e1ca8
-28/10/13 22:24:18.001: [0xfa0] FILE: s3eFileClose h=0x5c6e1b8c
-28/10/13 22:24:18.002: [0xfa0] UTIL: Found 'data-gles2-dx11/resources.group.hst' using path global 'data-gles2-dx11'
-28/10/13 22:24:18.003: [0xfa0] FILE: s3eFileOpen('data-gles2-dx11/resources.group.hst', 'wb') succeeded, id=1010 p=0x5c6e1dc4
-28/10/13 22:24:18.004: [0xfa0] FILE: s3eFileClose h=0x5c6e1dc4
-28/10/13 22:24:18.006: [0xfa0] UTIL: Found 'data-gles2-dx11/resources.group.bin' using path global 'data-gles2-dx11'
-28/10/13 22:24:18.007: [0xfa0] FILE: s3eFileOpen('data-gles2-dx11/resources.group.bin', 'rb') succeeded, id=1011 p=0x5c6e1ee0
-28/10/13 22:24:18.008: [0xfa0] UTIL: Found 'data-gles2-dx11/resources.group.hst' using path global 'data-gles2-dx11'
-28/10/13 22:24:18.009: [0xfa0] FILE: s3eFileOpen('data-gles2-dx11/resources.group.hst', 'r') succeeded, id=1012 p=0x5c6e1ffc
-28/10/13 22:24:18.009: [0xfa0] FILE: s3eFileClose h=0x5c6e1ffc
-28/10/13 22:24:18.010: [0xfa0] UTIL: Found 'data-gles2-dx11/resources.group.hst' using path global 'data-gles2-dx11'
-28/10/13 22:24:18.011: [0xfa0] FILE: s3eFileOpen('data-gles2-dx11/resources.group.hst', 'rb') succeeded, id=1013 p=0x5c6e2118
-28/10/13 22:24:18.012: [0xfa0] FILE: s3eFileClose h=0x5c6e2118
-28/10/13 22:24:18.013: [0xfa0] UTIL: Found 'data-gles2-dx11/resources.group.bin.debug' using path global 'data-gles2-dx11'
-28/10/13 22:24:18.014: [0xfa0] UTIL: Found 'data-gles2-dx11/resources.group.bin.debug' using path global 'data-gles2-dx11'
-28/10/13 22:24:18.015: [0xfa0] FILE: s3eFileOpen('data-gles2-dx11/resources.group.bin.debug', 'rb') succeeded, id=1014 p=0x5c6e2234
-28/10/13 22:24:18.015: [0xfa0] FILE: s3eFileClose h=0x5c6e2234
-28/10/13 22:24:18.016: [0xfa0] RESMANAGER: Serialising CIwResList of 2 items
-28/10/13 22:24:18.017: [0xfa0] RESMANAGER: Serialising item 0
-28/10/13 22:24:18.017: [0xfa0] RESMANAGER: Read item: classname 0xa68776be, name 0x7c96e4fc
-28/10/13 22:24:18.019: [0xfa0] RESMANAGER: Serialising item 1
-28/10/13 22:24:18.020: [0xfa0] RESMANAGER: Read item: classname 0xa68776be, name 0x9ef93f86
-28/10/13 22:24:18.022: [0xfa0] FILE: s3eFileClose h=0x5c6e1ee0
-28/10/13 22:24:18.023: [0xfa0] GX: IwGxSetScreenOrient: 3
-28/10/13 22:24:18.024: [0xfa0] GX: IwGxSetScreenOrient [480 x 800] orient=3
-28/10/13 22:24:18.025: [0xfa0] GX_VERBOSE: Generating default shader: #define FRAGMENT 
+28/10/13 23:12:38.196: [0xb0] DEVICE: Initialising FIBRE
+28/10/13 23:12:38.197: [0xb0] DEVICE: Initialising THREAD
+28/10/13 23:12:38.197: [0xb0] THREAD: s3eThreadCreateMain
+28/10/13 23:12:38.198: [0xfa0] DEVICE: Initialising SURFACE
+28/10/13 23:12:38.198: [0xfa0] SURFACE: s3eSurfaceSetup: PixelType=RGB565, pitch=0, ptr=0x00000000, blit=0
+28/10/13 23:12:38.199: [0xfa0] SURFACE: s3eSurfaceSetup: matches native type
+28/10/13 23:12:38.199: [0xfa0] SURFACE: s3eSurfaceSetup: no user surface needed
+28/10/13 23:12:38.199: [0xfa0] SURFACE: done s3eSurfaceInit: 800x600 p:1600 (800x600 p:1600) o:0
+28/10/13 23:12:38.200: [0xfa0] DEVICE: Initialising EXT
+28/10/13 23:12:38.200: [0xfa0] EXT: registering extension: s3eLibrary [0xe6dd6ce5]
+28/10/13 23:12:38.201: [0xfa0] EXT: registering extension: s3eExtLoadLibaray [0xf23d6d85]
+28/10/13 23:12:38.201: [0xfa0] EXT: registering extension: s3eCamera [0xa3e23039]
+28/10/13 23:12:38.202: [0xfa0] EXT: registering extension: s3eWindow [0xd31aa8a8]
+28/10/13 23:12:38.202: [0xfa0] EXT: registering extension: s3eVFS [0x17f48c9f]
+28/10/13 23:12:38.203: [0xfa0] EXT: registering extension: s3eContacts [0x5e39d2af]
+28/10/13 23:12:38.203: [0xfa0] EXT: registering extension: s3eSoundRecord [0x579dbf78]
+28/10/13 23:12:38.204: [0xfa0] EXT: registering extension: s3eTouchpad [0x1dbd7ce8]
+28/10/13 23:12:38.204: [0xfa0] EXT: registering extension: s3eDebugHeap [0xc667a795]
+28/10/13 23:12:38.205: [0xfa0] EXT: registering extension: s3eExtDebugHeap [0xff96de46]
+28/10/13 23:12:38.205: [0xfa0] EXT: registering extension: s3eClipboard [0xd68f3420]
+28/10/13 23:12:38.206: [0xfa0] EXT: registering extension: s3eOSExec [0xc121bcf7]
+28/10/13 23:12:38.206: [0xfa0] EXT: registering extension: s3eExtOSExec [0x20380948]
+28/10/13 23:12:38.207: [0xfa0] EXT: registering extension: s3eEval [0x167d1038]
+28/10/13 23:12:38.207: [0xfa0] EXT: registering extension: s3eExtEval [0xf0421449]
+28/10/13 23:12:38.208: [0xfa0] EXT: registering extension: s3eHighResTimer [0x41f2dedb]
+28/10/13 23:12:38.208: [0xfa0] EXT: registering extension: s3eOSReadString [0x9fe3ea45]
+28/10/13 23:12:38.208: [0xfa0] EXT: registering extension: s3eCameraCapture [0xd36aceed]
+28/10/13 23:12:38.209: [0xfa0] EXT: registering extension: s3eTestEmulatorConfig [0x4a0d0a4f]
+28/10/13 23:12:38.209: [0xfa0] EXT: registering extension: s3eThread [0xcc0b4a28]
+28/10/13 23:12:38.210: [0xfa0] EXT: registering extension: s3eCompass [0x40d632c6]
+28/10/13 23:12:38.210: [0xfa0] EXT: registering extension: Compass [0xd3653f1b]
+28/10/13 23:12:38.211: [0xfa0] EXT: registering extension: s3eSocketOpt [0x09cdcdec]
+28/10/13 23:12:38.211: [0xfa0] EXT: registering extension: s3eExtSocketOpt [0x42fd049d]
+28/10/13 23:12:38.212: [0xfa0] EXT: registering extension: s3eImagePicker [0xd2fc1d51]
+28/10/13 23:12:38.212: [0xfa0] EXT: registering extension: s3eTest [0x168503f0]
+28/10/13 23:12:38.213: [0xfa0] EXT: registering extension: s3eSMS [0x17f480c3]
+28/10/13 23:12:38.213: [0xfa0] EXT: registering extension: s3eMetrics [0x2bc8e047]
+28/10/13 23:12:38.214: [0xfa0] EXT: registering extension: Metrics [0xbe57ec9c]
+28/10/13 23:12:38.214: [0xfa0] EXT: registering extension: s3eLocation [0x91944229]
+28/10/13 23:12:38.215: [0xfa0] EXT: registering extension: Location [0x7604d91e]
+28/10/13 23:12:38.215: [0xfa0] EXT: registering extension: Win32Surface [0x909755c1]
+28/10/13 23:12:38.215: [0xfa0] EXT: registering extension: Win32UIProcessMessage [0x48f2a5ba]
+28/10/13 23:12:38.216: [0xfa0] EXT: registering extension: Win32DataDirChange [0xbfcfc057]
+28/10/13 23:12:38.216: [0xfa0] DEVICE: Initialising CONFIG
+28/10/13 23:12:38.217: [0xfa0] DEVICE: Initialising TIMER
+28/10/13 23:12:38.217: [0xfa0] DEVICE: Initialising COMPRESSION
+28/10/13 23:12:38.218: [0xfa0] DEVICE: DeviceInit done: services=0x0a216148
+28/10/13 23:12:38.219: [0xfa0] EXT: s3eExtGetHash: 0xd31aa8a8 [0x00000000 size=0]
+28/10/13 23:12:38.219: [0xfa0] EXT: initializing extension: s3eWindow
+28/10/13 23:12:38.220: [0xfa0] EXT: initializing extension: s3eWindow 0x57f357a0
+28/10/13 23:12:38.220: [0xfa0] DEVICE: SetupPaths: NULL
+28/10/13 23:12:38.221: [0xfa0] LOADER: ParseCommandLineData [-via:"c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\app_vc10x_debug.via"]
+28/10/13 23:12:38.221: [0xfa0] LOADER: setting [commandline]  via=c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\app_vc10x_debug.via
+28/10/13 23:12:38.222: [0xfa0] LOADER: parsing via file: c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\app_vc10x_debug.via
+28/10/13 23:12:38.222: [0xfa0] FILE: s3eFileOpen('c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\app_vc10x_debug.via', 'r') succeeded, id=1475935280 p=0x57f8fc30
+28/10/13 23:12:38.223: [0xfa0] LOADER: reading 1024 bytes from via files
+28/10/13 23:12:38.223: [0xfa0] FILE: s3eFileClose h=0x57f8fc30
+28/10/13 23:12:38.224: [0xfa0] LOADER: ParseCommandLineData [-via:"c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\app_vc10x_debug.via" --dll="c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\Debug_app_VC1
+28/10/13 23:12:38.224: [0xfa0] LOADER: setting [commandline]  via=c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\app_vc10x_debug.via
+28/10/13 23:12:38.225: [0xfa0] LOADER: setting [commandline]  dll=c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\Debug_app_VC10X_x86\app.s86
+28/10/13 23:12:38.225: [0xfa0] LOADER: setting [commandline]  data=c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\data
+28/10/13 23:12:38.226: [0xfa0] LOADER: setting [commandline]  checks3edir=1
+28/10/13 23:12:38.226: [0xfa0] LOADER: setting [commandline]  app-icf1=c:/Users/Pietro/Documents/GitHub/Patriot-Missile-Defense/data/app.icf
+28/10/13 23:12:38.227: [0xfa0] LOADER: setting [commandline]  config-txt1=c:/Users/Pietro/Documents/GitHub/Patriot-Missile-Defense/data/app.config.txt
+28/10/13 23:12:38.227: [0xfa0] LOADER: setting [commandline]  config-txt2=c:/marmalade/6.3/modules/iw2d/docs/iw2d.config.txt
+28/10/13 23:12:38.228: [0xfa0] LOADER: setting [commandline]  config-txt3=c:/marmalade/6.3/modules/iwgeom/docs/iwgeom.config.txt
+28/10/13 23:12:38.228: [0xfa0] LOADER: setting [commandline]  config-txt4=c:/marmalade/6.3/modules/iwgl/docs/iwgl.config.txt
+28/10/13 23:12:38.229: [0xfa0] LOADER: setting [commandline]  config-txt5=c:/marmalade/6.3/modules/iwgx/docs/iwgx.config.txt
+28/10/13 23:12:38.229: [0xfa0] LOADER: setting [commandline]  config-txt6=c:/marmalade/6.3/modules/iwgxfont/docs/iwgxfont.config.txt
+28/10/13 23:12:38.230: [0xfa0] LOADER: setting [commandline]  config-txt7=c:/marmalade/6.3/modules/iwresmanager/docs/iwresmanager.config.txt
+28/10/13 23:12:38.231: [0xfa0] LOADER: setting [commandline]  config-txt8=c:/marmalade/6.3/modules/iwutil/docs/iwutil.config.txt
+28/10/13 23:12:38.231: [0xfa0] LOADER: setting [commandline]  config-txt9=c:/marmalade/6.3/s3e/s3e.config.txt
+28/10/13 23:12:38.232: [0xfa0] LOADER: setting [commandline]  config-txt10=c:/marmalade/6.3/s3e\s3e.config.txt
+28/10/13 23:12:38.232: [0xfa0] LOADER: setting [commandline]  s3e-dir=c:/marmalade/6.3/s3e
+28/10/13 23:12:38.233: [0xfa0] FILE: new filesystem: drive=0 type=0 ro=1 name=rom://
+28/10/13 23:12:38.234: [0xfa0] FILE: fs[00]: system[rom://] 'c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\data'
+28/10/13 23:12:38.234: [0xfa0] FILE: fs[03]: system[raw://] ''
+28/10/13 23:12:38.235: [0xfa0] FILE: listed 2 active filesystems
+28/10/13 23:12:38.235: [0xfa0] FILE: new filesystem: drive=1 type=0 ro=0 name=ram://
+28/10/13 23:12:38.236: [0xfa0] FILE: fs[00]: system[rom://] 'c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\data'
+28/10/13 23:12:38.236: [0xfa0] FILE: fs[01]: system[ram://] 'c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\data-ram'
+28/10/13 23:12:38.237: [0xfa0] FILE: fs[03]: system[raw://] ''
+28/10/13 23:12:38.237: [0xfa0] FILE: listed 3 active filesystems
+28/10/13 23:12:38.242: [0xfa0] FILE: new filesystem: drive=0 type=0 ro=1 name=rom://
+28/10/13 23:12:38.243: [0xfa0] FILE: new filesystem: drive=1 type=0 ro=0 name=ram://
+28/10/13 23:12:38.244: [0xfa0] LOADER: Using data directory c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\data as ROM drive
+28/10/13 23:12:38.245: [0xfa0] LOADER: Using directory c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\data-ram as RAM drive
+28/10/13 23:12:38.246: [0xfa0] FILE: s3eFileOpen('raw://c:/Users/Pietro/Documents/GitHub/Patriot-Missile-Defense/data/app.config.txt', 'r') succeeded, id=1000 p=0x57f912ac
+28/10/13 23:12:38.246: [0xfa0] FILE: s3eFileClose h=0x57f912ac
+28/10/13 23:12:38.247: [0xfa0] FILE: s3eFileOpen('raw://c:/marmalade/6.3/modules/iw2d/docs/iw2d.config.txt', 'r') succeeded, id=1001 p=0x57f913c8
+28/10/13 23:12:38.247: [0xfa0] FILE: s3eFileClose h=0x57f913c8
+28/10/13 23:12:38.248: [0xfa0] FILE: s3eFileOpen('raw://c:/marmalade/6.3/modules/iwgeom/docs/iwgeom.config.txt', 'r') succeeded, id=1002 p=0x57f914e4
+28/10/13 23:12:38.248: [0xfa0] FILE: s3eFileClose h=0x57f914e4
+28/10/13 23:12:38.249: [0xfa0] FILE: s3eFileOpen('raw://c:/marmalade/6.3/modules/iwgl/docs/iwgl.config.txt', 'r') succeeded, id=1003 p=0x57f91600
+28/10/13 23:12:38.249: [0xfa0] FILE: s3eFileClose h=0x57f91600
+28/10/13 23:12:38.250: [0xfa0] FILE: s3eFileOpen('raw://c:/marmalade/6.3/modules/iwgx/docs/iwgx.config.txt', 'r') succeeded, id=1004 p=0x57f9171c
+28/10/13 23:12:38.251: [0xfa0] FILE: s3eFileClose h=0x57f9171c
+28/10/13 23:12:38.252: [0xfa0] FILE: s3eFileOpen('raw://c:/marmalade/6.3/modules/iwgxfont/docs/iwgxfont.config.txt', 'r') succeeded, id=1005 p=0x57f91838
+28/10/13 23:12:38.252: [0xfa0] FILE: s3eFileClose h=0x57f91838
+28/10/13 23:12:38.253: [0xfa0] FILE: s3eFileOpen('raw://c:/marmalade/6.3/modules/iwresmanager/docs/iwresmanager.config.txt', 'r') succeeded, id=1006 p=0x57f91954
+28/10/13 23:12:38.253: [0xfa0] FILE: s3eFileClose h=0x57f91954
+28/10/13 23:12:38.254: [0xfa0] FILE: s3eFileOpen('raw://c:/marmalade/6.3/modules/iwutil/docs/iwutil.config.txt', 'r') succeeded, id=1007 p=0x57f91a70
+28/10/13 23:12:38.255: [0xfa0] FILE: s3eFileClose h=0x57f91a70
+28/10/13 23:12:38.255: [0xfa0] FILE: s3eFileOpen('raw://c:/marmalade/6.3/s3e/s3e.config.txt', 'r') succeeded, id=1008 p=0x57f91b8c
+28/10/13 23:12:38.261: [0xfa0] FILE: s3eFileClose h=0x57f91b8c
+28/10/13 23:12:38.262: [0xfa0] FILE: s3eFileOpen('raw://c:/marmalade/6.3/s3e\s3e.config.txt', 'r') succeeded, id=1009 p=0x57f91ca8
+28/10/13 23:12:38.267: [0xfa0] FILE: s3eFileClose h=0x57f91ca8
+28/10/13 23:12:38.270: [0xfa0] FILE: s3eFileOpen('raw://c:\marmalade\6.3\s3e/s3e.icf', 'rb') succeeded, id=1010 p=0x57f91dc4
+28/10/13 23:12:38.270: [0xfa0] LOADER: Loading config from: c:\marmalade\6.3\s3e/s3e.icf
+28/10/13 23:12:38.272: [0xfa0] FILE: s3eFileClose h=0x57f91dc4
+28/10/13 23:12:38.272: [0xfa0] LOADER: Loading app-icf from command line specified location c:/Users/Pietro/Documents/GitHub/Patriot-Missile-Defense/data/app.icf
+28/10/13 23:12:38.273: [0xfa0] FILE: s3eFileOpen('raw://c:/Users/Pietro/Documents/GitHub/Patriot-Missile-Defense/data/app.icf', 'rb') succeeded, id=1011 p=0x57f91ee0
+28/10/13 23:12:38.273: [0xfa0] LOADER: Loading config from: raw://c:/Users/Pietro/Documents/GitHub/Patriot-Missile-Defense/data/app.icf
+28/10/13 23:12:38.274: [0xfa0] FILE: s3eFileClose h=0x57f91ee0
+28/10/13 23:12:38.275: [0xfa0] LOADER: ParseCommandLineData [-via:"c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\app_vc10x_debug.via"]
+28/10/13 23:12:38.275: [0xfa0] LOADER: setting [commandline]  via=c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\app_vc10x_debug.via
+28/10/13 23:12:38.275: [0xfa0] LOADER: parsing via file: c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\app_vc10x_debug.via
+28/10/13 23:12:38.276: [0xfa0] FILE: s3eFileOpen('c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\app_vc10x_debug.via', 'r') succeeded, id=1012 p=0x57f91ffc
+28/10/13 23:12:38.276: [0xfa0] LOADER: reading 1024 bytes from via files
+28/10/13 23:12:38.276: [0xfa0] FILE: s3eFileClose h=0x57f91ffc
+28/10/13 23:12:38.276: [0xfa0] LOADER: ParseCommandLineData [-via:"c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\app_vc10x_debug.via" --dll="c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\Debug_app_VC1
+28/10/13 23:12:38.277: [0xfa0] LOADER: setting [commandline]  via=c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\app_vc10x_debug.via
+28/10/13 23:12:38.277: [0xfa0] LOADER: setting [commandline]  dll=c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\Debug_app_VC10X_x86\app.s86
+28/10/13 23:12:38.277: [0xfa0] LOADER: setting [commandline]  data=c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\data
+28/10/13 23:12:38.278: [0xfa0] LOADER: setting [commandline]  checks3edir=1
+28/10/13 23:12:38.278: [0xfa0] LOADER: setting [commandline]  app-icf1=c:/Users/Pietro/Documents/GitHub/Patriot-Missile-Defense/data/app.icf
+28/10/13 23:12:38.278: [0xfa0] LOADER: setting [commandline]  config-txt1=c:/Users/Pietro/Documents/GitHub/Patriot-Missile-Defense/data/app.config.txt
+28/10/13 23:12:38.278: [0xfa0] LOADER: setting [commandline]  config-txt2=c:/marmalade/6.3/modules/iw2d/docs/iw2d.config.txt
+28/10/13 23:12:38.279: [0xfa0] LOADER: setting [commandline]  config-txt3=c:/marmalade/6.3/modules/iwgeom/docs/iwgeom.config.txt
+28/10/13 23:12:38.279: [0xfa0] LOADER: setting [commandline]  config-txt4=c:/marmalade/6.3/modules/iwgl/docs/iwgl.config.txt
+28/10/13 23:12:38.279: [0xfa0] LOADER: setting [commandline]  config-txt5=c:/marmalade/6.3/modules/iwgx/docs/iwgx.config.txt
+28/10/13 23:12:38.279: [0xfa0] LOADER: setting [commandline]  config-txt6=c:/marmalade/6.3/modules/iwgxfont/docs/iwgxfont.config.txt
+28/10/13 23:12:38.280: [0xfa0] LOADER: setting [commandline]  config-txt7=c:/marmalade/6.3/modules/iwresmanager/docs/iwresmanager.config.txt
+28/10/13 23:12:38.280: [0xfa0] LOADER: setting [commandline]  config-txt8=c:/marmalade/6.3/modules/iwutil/docs/iwutil.config.txt
+28/10/13 23:12:38.280: [0xfa0] LOADER: setting [commandline]  config-txt9=c:/marmalade/6.3/s3e/s3e.config.txt
+28/10/13 23:12:38.280: [0xfa0] LOADER: setting [commandline]  config-txt10=c:/marmalade/6.3/s3e\s3e.config.txt
+28/10/13 23:12:38.281: [0xfa0] LOADER: setting [commandline]  s3e-dir=c:/marmalade/6.3/s3e
+28/10/13 23:12:38.281: [0xfa0] LOADER: s3eExecMemoryCheck: Memory free: 1048576K
+28/10/13 23:12:38.282: [0xfa0] FILE: s3eFileOpen('raw://C:\Users\Pietro\AppData\Local\Temp\\_marm_temp_test_', 'w') succeeded, id=1013 p=0x57f92118
+28/10/13 23:12:38.282: [0xfa0] FILE: s3eFileClose h=0x57f92118
+28/10/13 23:12:38.283: [0xfa0] FILE: new filesystem: drive=4 type=0 ro=0 name=tmp://
+28/10/13 23:12:38.284: [0xfa0] FILE: fs[00]: system[rom://] 'c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\data'
+28/10/13 23:12:38.284: [0xfa0] FILE: fs[01]: system[ram://] 'c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\data-ram'
+28/10/13 23:12:38.285: [0xfa0] FILE: fs[03]: system[raw://] ''
+28/10/13 23:12:38.285: [0xfa0] FILE: fs[04]: system[tmp://] 'C:\Users\Pietro\AppData\Local\Temp\'
+28/10/13 23:12:38.286: [0xfa0] FILE: listed 4 active filesystems
+28/10/13 23:12:38.314: [0xfa0] SURFACE: Fixed Screen Orientation: FixedLandscape
+28/10/13 23:12:38.315: [0xfa0] SURFACE: scaling=1
+28/10/13 23:12:38.439: [0xfa0] SURFACE: s3eSurfaceSetup: PixelType=RGB565, pitch=0, ptr=0x00000000, blit=0
+28/10/13 23:12:38.440: [0xfa0] SURFACE: s3eSurfaceSetup: matches native type
+28/10/13 23:12:38.440: [0xfa0] SURFACE: s3eSurfaceSetup: no user surface needed
+28/10/13 23:12:38.450: [0xfa0] EXT: Registering user-supplied extensions
+28/10/13 23:12:38.452: [0xfa0] FIBRE: stack switch : enabled
+28/10/13 23:12:38.452: [0xfa0] FIBRE: fast switch  : disabled
+28/10/13 23:12:38.453: [0xfa0] FIBRE: global lock  : enabled
+28/10/13 23:12:38.454: [0xfa0] FIBRE: fast lock    : disabled
+28/10/13 23:12:38.454: [0xfa0] FIBRE: thunks       : enabled
+28/10/13 23:12:38.455: [0xfa0] LOADER: Calling s3eDeviceInit()
+28/10/13 23:12:38.455: [0xfa0] DEVICE: DeviceInit: services=0xfffdffff [0xe5dc9eb7]
+28/10/13 23:12:38.456: [0xfa0] DEVICE: Initialising CALLBACKS
+28/10/13 23:12:38.456: [0xfa0] DEVICE: Initialising CRYPTO
+28/10/13 23:12:38.457: [0xfa0] DEVICE: Initialising ERROR
+28/10/13 23:12:38.457: [0xfa0] DEVICE: Initialising SOCKET
+28/10/13 23:12:38.459: [0xfa0] DEVICE: Initialising STORAGE
+28/10/13 23:12:38.459: [0xfa0] DEVICE: Initialising VIBRA
+28/10/13 23:12:38.460: [0xfa0] DEVICE: Initialising KEYBOARD
+28/10/13 23:12:38.461: [0xfa0] DEVICE: Initialising POINTER
+28/10/13 23:12:38.462: [0xfa0] DEVICE: Initialising ACCELEROMETER
+28/10/13 23:12:38.462: [0xfa0] ACCELEROMETER: damping=0 scaling=0
+28/10/13 23:12:38.463: [0xfa0] DEVICE: Initialising SOUND
+28/10/13 23:12:38.505: [0xfa0] SOUND: stereo sound enabled
+28/10/13 23:12:38.505: [0xfa0] SOUND: s3eSoundStop: started=0
+28/10/13 23:12:38.506: [0xfa0] SOUND: SetMasterVolume: 255 -> 256
+28/10/13 23:12:38.507: [0xfa0] DEVICE: Initialising AUDIO
+28/10/13 23:12:38.507: [0xfa0] AUDIO: Number of channels = 16
+28/10/13 23:12:38.508: [0xfa0] DEVICE: Initialising VIDEO
+28/10/13 23:12:38.508: [0xfa0] DEVICE: Initialising LICENSE
+28/10/13 23:12:38.509: [0xfa0] DEVICE: Initialising GL
+28/10/13 23:12:38.509: [0xfa0] DEVICE: DeviceInit done: services=0xfffdffff
+28/10/13 23:12:38.511: [0xfa0] SPLASH: displaying debug splash-screen
+28/10/13 23:12:38.517: [0x1694] SURFACE: s3eSurfaceSetup: PixelType=RGB565, pitch=0, ptr=0x00000000, blit=0
+28/10/13 23:12:38.518: [0x1694] SURFACE: s3eSurfaceSetup: matches native type
+28/10/13 23:12:38.518: [0x1694] SURFACE: s3eSurfaceSetup: no user surface needed
+28/10/13 23:12:38.527: [0xfa0] SPLASH: No splash screen specified
+28/10/13 23:12:38.532: [0xfa0] LOADER: s3eExecInit Done
+28/10/13 23:12:38.535: [0xfa0] LOADER: found initial S3E file: raw://c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\Debug_app_VC10X_x86\app.s86
+28/10/13 23:12:38.536: [0xfa0] DEVICE: s3eExecPushNext: raw://c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\Debug_app_VC10X_x86\app.s86 [root=NULL 0x00000000 0x00000000]
+28/10/13 23:12:38.537: [0xfa0] DEVICE: s3eExecPushNext: raw://c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\Debug_app_VC10X_x86\app.s86
+28/10/13 23:12:38.537: [0xfa0] LOADER: s3eExecDoExecuteLoop
+28/10/13 23:12:38.555: [0xfa0] LOADER: AppVersion: 4 36
+28/10/13 23:12:38.556: [0xfa0] LOADER: S3E Version    : 4.36.0
+28/10/13 23:12:38.556: [0xfa0] LOADER: Arch           : X86
+28/10/13 23:12:38.557: [0xfa0] LOADER: VFP            : 1
+28/10/13 23:12:38.557: [0xfa0] LOADER: App S3E Version: 4.36.0
+28/10/13 23:12:38.558: [0xfa0] LOADER: App arch       : X86
+28/10/13 23:12:38.558: [0xfa0] LOADER: App VFP        : 0
+28/10/13 23:12:38.559: [0xfa0] LOADER: new s3eExecHandle = 0x02825270
+28/10/13 23:12:40.521: [0xfa0] LOADER: Calling s3eDeviceInit(S3E_DEVICE_INIT_MEMORY)
+28/10/13 23:12:40.523: [0xfa0] DEVICE: DeviceInit: services=0x00020000 [0x00020000]
+28/10/13 23:12:40.523: [0xfa0] DEVICE: Initialising MEMORY
+28/10/13 23:12:40.524: [0xfa0] MEMORY: Loader heap size=30000
+28/10/13 23:12:40.544: [0xfa0] MEMORY: Initialised heap 0 [0x06f81264-0x095a6c64] size=40000000
+28/10/13 23:12:40.545: [0xfa0] MEMORY: Initialised heap 7 [0x06c91464-0x06c9dc64] size=51200
+28/10/13 23:12:40.546: [0xfa0] MEMORY: s3eMemorySetUserMemMgr 0x00c03628 0x00c03868 0x00c03340
+28/10/13 23:12:40.547: [0xfa0] DEVICE: DeviceInit done: services=0x00020000
+28/10/13 23:12:40.547: [0xfa0] LOADER: IwS3EGetEntryPoint -> 0x5235848d
+28/10/13 23:12:40.548: [0xfa0] LOADER: Executing S3E 0x02825270 [c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\Debug_app_VC10X_x86\app.s86] entry=0x5235848d
+28/10/13 23:12:40.550: [0xfa0] EXT: s3eExtGetHash: 0xcc0b4a28 [0x55cce738 size=76]
+28/10/13 23:12:40.551: [0xfa0] EXT: initializing extension: s3eThread
+28/10/13 23:12:40.552: [0xfa0] EXT: initializing extension: s3eThread 0x57f11d10
+28/10/13 23:12:40.552: [0xfa0] MEMORY: s3eMemorySetUserMemMgr 0x52358f46 0x52358f64 0x52350490
+28/10/13 23:12:40.554: [0xfa0] GX_VERBOSE: IwGxInitBase()
+28/10/13 23:12:40.555: [0xfa0] EXT: s3eExtGetHash: 0x2bc8e047 [0x55cce4e8 size=72]
+28/10/13 23:12:40.555: [0xfa0] EXT: initializing extension: s3eMetrics
+28/10/13 23:12:40.556: [0xfa0] EXT: s3eExtGetHash: 0xc667a795 [0x56c8d710 size=8]
+28/10/13 23:12:40.557: [0xfa0] EXT: initializing extension: s3eDebugHeap
+28/10/13 23:12:40.557: [0xfa0] MEMORY: s3eExtDebugHeapAlloc: 20000000 bytes allocated for system debug heap
+28/10/13 23:12:40.561: [0xfa0] UTIL: IwCallStackInit
+28/10/13 23:12:40.563: [0xfa0] GX_VERBOSE: Registering for S3E_SURFACE_SCREENSIZE callback
+28/10/13 23:12:40.564: [0xfa0] SURFACE: s3eSurfaceSetup: PixelType=RGB565, pitch=0, ptr=0x00000000, blit=4
+28/10/13 23:12:40.565: [0xfa0] SURFACE: s3eSurfaceSetup: matches native type
+28/10/13 23:12:40.566: [0xfa0] SURFACE: s3eSurfaceSetup: no user surface needed
+28/10/13 23:12:40.567: [0xfa0] GX: IwGxSetScreenOrient: 0
+28/10/13 23:12:40.578: [0xfa0] IW_GL: EGL: eglGetDisplay returned 0A9331E8
+28/10/13 23:12:40.651: [0xfa0] IW_GL: eglInitialise succeeded - version 1.4
+28/10/13 23:12:40.652: [0xfa0] IW_GL: S3E_EGL_VERSION: 0104
+28/10/13 23:12:40.653: [0xfa0] IW_GL: S3E_GL_VERSION: 0200
+28/10/13 23:12:40.654: [0xfa0] IW_GL: EGL_VENDOR: Google Inc.
+28/10/13 23:12:40.655: [0xfa0] IW_GL: EGL_VERSION: 1.4 (ANGLE 1.0.0.1275)
+28/10/13 23:12:40.656: [0xfa0] IW_GL:     EGL_EXT_create_context_robustness
+28/10/13 23:12:40.657: [0xfa0] IW_GL:     EGL_ANGLE_d3d_share_handle_client_buffer
+28/10/13 23:12:40.657: [0xfa0] IW_GL:     EGL_ANGLE_query_surface_pointer
+28/10/13 23:12:40.658: [0xfa0] IW_GL:     EGL_ANGLE_surface_d3d_texture_2d_share_handle
+28/10/13 23:12:40.658: [0xfa0] IW_GL:     EGL_NV_post_sub_buffer
+28/10/13 23:12:40.659: [0xfa0] GL_CORE: rejecting config 0: EGL_DEPTH_SIZE < 16
+28/10/13 23:12:40.660: [0xfa0] GL_CORE: rejecting config 4: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
+28/10/13 23:12:40.660: [0xfa0] GL_CORE: rejecting config 5 RGB < 565
+28/10/13 23:12:40.661: [0xfa0] GL_CORE: rejecting config 6: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
+28/10/13 23:12:40.661: [0xfa0] GL_CORE: rejecting config 7 RGB < 565
+28/10/13 23:12:40.662: [0xfa0] GL_CORE: rejecting config 8: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
+28/10/13 23:12:40.663: [0xfa0] GL_CORE: rejecting config 9 RGB < 565
+28/10/13 23:12:40.663: [0xfa0] GL_CORE: rejecting config 10: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
+28/10/13 23:12:40.664: [0xfa0] GL_CORE: rejecting config 11 RGB < 565
+28/10/13 23:12:40.664: [0xfa0] GL_CORE: rejecting config 12: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
+28/10/13 23:12:40.665: [0xfa0] GL_CORE: rejecting config 13: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
+28/10/13 23:12:40.666: [0xfa0] GL_CORE: rejecting config 14: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
+28/10/13 23:12:40.666: [0xfa0] GL_CORE: rejecting config 15: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
+28/10/13 23:12:40.667: [0xfa0] GL_CORE: EGL: Chose EGL_CONFIG_ID 3
+28/10/13 23:12:40.703: [0xfa0] IW_GL: GL_VENDOR: Google Inc.
+28/10/13 23:12:40.705: [0xfa0] IW_GL: GL_RENDERER: ANGLE (AMD Radeon HD 6470M/7400M Series)
+28/10/13 23:12:40.705: [0xfa0] IW_GL: GL_VERSION: OpenGL ES 2.0 (ANGLE 1.0.0.1275)
+28/10/13 23:12:40.706: [0xfa0] IW_GL: GL properties reported by driver:
+28/10/13 23:12:40.707: [0xfa0] IW_GL:     GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS: 20
+28/10/13 23:12:40.708: [0xfa0] IW_GL:     GL_SHADER_COMPILER: 1
+28/10/13 23:12:40.708: [0xfa0] IW_GL:     GL_MAX_VERTEX_ATTRIBS: 16
+28/10/13 23:12:40.709: [0xfa0] IW_GL:     GL_MAX_VERTEX_UNIFORM_VECTORS: 254
+28/10/13 23:12:40.710: [0xfa0] IW_GL:     GL_MAX_VARYING_VECTORS: 10
+28/10/13 23:12:40.710: [0xfa0] IW_GL:     GL_MAX_TEXTURE_IMAGE_UNITS: 16
+28/10/13 23:12:40.711: [0xfa0] IW_GL:     GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS: 4
+28/10/13 23:12:40.712: [0xfa0] IW_GL:     GL_MAX_FRAGMENT_UNIFORM_VECTORS: 221
+28/10/13 23:12:40.712: [0xfa0] IW_GL:     GL_MAX_CUBE_MAP_TEXTURE_SIZE: 16384
+28/10/13 23:12:40.713: [0xfa0] IW_GL:     GL_IMPLEMENTATION_COLOR_READ_FORMAT: GL_RGB
+28/10/13 23:12:40.713: [0xfa0] IW_GL:     GL_IMPLEMENTATION_COLOR_READ_TYPE: GL_UNSIGNED_SHORT_5_6_5
+28/10/13 23:12:40.714: [0xfa0] IW_GL:     GL_MAX_RENDERBUFFER_SIZE: 16384
+28/10/13 23:12:40.715: [0xfa0] IW_GL:     GL_POINT_SIZE_MAX: -1
+28/10/13 23:12:40.715: [0xfa0] IW_GL:     GL_MAX_TEXTURE_SIZE: 16384
+28/10/13 23:12:40.716: [0xfa0] IW_GL:     GL_MAX_VIEWPORT_DIMS: (16384, 16384)
+28/10/13 23:12:40.717: [0xfa0] IW_GL: Supported GL_EXTENSIONS:
+28/10/13 23:12:40.717: [0xfa0] IW_GL:     GL_OES_packed_depth_stencil
+28/10/13 23:12:40.718: [0xfa0] IW_GL:     GL_OES_element_index_uint
+28/10/13 23:12:40.718: [0xfa0] IW_GL:     GL_OES_texture_half_float_linear
+28/10/13 23:12:40.719: [0xfa0] IW_GL:     GL_NV_fence
+28/10/13 23:12:40.719: [0xfa0] IW_GL:     GL_EXT_read_format_bgra
+28/10/13 23:12:40.720: [0xfa0] IW_GL:     GL_OES_get_program_binary
+28/10/13 23:12:40.721: [0xfa0] IW_GL:     GL_OES_rgb8_rgba8
+28/10/13 23:12:40.721: [0xfa0] IW_GL:     GL_EXT_texture_compression_dxt1
+28/10/13 23:12:40.722: [0xfa0] IW_GL:     GL_ANGLE_texture_compression_dxt3
+28/10/13 23:12:40.722: [0xfa0] IW_GL:     GL_ANGLE_texture_compression_dxt5
+28/10/13 23:12:40.723: [0xfa0] IW_GL:     GL_ARB_texture_env_combine
+28/10/13 23:12:40.723: [0xfa0] IW_GL:     GL_OES_texture_npot
+28/10/13 23:12:40.724: [0xfa0] IW_GL:     GL_EXT_texture_format_BGRA8888
+28/10/13 23:12:40.725: [0xfa0] IW_GL:     GL_OES_texture_half_float
+28/10/13 23:12:40.725: [0xfa0] IW_GL:     GL_ANGLE_framebuffer_multisample
+28/10/13 23:12:40.726: [0xfa0] IW_GL:     GL_ANGLE_framebuffer_blit
+28/10/13 23:12:40.726: [0xfa0] IW_GL:     GL_OES_standard_derivatives
+28/10/13 23:12:40.727: [0xfa0] IW_GL:     GL_OES_texture_float
+28/10/13 23:12:40.728: [0xfa0] IW_GL:     GL_OES_texture_float_linear
+28/10/13 23:12:40.728: [0xfa0] IW_GL:     GL_EXT_texture_filter_anisotropic
+28/10/13 23:12:40.729: [0xfa0] SURFACE: s3eSurfaceSetup: PixelType=RGB565, pitch=0, ptr=0x00000000, blit=4
+28/10/13 23:12:40.729: [0xfa0] SURFACE: s3eSurfaceSetup: matches native type
+28/10/13 23:12:40.730: [0xfa0] SURFACE: s3eSurfaceSetup: no user surface needed
+28/10/13 23:12:40.737: [0xfa0] FILE: s3eFileOpen('tmp://source_41', 'wb') succeeded, id=1014 p=0x57f92234
+28/10/13 23:12:40.738: [0xfa0] FILE: s3eFileClose h=0x57f92234
+28/10/13 23:12:40.740: [0xfa0] EXT: s3eExtGetHash: 0xc121bcf7 [0x55cce554 size=4]
+28/10/13 23:12:40.740: [0xfa0] EXT: initializing extension: s3eOSExec
+28/10/13 23:12:40.741: [0xfa0] DEVICE: s3eOSExecExecute [0] '"angle_dx11/compiletool.exe" vertex "C:\Users\Pietro\AppData\Local\Temp\source_41" output "C:\Users\Pietro\AppData\Local\Temp/binary_41"'
+28/10/13 23:12:40.823: [0xfa0] DEVICE: s3eOSExecExecute -> 0
+28/10/13 23:12:40.825: [0xfa0] FILE: s3eFileOpen('tmp://binary_41', 'rb') succeeded, id=1015 p=0x57f92350
+28/10/13 23:12:40.826: [0xfa0] FILE: s3eFileClose h=0x57f92350
+28/10/13 23:12:40.827: [0xfa0] FILE: s3eFileOpen('shader_bin_wp8/f9726e28.bin', 'wb') succeeded, id=1016 p=0x57f9246c
+28/10/13 23:12:40.827: [0xfa0] FILE: s3eFileClose h=0x57f9246c
+28/10/13 23:12:40.829: [0xfa0] IW_GL: Compiled shader binary. binaryFormat: 0x93B0, fileName: shader_bin_wp8/f9726e28.bin
+28/10/13 23:12:40.831: [0xfa0] FILE: s3eFileOpen('tmp://source_18467', 'wb') succeeded, id=1017 p=0x57f92588
+28/10/13 23:12:40.832: [0xfa0] FILE: s3eFileClose h=0x57f92588
+28/10/13 23:12:40.833: [0xfa0] DEVICE: s3eOSExecExecute [0] '"angle_dx11/compiletool.exe" pixel  "C:\Users\Pietro\AppData\Local\Temp\source_18467" output "C:\Users\Pietro\AppData\Local\Temp/binary_18467"'
+28/10/13 23:12:40.899: [0xfa0] DEVICE: s3eOSExecExecute -> 0
+28/10/13 23:12:40.901: [0xfa0] FILE: s3eFileOpen('tmp://binary_18467', 'rb') succeeded, id=1018 p=0x57f926a4
+28/10/13 23:12:40.901: [0xfa0] FILE: s3eFileClose h=0x57f926a4
+28/10/13 23:12:40.902: [0xfa0] FILE: s3eFileOpen('shader_bin_wp8/4c5a10f0.bin', 'wb') succeeded, id=1019 p=0x57f927c0
+28/10/13 23:12:40.903: [0xfa0] FILE: s3eFileClose h=0x57f927c0
+28/10/13 23:12:40.905: [0xfa0] IW_GL: Compiled shader binary. binaryFormat: 0x93B0, fileName: shader_bin_wp8/4c5a10f0.bin
+28/10/13 23:12:40.923: [0xfa0] GX: Parsing GL driver strings
+28/10/13 23:12:40.924: [0xfa0] GX_VERBOSE: Hardware capabilities:
+28/10/13 23:12:40.925: [0xfa0] FILE: s3eFileOpen('resource_cache/cachedSize.bin', 'rb') succeeded, id=1020 p=0x57f928dc
+28/10/13 23:12:40.926: [0xfa0] FILE: s3eFileClose h=0x57f928dc
+28/10/13 23:12:40.927: [0xfa0] UTIL: Added class factory for CIwGxShaderTechnique (hash 0x62ab11c4)
+28/10/13 23:12:40.928: [0xfa0] UTIL: Added class factory for CIwGxCubeMap (hash 0x5474a064)
+28/10/13 23:12:40.929: [0xfa0] GX_VERBOSE: IwGxInit() end
+28/10/13 23:12:40.929: [0xfa0] GX_VERBOSE: _IwGxInitGL()
+28/10/13 23:12:40.930: [0xfa0] GX_VERBOSE: Reported: Max texture stages 20. Max dimensions 16384x16384
+28/10/13 23:12:40.931: [0xfa0] GX_VERBOSE: Default framebuffer binding is 0
+28/10/13 23:12:40.931: [0xfa0] GX_VERBOSE: _IwGxInitGL() end
+28/10/13 23:12:40.932: [0xfa0] FILE: s3eFileClose h=0x57f929f8
+28/10/13 23:12:40.933: [0xfa0] EXT: s3eExtGetHash: 0x167d1038 [0x55cce4d0 size=8]
+28/10/13 23:12:40.934: [0xfa0] EXT: initializing extension: s3eEval
+28/10/13 23:12:40.935: [0xfa0] FILE: s3eFileClose h=0x57f92b14
+28/10/13 23:12:40.936: [0xfa0] UTIL: Added class factory for CIwResTemplateImage (hash 0x4d5ab6b1)
+28/10/13 23:12:40.936: [0xfa0] UTIL: Added class factory for CIwResTemplateMTL (hash 0x3a22b5bb)
+28/10/13 23:12:40.937: [0xfa0] UTIL: Added class factory for CIwResTemplateGROUP (hash 0x4d3980fb)
+28/10/13 23:12:40.937: [0xfa0] UTIL: Added class factory for CIwMaterial (hash 0x2544f997)
+28/10/13 23:12:40.938: [0xfa0] UTIL: Added class factory for CIwResGroup (hash 0xf446397f)
+28/10/13 23:12:40.938: [0xfa0] UTIL: Added class factory for CIwTexture (hash 0x3521f539)
+28/10/13 23:12:40.939: [0xfa0] UTIL: Added class factory for CIwResBuildStyle (hash 0xa59f2593)
+28/10/13 23:12:40.940: [0xfa0] RESMANAGER: Added serialise block for ResGroupMembers
+28/10/13 23:12:40.940: [0xfa0] RESMANAGER: Added serialise block for ResGroupBuildData
+28/10/13 23:12:40.941: [0xfa0] RESMANAGER: Added serialise block for ResGroupChildPaths
+28/10/13 23:12:40.941: [0xfa0] RESMANAGER: Added serialise block for ResGroupHST
+28/10/13 23:12:40.942: [0xfa0] RESMANAGER: Added serialise block for ResGroupDirectory
+28/10/13 23:12:40.942: [0xfa0] RESMANAGER: Added serialise block for ResGroupResources
+28/10/13 23:12:40.943: [0xfa0] RESMANAGER: Added serialise block for ResGroupResourcesOptimised
+28/10/13 23:12:40.944: [0xfa0] RESMANAGER: Setting build style to 'gles2-dx11'
+28/10/13 23:12:40.944: [0xfa0] UTIL: Added class factory for CIwGxFont (hash 0xa68776be)
+28/10/13 23:12:40.945: [0xfa0] UTIL: Added class factory for CIwGxFontTTFont (hash 0xc084661d)
+28/10/13 23:12:40.945: [0xfa0] UTIL: Added class factory for CIwResTemplateGXFONT (hash 0xf4d12aa4)
+28/10/13 23:12:40.969: [0xfa0] UTIL: Found 'resources.group' using default path
+28/10/13 23:12:40.970: [0xfa0] FILE: s3eFileOpen('resources.group', 'r') succeeded, id=1023 p=0x57f92c30
+28/10/13 23:12:40.971: [0xfa0] FILE: s3eFileClose h=0x57f92c30
+28/10/13 23:12:40.972: [0xfa0] RESMANAGER: Reading asset: fonts/font.gxfont
+28/10/13 23:12:40.972: [0xfa0] UTIL: Found 'fonts/font.gxfont' using default path
+28/10/13 23:12:40.973: [0xfa0] UTIL: Found 'fonts/font.gxfont' using default path
+28/10/13 23:12:40.974: [0xfa0] FILE: s3eFileOpen('fonts/font.gxfont', 'r') succeeded, id=1024 p=0x57f92d4c
+28/10/13 23:12:40.975: [0xfa0] FILE: s3eFileClose h=0x57f92d4c
+28/10/13 23:12:40.976: [0xfa0] UTIL: Found 'fonts/font.tga' using default path
+28/10/13 23:12:40.977: [0xfa0] FILE: s3eFileOpen('fonts/font.tga', 'rb') succeeded, id=1025 p=0x57f92e68
+28/10/13 23:12:40.978: [0xfa0] FILE: s3eFileClose h=0x57f92e68
+28/10/13 23:12:40.979: [0xfa0] GX_FONT_VERBOSE: Font build took 4 ms
+28/10/13 23:12:40.980: [0xfa0] RESMANAGER: Reading asset: fonts/font_large.gxfont
+28/10/13 23:12:40.981: [0xfa0] UTIL: Found 'fonts/font_large.gxfont' using default path
+28/10/13 23:12:40.982: [0xfa0] UTIL: Found 'fonts/font_large.gxfont' using default path
+28/10/13 23:12:40.983: [0xfa0] FILE: s3eFileOpen('fonts/font_large.gxfont', 'r') succeeded, id=1026 p=0x57f92f84
+28/10/13 23:12:40.983: [0xfa0] FILE: s3eFileClose h=0x57f92f84
+28/10/13 23:12:40.984: [0xfa0] UTIL: Found 'fonts/font_large.tga' using default path
+28/10/13 23:12:40.985: [0xfa0] FILE: s3eFileOpen('fonts/font_large.tga', 'rb') succeeded, id=1027 p=0x57f930a0
+28/10/13 23:12:40.989: [0xfa0] FILE: s3eFileClose h=0x57f930a0
+28/10/13 23:12:41.025: [0xfa0] GX_FONT_VERBOSE: Font build took 41 ms
+28/10/13 23:12:41.026: [0xfa0] UTIL: Found 'data-gles2-dx11/resources.group.bin' using path global 'data-gles2-dx11'
+28/10/13 23:12:41.027: [0xfa0] FILE: s3eFileOpen('data-gles2-dx11/resources.group.bin', 'wb') succeeded, id=1028 p=0x57f931bc
+28/10/13 23:12:41.028: [0xfa0] UTIL: Found 'data-gles2-dx11/resources.group.bin.txt' using path global 'data-gles2-dx11'
+28/10/13 23:12:41.029: [0xfa0] FILE: s3eFileOpen('data-gles2-dx11/resources.group.bin.txt', 'wt') succeeded, id=1029 p=0x57f932d8
+28/10/13 23:12:41.030: [0xfa0] RESMANAGER: Serialising CIwResList of 2 items
+28/10/13 23:12:41.031: [0xfa0] RESMANAGER: Serialising item 0
+28/10/13 23:12:41.034: [0xfa0] FILE: s3eFileOpen('resource_cache/DXT3/resources.group.bin_font_page0.bin', 'rb') succeeded, id=1030 p=0x57f933f4
+28/10/13 23:12:41.035: [0xfa0] FILE: s3eFileClose h=0x57f933f4
+28/10/13 23:12:41.036: [0xfa0] UTIL: Found 'resource_cache/DXT3/resources.group.bin_font_page0.bin' using default path
+28/10/13 23:12:41.037: [0xfa0] FILE: s3eFileOpen('resource_cache/DXT3/resources.group.bin_font_page0.bin', 'rb') succeeded, id=1031 p=0x57f93510
+28/10/13 23:12:41.038: [0xfa0] FILE: s3eFileClose h=0x57f93510
+28/10/13 23:12:41.039: [0xfa0] RESMANAGER: Wrote item: classname 0xa68776be, name 0x7c96e4fc
+28/10/13 23:12:41.039: [0xfa0] RESMANAGER: Serialising item 1
+28/10/13 23:12:41.045: [0xfa0] FILE: s3eFileOpen('resource_cache/DXT3/resources.group.bin_font_large_page0.bin', 'rb') succeeded, id=1000 p=0x57f912ac
+28/10/13 23:12:41.046: [0xfa0] FILE: s3eFileClose h=0x57f912ac
+28/10/13 23:12:41.047: [0xfa0] UTIL: Found 'resource_cache/DXT3/resources.group.bin_font_large_page0.bin' using default path
+28/10/13 23:12:41.048: [0xfa0] FILE: s3eFileOpen('resource_cache/DXT3/resources.group.bin_font_large_page0.bin', 'rb') succeeded, id=1001 p=0x57f913c8
+28/10/13 23:12:41.049: [0xfa0] FILE: s3eFileClose h=0x57f913c8
+28/10/13 23:12:41.055: [0xfa0] FILE: s3eFileOpen('resource_cache/DXT3/resources.group.bin_font_large_page1.bin', 'rb') succeeded, id=1002 p=0x57f914e4
+28/10/13 23:12:41.056: [0xfa0] FILE: s3eFileClose h=0x57f914e4
+28/10/13 23:12:41.057: [0xfa0] UTIL: Found 'resource_cache/DXT3/resources.group.bin_font_large_page1.bin' using default path
+28/10/13 23:12:41.058: [0xfa0] FILE: s3eFileOpen('resource_cache/DXT3/resources.group.bin_font_large_page1.bin', 'rb') succeeded, id=1003 p=0x57f91600
+28/10/13 23:12:41.058: [0xfa0] FILE: s3eFileClose h=0x57f91600
+28/10/13 23:12:41.064: [0xfa0] FILE: s3eFileOpen('resource_cache/DXT3/resources.group.bin_font_large_page2.bin', 'rb') succeeded, id=1004 p=0x57f9171c
+28/10/13 23:12:41.065: [0xfa0] FILE: s3eFileClose h=0x57f9171c
+28/10/13 23:12:41.066: [0xfa0] UTIL: Found 'resource_cache/DXT3/resources.group.bin_font_large_page2.bin' using default path
+28/10/13 23:12:41.067: [0xfa0] FILE: s3eFileOpen('resource_cache/DXT3/resources.group.bin_font_large_page2.bin', 'rb') succeeded, id=1005 p=0x57f91838
+28/10/13 23:12:41.068: [0xfa0] FILE: s3eFileClose h=0x57f91838
+28/10/13 23:12:41.074: [0xfa0] FILE: s3eFileOpen('resource_cache/DXT3/resources.group.bin_font_large_page3.bin', 'rb') succeeded, id=1006 p=0x57f91954
+28/10/13 23:12:41.075: [0xfa0] FILE: s3eFileClose h=0x57f91954
+28/10/13 23:12:41.076: [0xfa0] UTIL: Found 'resource_cache/DXT3/resources.group.bin_font_large_page3.bin' using default path
+28/10/13 23:12:41.077: [0xfa0] FILE: s3eFileOpen('resource_cache/DXT3/resources.group.bin_font_large_page3.bin', 'rb') succeeded, id=1007 p=0x57f91a70
+28/10/13 23:12:41.078: [0xfa0] FILE: s3eFileClose h=0x57f91a70
+28/10/13 23:12:41.079: [0xfa0] RESMANAGER: Wrote item: classname 0xa68776be, name 0x9ef93f86
+28/10/13 23:12:41.079: [0xfa0] FILE: s3eFileClose h=0x57f932d8
+28/10/13 23:12:41.080: [0xfa0] FILE: s3eFileClose h=0x57f931bc
+28/10/13 23:12:41.081: [0xfa0] UTIL: Found 'data-gles2-dx11/resources.group.bin.debug' using path global 'data-gles2-dx11'
+28/10/13 23:12:41.082: [0xfa0] FILE: s3eFileOpen('data-gles2-dx11/resources.group.bin.debug', 'wb') succeeded, id=1008 p=0x57f91b8c
+28/10/13 23:12:41.083: [0xfa0] UTIL: Found 'data-gles2-dx11/resources.group.bin.debug.txt' using path global 'data-gles2-dx11'
+28/10/13 23:12:41.084: [0xfa0] FILE: s3eFileOpen('data-gles2-dx11/resources.group.bin.debug.txt', 'wt') succeeded, id=1009 p=0x57f91ca8
+28/10/13 23:12:41.085: [0xfa0] FILE: s3eFileClose h=0x57f91ca8
+28/10/13 23:12:41.085: [0xfa0] FILE: s3eFileClose h=0x57f91b8c
+28/10/13 23:12:41.086: [0xfa0] UTIL: Found 'data-gles2-dx11/resources.group.hst' using path global 'data-gles2-dx11'
+28/10/13 23:12:41.087: [0xfa0] FILE: s3eFileOpen('data-gles2-dx11/resources.group.hst', 'wb') succeeded, id=1010 p=0x57f91dc4
+28/10/13 23:12:41.088: [0xfa0] FILE: s3eFileClose h=0x57f91dc4
+28/10/13 23:12:41.090: [0xfa0] UTIL: Found 'data-gles2-dx11/resources.group.bin' using path global 'data-gles2-dx11'
+28/10/13 23:12:41.091: [0xfa0] FILE: s3eFileOpen('data-gles2-dx11/resources.group.bin', 'rb') succeeded, id=1011 p=0x57f91ee0
+28/10/13 23:12:41.092: [0xfa0] UTIL: Found 'data-gles2-dx11/resources.group.hst' using path global 'data-gles2-dx11'
+28/10/13 23:12:41.093: [0xfa0] FILE: s3eFileOpen('data-gles2-dx11/resources.group.hst', 'r') succeeded, id=1012 p=0x57f91ffc
+28/10/13 23:12:41.094: [0xfa0] FILE: s3eFileClose h=0x57f91ffc
+28/10/13 23:12:41.094: [0xfa0] UTIL: Found 'data-gles2-dx11/resources.group.hst' using path global 'data-gles2-dx11'
+28/10/13 23:12:41.095: [0xfa0] FILE: s3eFileOpen('data-gles2-dx11/resources.group.hst', 'rb') succeeded, id=1013 p=0x57f92118
+28/10/13 23:12:41.096: [0xfa0] FILE: s3eFileClose h=0x57f92118
+28/10/13 23:12:41.097: [0xfa0] UTIL: Found 'data-gles2-dx11/resources.group.bin.debug' using path global 'data-gles2-dx11'
+28/10/13 23:12:41.097: [0xfa0] UTIL: Found 'data-gles2-dx11/resources.group.bin.debug' using path global 'data-gles2-dx11'
+28/10/13 23:12:41.098: [0xfa0] FILE: s3eFileOpen('data-gles2-dx11/resources.group.bin.debug', 'rb') succeeded, id=1014 p=0x57f92234
+28/10/13 23:12:41.099: [0xfa0] FILE: s3eFileClose h=0x57f92234
+28/10/13 23:12:41.099: [0xfa0] RESMANAGER: Serialising CIwResList of 2 items
+28/10/13 23:12:41.100: [0xfa0] RESMANAGER: Serialising item 0
+28/10/13 23:12:41.100: [0xfa0] RESMANAGER: Read item: classname 0xa68776be, name 0x7c96e4fc
+28/10/13 23:12:41.102: [0xfa0] RESMANAGER: Serialising item 1
+28/10/13 23:12:41.103: [0xfa0] RESMANAGER: Read item: classname 0xa68776be, name 0x9ef93f86
+28/10/13 23:12:41.106: [0xfa0] FILE: s3eFileClose h=0x57f91ee0
+28/10/13 23:12:41.107: [0xfa0] GX_VERBOSE: Generating default shader: #define FRAGMENT 
 #define COL_STREAM 
-28/10/13 22:24:18.026: [0xfa0] UTIL: Found 'data-gles2-dx11/shader_bin/0962139f.bin' using path global 'data-gles2-dx11'
-28/10/13 22:24:18.027: [0xfa0] FILE: s3eFileOpen('tmp://source_14996', 'wb') succeeded, id=1015 p=0x5c6e2350
-28/10/13 22:24:18.027: [0xfa0] FILE: s3eFileClose h=0x5c6e2350
-28/10/13 22:24:18.029: [0xfa0] DEVICE: s3eOSExecExecute [0] '"angle_dx11/compiletool.exe" pixel  "C:\Users\Pietro\AppData\Local\Temp\source_14996" output "C:\Users\Pietro\AppData\Local\Temp/binary_14996"'
-28/10/13 22:24:18.169: [0xfa0] DEVICE: s3eOSExecExecute -> 0
-28/10/13 22:24:18.171: [0xfa0] FILE: s3eFileOpen('tmp://binary_14996', 'rb') succeeded, id=1016 p=0x5c6e246c
-28/10/13 22:24:18.172: [0xfa0] FILE: s3eFileClose h=0x5c6e246c
-28/10/13 22:24:18.173: [0xfa0] FILE: s3eFileOpen('shader_bin_wp8/5f6f1444.bin', 'wb') succeeded, id=1017 p=0x5c6e2588
-28/10/13 22:24:18.174: [0xfa0] FILE: s3eFileClose h=0x5c6e2588
-28/10/13 22:24:18.176: [0xfa0] IW_GL: Compiled shader binary. binaryFormat: 0x93B0, fileName: shader_bin_wp8/5f6f1444.bin
-28/10/13 22:24:18.177: [0xfa0] GX_VERBOSE: Generating default shader: #define COL_STREAM 
-28/10/13 22:24:18.178: [0xfa0] UTIL: Found 'data-gles2-dx11/shader_bin/b651d54d.bin' using path global 'data-gles2-dx11'
-28/10/13 22:24:18.179: [0xfa0] FILE: s3eFileOpen('tmp://source_16139', 'wb') succeeded, id=1018 p=0x5c6e26a4
-28/10/13 22:24:18.180: [0xfa0] FILE: s3eFileClose h=0x5c6e26a4
-28/10/13 22:24:18.182: [0xfa0] DEVICE: s3eOSExecExecute [0] '"angle_dx11/compiletool.exe" vertex "C:\Users\Pietro\AppData\Local\Temp\source_16139" output "C:\Users\Pietro\AppData\Local\Temp/binary_16139"'
-28/10/13 22:24:18.335: [0xfa0] DEVICE: s3eOSExecExecute -> 0
-28/10/13 22:24:18.338: [0xfa0] FILE: s3eFileOpen('tmp://binary_16139', 'rb') succeeded, id=1019 p=0x5c6e27c0
-28/10/13 22:24:18.338: [0xfa0] FILE: s3eFileClose h=0x5c6e27c0
-28/10/13 22:24:18.340: [0xfa0] FILE: s3eFileOpen('shader_bin_wp8/82896d32.bin', 'wb') succeeded, id=1020 p=0x5c6e28dc
-28/10/13 22:24:18.340: [0xfa0] FILE: s3eFileClose h=0x5c6e28dc
-28/10/13 22:24:18.343: [0xfa0] IW_GL: Compiled shader binary. binaryFormat: 0x93B0, fileName: shader_bin_wp8/82896d32.bin
-28/10/13 22:24:18.362: [0xfa0] GX_VERBOSE: Generating default shader: #define FRAGMENT 
+28/10/13 23:12:41.108: [0xfa0] UTIL: Found 'data-gles2-dx11/shader_bin/0962139f.bin' using path global 'data-gles2-dx11'
+28/10/13 23:12:41.109: [0xfa0] FILE: s3eFileOpen('tmp://source_1730', 'wb') succeeded, id=1015 p=0x57f92350
+28/10/13 23:12:41.110: [0xfa0] FILE: s3eFileClose h=0x57f92350
+28/10/13 23:12:41.112: [0xfa0] DEVICE: s3eOSExecExecute [0] '"angle_dx11/compiletool.exe" pixel  "C:\Users\Pietro\AppData\Local\Temp\source_1730" output "C:\Users\Pietro\AppData\Local\Temp/binary_1730"'
+28/10/13 23:12:41.197: [0xfa0] DEVICE: s3eOSExecExecute -> 0
+28/10/13 23:12:41.199: [0xfa0] FILE: s3eFileOpen('tmp://binary_1730', 'rb') succeeded, id=1016 p=0x57f9246c
+28/10/13 23:12:41.200: [0xfa0] FILE: s3eFileClose h=0x57f9246c
+28/10/13 23:12:41.201: [0xfa0] FILE: s3eFileOpen('shader_bin_wp8/5f6f1444.bin', 'wb') succeeded, id=1017 p=0x57f92588
+28/10/13 23:12:41.202: [0xfa0] FILE: s3eFileClose h=0x57f92588
+28/10/13 23:12:41.204: [0xfa0] IW_GL: Compiled shader binary. binaryFormat: 0x93B0, fileName: shader_bin_wp8/5f6f1444.bin
+28/10/13 23:12:41.205: [0xfa0] GX_VERBOSE: Generating default shader: #define COL_STREAM 
+28/10/13 23:12:41.206: [0xfa0] UTIL: Found 'data-gles2-dx11/shader_bin/b651d54d.bin' using path global 'data-gles2-dx11'
+28/10/13 23:12:41.207: [0xfa0] FILE: s3eFileOpen('tmp://source_911', 'wb') succeeded, id=1018 p=0x57f926a4
+28/10/13 23:12:41.208: [0xfa0] FILE: s3eFileClose h=0x57f926a4
+28/10/13 23:12:41.209: [0xfa0] DEVICE: s3eOSExecExecute [0] '"angle_dx11/compiletool.exe" vertex "C:\Users\Pietro\AppData\Local\Temp\source_911" output "C:\Users\Pietro\AppData\Local\Temp/binary_911"'
+28/10/13 23:12:41.290: [0xfa0] DEVICE: s3eOSExecExecute -> 0
+28/10/13 23:12:41.292: [0xfa0] FILE: s3eFileOpen('tmp://binary_911', 'rb') succeeded, id=1019 p=0x57f927c0
+28/10/13 23:12:41.292: [0xfa0] FILE: s3eFileClose h=0x57f927c0
+28/10/13 23:12:41.293: [0xfa0] FILE: s3eFileOpen('shader_bin_wp8/82896d32.bin', 'wb') succeeded, id=1020 p=0x57f928dc
+28/10/13 23:12:41.294: [0xfa0] FILE: s3eFileClose h=0x57f928dc
+28/10/13 23:12:41.296: [0xfa0] IW_GL: Compiled shader binary. binaryFormat: 0x93B0, fileName: shader_bin_wp8/82896d32.bin
+28/10/13 23:12:41.313: [0xfa0] GX_VERBOSE: Generating default shader: #define FRAGMENT 
 #define UV0_STREAM 
 #define COL_STREAM 
 #define TEX0 
 #define ALPHA_TEST 7
-28/10/13 22:24:18.364: [0xfa0] UTIL: Found 'data-gles2-dx11/shader_bin/ce71860a.bin' using path global 'data-gles2-dx11'
-28/10/13 22:24:18.365: [0xfa0] FILE: s3eFileOpen('tmp://source_13588', 'wb') succeeded, id=1021 p=0x5c6e29f8
-28/10/13 22:24:18.366: [0xfa0] FILE: s3eFileClose h=0x5c6e29f8
-28/10/13 22:24:18.369: [0xfa0] DEVICE: s3eOSExecExecute [0] '"angle_dx11/compiletool.exe" pixel  "C:\Users\Pietro\AppData\Local\Temp\source_13588" output "C:\Users\Pietro\AppData\Local\Temp/binary_13588"'
-28/10/13 22:24:18.503: [0xfa0] DEVICE: s3eOSExecExecute -> 0
-28/10/13 22:24:18.505: [0xfa0] FILE: s3eFileOpen('tmp://binary_13588', 'rb') succeeded, id=1022 p=0x5c6e2b14
-28/10/13 22:24:18.506: [0xfa0] FILE: s3eFileClose h=0x5c6e2b14
-28/10/13 22:24:18.508: [0xfa0] FILE: s3eFileOpen('shader_bin_wp8/db2af90f.bin', 'wb') succeeded, id=1023 p=0x5c6e2c30
-28/10/13 22:24:18.509: [0xfa0] FILE: s3eFileClose h=0x5c6e2c30
-28/10/13 22:24:18.512: [0xfa0] IW_GL: Compiled shader binary. binaryFormat: 0x93B0, fileName: shader_bin_wp8/db2af90f.bin
-28/10/13 22:24:18.513: [0xfa0] GX_VERBOSE: Generating default shader: #define UV0_STREAM 
+28/10/13 23:12:41.315: [0xfa0] UTIL: Found 'data-gles2-dx11/shader_bin/ce71860a.bin' using path global 'data-gles2-dx11'
+28/10/13 23:12:41.316: [0xfa0] FILE: s3eFileOpen('tmp://source_11336', 'wb') succeeded, id=1021 p=0x57f929f8
+28/10/13 23:12:41.317: [0xfa0] FILE: s3eFileClose h=0x57f929f8
+28/10/13 23:12:41.320: [0xfa0] DEVICE: s3eOSExecExecute [0] '"angle_dx11/compiletool.exe" pixel  "C:\Users\Pietro\AppData\Local\Temp\source_11336" output "C:\Users\Pietro\AppData\Local\Temp/binary_11336"'
+28/10/13 23:12:41.390: [0xfa0] DEVICE: s3eOSExecExecute -> 0
+28/10/13 23:12:41.392: [0xfa0] FILE: s3eFileOpen('tmp://binary_11336', 'rb') succeeded, id=1022 p=0x57f92b14
+28/10/13 23:12:41.393: [0xfa0] FILE: s3eFileClose h=0x57f92b14
+28/10/13 23:12:41.394: [0xfa0] FILE: s3eFileOpen('shader_bin_wp8/db2af90f.bin', 'wb') succeeded, id=1023 p=0x57f92c30
+28/10/13 23:12:41.395: [0xfa0] FILE: s3eFileClose h=0x57f92c30
+28/10/13 23:12:41.397: [0xfa0] IW_GL: Compiled shader binary. binaryFormat: 0x93B0, fileName: shader_bin_wp8/db2af90f.bin
+28/10/13 23:12:41.398: [0xfa0] GX_VERBOSE: Generating default shader: #define UV0_STREAM 
 #define COL_STREAM 
-28/10/13 22:24:18.515: [0xfa0] UTIL: Found 'data-gles2-dx11/shader_bin/fc1bed0b.bin' using path global 'data-gles2-dx11'
-28/10/13 22:24:18.516: [0xfa0] FILE: s3eFileOpen('tmp://source_13535', 'wb') succeeded, id=1024 p=0x5c6e2d4c
-28/10/13 22:24:18.517: [0xfa0] FILE: s3eFileClose h=0x5c6e2d4c
-28/10/13 22:24:18.519: [0xfa0] DEVICE: s3eOSExecExecute [0] '"angle_dx11/compiletool.exe" vertex "C:\Users\Pietro\AppData\Local\Temp\source_13535" output "C:\Users\Pietro\AppData\Local\Temp/binary_13535"'
-28/10/13 22:24:18.670: [0xfa0] DEVICE: s3eOSExecExecute -> 0
-28/10/13 22:24:18.672: [0xfa0] FILE: s3eFileOpen('tmp://binary_13535', 'rb') succeeded, id=1025 p=0x5c6e2e68
-28/10/13 22:24:18.673: [0xfa0] FILE: s3eFileClose h=0x5c6e2e68
-28/10/13 22:24:18.674: [0xfa0] FILE: s3eFileOpen('shader_bin_wp8/c2311970.bin', 'wb') succeeded, id=1026 p=0x5c6e2f84
-28/10/13 22:24:18.675: [0xfa0] FILE: s3eFileClose h=0x5c6e2f84
-28/10/13 22:24:18.677: [0xfa0] IW_GL: Compiled shader binary. binaryFormat: 0x93B0, fileName: shader_bin_wp8/c2311970.bin
-28/10/13 22:24:18.709: [0xfa0] GX_VERBOSE: Generating default shader: #define FRAGMENT 
+28/10/13 23:12:41.399: [0xfa0] UTIL: Found 'data-gles2-dx11/shader_bin/fc1bed0b.bin' using path global 'data-gles2-dx11'
+28/10/13 23:12:41.400: [0xfa0] FILE: s3eFileOpen('tmp://source_301', 'wb') succeeded, id=1024 p=0x57f92d4c
+28/10/13 23:12:41.401: [0xfa0] FILE: s3eFileClose h=0x57f92d4c
+28/10/13 23:12:41.403: [0xfa0] DEVICE: s3eOSExecExecute [0] '"angle_dx11/compiletool.exe" vertex "C:\Users\Pietro\AppData\Local\Temp\source_301" output "C:\Users\Pietro\AppData\Local\Temp/binary_301"'
+28/10/13 23:12:41.487: [0xfa0] DEVICE: s3eOSExecExecute -> 0
+28/10/13 23:12:41.490: [0xfa0] FILE: s3eFileOpen('tmp://binary_301', 'rb') succeeded, id=1025 p=0x57f92e68
+28/10/13 23:12:41.490: [0xfa0] FILE: s3eFileClose h=0x57f92e68
+28/10/13 23:12:41.492: [0xfa0] FILE: s3eFileOpen('shader_bin_wp8/c2311970.bin', 'wb') succeeded, id=1026 p=0x57f92f84
+28/10/13 23:12:41.492: [0xfa0] FILE: s3eFileClose h=0x57f92f84
+28/10/13 23:12:41.495: [0xfa0] IW_GL: Compiled shader binary. binaryFormat: 0x93B0, fileName: shader_bin_wp8/c2311970.bin
+28/10/13 23:12:41.523: [0xfa0] GX_VERBOSE: Generating default shader: #define FRAGMENT 
 #define UV0_STREAM 
 #define TEX0 
-28/10/13 22:24:18.711: [0xfa0] UTIL: Found 'data-gles2-dx11/shader_bin/9aec4095.bin' using path global 'data-gles2-dx11'
-28/10/13 22:24:18.712: [0xfa0] FILE: s3eFileOpen('tmp://source_2870', 'wb') succeeded, id=1027 p=0x5c6e30a0
-28/10/13 22:24:18.713: [0xfa0] FILE: s3eFileClose h=0x5c6e30a0
-28/10/13 22:24:18.716: [0xfa0] DEVICE: s3eOSExecExecute [0] '"angle_dx11/compiletool.exe" pixel  "C:\Users\Pietro\AppData\Local\Temp\source_2870" output "C:\Users\Pietro\AppData\Local\Temp/binary_2870"'
-28/10/13 22:24:18.853: [0xfa0] DEVICE: s3eOSExecExecute -> 0
-28/10/13 22:24:18.856: [0xfa0] FILE: s3eFileOpen('tmp://binary_2870', 'rb') succeeded, id=1028 p=0x5c6e31bc
-28/10/13 22:24:18.857: [0xfa0] FILE: s3eFileClose h=0x5c6e31bc
-28/10/13 22:24:18.858: [0xfa0] FILE: s3eFileOpen('shader_bin_wp8/40c2fdfa.bin', 'wb') succeeded, id=1029 p=0x5c6e32d8
-28/10/13 22:24:18.859: [0xfa0] FILE: s3eFileClose h=0x5c6e32d8
-28/10/13 22:24:18.861: [0xfa0] IW_GL: Compiled shader binary. binaryFormat: 0x93B0, fileName: shader_bin_wp8/40c2fdfa.bin
-28/10/13 22:24:18.863: [0xfa0] GX_VERBOSE: Generating default shader: #define UV0_STREAM 
-28/10/13 22:24:18.864: [0xfa0] UTIL: Found 'data-gles2-dx11/shader_bin/2fb6f84a.bin' using path global 'data-gles2-dx11'
-28/10/13 22:24:18.865: [0xfa0] FILE: s3eFileOpen('tmp://source_21690', 'wb') succeeded, id=1030 p=0x5c6e33f4
-28/10/13 22:24:18.866: [0xfa0] FILE: s3eFileClose h=0x5c6e33f4
-28/10/13 22:24:18.868: [0xfa0] DEVICE: s3eOSExecExecute [0] '"angle_dx11/compiletool.exe" vertex "C:\Users\Pietro\AppData\Local\Temp\source_21690" output "C:\Users\Pietro\AppData\Local\Temp/binary_21690"'
-28/10/13 22:24:19.021: [0xfa0] DEVICE: s3eOSExecExecute -> 0
-28/10/13 22:24:19.023: [0xfa0] FILE: s3eFileOpen('tmp://binary_21690', 'rb') succeeded, id=1031 p=0x5c6e3510
-28/10/13 22:24:19.024: [0xfa0] FILE: s3eFileClose h=0x5c6e3510
-28/10/13 22:24:19.025: [0xfa0] FILE: s3eFileOpen('shader_bin_wp8/fbee902f.bin', 'wb') succeeded, id=1000 p=0x5c6e12ac
-28/10/13 22:24:19.026: [0xfa0] FILE: s3eFileClose h=0x5c6e12ac
-28/10/13 22:24:19.029: [0xfa0] IW_GL: Compiled shader binary. binaryFormat: 0x93B0, fileName: shader_bin_wp8/fbee902f.bin
-28/10/13 22:24:21.170: [0x142c] SURFACE: s3eSurfaceSetup: PixelType=RGB565, pitch=0, ptr=0x00000000, blit=4
-28/10/13 22:24:21.172: [0x142c] SURFACE: s3eSurfaceSetup: matches native type
-28/10/13 22:24:21.174: [0x142c] SURFACE: s3eSurfaceSetup: no user surface needed
-28/10/13 22:24:21.187: [0xfa0] GX: ScreenSizeChangedSW(false)
-28/10/13 22:24:21.205: [0xfa0] GX: ScreenSizeChangedSW(true)
-28/10/13 22:24:21.206: [0xfa0] GX: old screen: w=480 h=800
-28/10/13 22:24:21.207: [0xfa0] GX: IwGxSetScreenOrient: 0
-28/10/13 22:24:21.208: [0xfa0] GX: IwGxSetScreenOrient [480 x 800] orient=0
-28/10/13 22:24:21.209: [0xfa0] GX: new screen: w=480 h=800 user: w=480 h=800
-28/10/13 22:24:21.209: [0xfa0] GX: (Device: w=480 h=800)
-28/10/13 22:24:21.210: [0xfa0] GX: (Display centre: x=1920 y=3200)
-28/10/13 22:24:22.605: [0xfa0] DEVICE: s3eExecPushNext: NULL [root=NULL 0x00000000 0x00000000]
-28/10/13 22:24:22.606: [0xfa0] DEVICE: s3eExecPushNext: using current executable: c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\Debug_app_VC10X_x86\app.s86
-28/10/13 22:24:22.606: [0xfa0] DEVICE: s3eExecPushNext: raw://c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\Debug_app_VC10X_x86\app.s86
-28/10/13 22:24:22.607: [0xfa0] DEVICE: s3eDeviceExit: 0
-28/10/13 22:24:22.608: [0xfa0] THREAD: Exit: retval=0x00000000 all=1
-28/10/13 22:24:22.609: [0xfa0] THREAD: s3eThreadCancelAll
-28/10/13 22:24:22.609: [0xfa0] THREAD: done s3eThreadCancelAll
-28/10/13 22:24:22.610: [0xfa0] THREAD: s3eThreadExit called from main app thread
-28/10/13 22:24:22.611: [0xfa0] FIBRE: s3eFibreExit() 0x0308ef30
-28/10/13 22:24:22.611: [0xfa0] FIBRE: s3eFibreExit() to 0x0308ef0c from 0x0308ef30
-28/10/13 22:24:22.612: [0xfa0] THREAD: s3eThreadCancelAll
-28/10/13 22:24:22.612: [0xfa0] THREAD: done s3eThreadCancelAll
-28/10/13 22:24:22.613: [0xfa0] THREAD: all threads now dead (current=0x00000fa0)
-28/10/13 22:24:22.613: [0xfa0] LOADER: Application has exited, starting cleanup
-28/10/13 22:24:22.614: [0xfa0] LOADER: Done execute S3E 0x01485270 [rtn=0]
-28/10/13 22:24:22.615: [0xfa0] SOUND: s3eSoundStop: started=0
-28/10/13 22:24:22.615: [0xfa0] LOADER: Unloading S3E 0x01485270 [c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\Debug_app_VC10X_x86\app.s86]
-28/10/13 22:24:22.616: [0xfa0] LOADER: deleting DLL: c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\Debug_app_VC10X_x86\app.s86
-28/10/13 22:24:22.619: [0xfa0] DEVICE: Terminating LICENSE
-28/10/13 22:24:22.620: [0xfa0] DEVICE: Terminating VIDEO
-28/10/13 22:24:22.621: [0xfa0] DEVICE: Terminating AUDIO
-28/10/13 22:24:22.622: [0xfa0] DEVICE: Terminating SOUND
-28/10/13 22:24:22.638: [0xfa0] DEVICE: Terminating POINTER
-28/10/13 22:24:22.639: [0xfa0] DEVICE: Terminating ACCELEROMETER
-28/10/13 22:24:22.640: [0xfa0] DEVICE: Terminating GL
-28/10/13 22:24:22.664: [0xfa0] DEVICE: Terminating VIBRA
-28/10/13 22:24:22.665: [0xfa0] DEVICE: Terminating TIMER
-28/10/13 22:24:22.666: [0xfa0] DEVICE: Terminating STORAGE
-28/10/13 22:24:22.666: [0xfa0] DEVICE: Terminating SOCKET
-28/10/13 22:24:22.667: [0xfa0] DEVICE: Terminating CONFIG
-28/10/13 22:24:22.668: [0xfa0] DEVICE: Terminating ERROR
-28/10/13 22:24:22.669: [0xfa0] DEVICE: Terminating MEMORY
-28/10/13 22:24:22.671: [0xfa0] DEVICE: Terminating CRYPTO
-28/10/13 22:24:22.671: [0xfa0] DEVICE: Terminating EXT
-28/10/13 22:24:22.672: [0xfa0] EXT: terminating extension: s3eWindow
-28/10/13 22:24:22.673: [0xfa0] EXT: terminating extension: s3eThread
-28/10/13 22:24:22.674: [0xfa0] DEVICE: Terminating SURFACE
-28/10/13 22:24:22.677: [0xfa0] DEVICE: Terminating KEYBOARD
-28/10/13 22:24:22.678: [0xfa0] DEVICE: Terminating DEBUG
--- END TRACE --
--- START TRACE TO FILE --
-tracing to: ''
-MarmaladeSDK v6.3.2 [347778] (S3E Loader v4.36.0)
-Copyright (C) 2001-2011 Ideaworks3D Ltd
-System Info:
- OS           : WINDOWS (3)
- OS Version   : Windows 6.2 (6.2)
- Device ID    : Windows Simulator (0x1)
- Device Class : WINDOWS_GENERIC (3000)
- Phone Number : 0044123456789
- Unique ID    : SIMULATOR_ID
- Device Name  : My Computer
- Memory       : 1048576KiB
-28/10/13 22:24:22.691: [0x360] DEVICE: Initialising FIBRE
-28/10/13 22:24:22.691: [0x360] DEVICE: Initialising THREAD
-28/10/13 22:24:22.692: [0x360] THREAD: s3eThreadCreateMain
-28/10/13 22:24:22.693: [0xfa0] DEVICE: Initialising SURFACE
-28/10/13 22:24:22.693: [0xfa0] SURFACE: s3eSurfaceSetup: PixelType=RGB565, pitch=0, ptr=0x00000000, blit=0
-28/10/13 22:24:22.694: [0xfa0] SURFACE: s3eSurfaceSetup: matches native type
-28/10/13 22:24:22.694: [0xfa0] SURFACE: s3eSurfaceSetup: no user surface needed
-28/10/13 22:24:22.695: [0xfa0] SURFACE: done s3eSurfaceInit: 800x600 p:1600 (800x600 p:1600) o:0
-28/10/13 22:24:22.695: [0xfa0] DEVICE: Initialising EXT
-28/10/13 22:24:22.696: [0xfa0] EXT: registering extension: s3eLibrary [0xe6dd6ce5]
-28/10/13 22:24:22.696: [0xfa0] EXT: registering extension: s3eExtLoadLibaray [0xf23d6d85]
-28/10/13 22:24:22.697: [0xfa0] EXT: registering extension: s3eCamera [0xa3e23039]
-28/10/13 22:24:22.697: [0xfa0] EXT: registering extension: s3eWindow [0xd31aa8a8]
-28/10/13 22:24:22.698: [0xfa0] EXT: registering extension: s3eVFS [0x17f48c9f]
-28/10/13 22:24:22.698: [0xfa0] EXT: registering extension: s3eContacts [0x5e39d2af]
-28/10/13 22:24:22.699: [0xfa0] EXT: registering extension: s3eSoundRecord [0x579dbf78]
-28/10/13 22:24:22.699: [0xfa0] EXT: registering extension: s3eTouchpad [0x1dbd7ce8]
-28/10/13 22:24:22.700: [0xfa0] EXT: registering extension: s3eDebugHeap [0xc667a795]
-28/10/13 22:24:22.700: [0xfa0] EXT: registering extension: s3eExtDebugHeap [0xff96de46]
-28/10/13 22:24:22.700: [0xfa0] EXT: registering extension: s3eClipboard [0xd68f3420]
-28/10/13 22:24:22.701: [0xfa0] EXT: registering extension: s3eOSExec [0xc121bcf7]
-28/10/13 22:24:22.701: [0xfa0] EXT: registering extension: s3eExtOSExec [0x20380948]
-28/10/13 22:24:22.702: [0xfa0] EXT: registering extension: s3eEval [0x167d1038]
-28/10/13 22:24:22.702: [0xfa0] EXT: registering extension: s3eExtEval [0xf0421449]
-28/10/13 22:24:22.703: [0xfa0] EXT: registering extension: s3eHighResTimer [0x41f2dedb]
-28/10/13 22:24:22.703: [0xfa0] EXT: registering extension: s3eOSReadString [0x9fe3ea45]
-28/10/13 22:24:22.704: [0xfa0] EXT: registering extension: s3eCameraCapture [0xd36aceed]
-28/10/13 22:24:22.704: [0xfa0] EXT: registering extension: s3eTestEmulatorConfig [0x4a0d0a4f]
-28/10/13 22:24:22.705: [0xfa0] EXT: registering extension: s3eThread [0xcc0b4a28]
-28/10/13 22:24:22.705: [0xfa0] EXT: registering extension: s3eCompass [0x40d632c6]
-28/10/13 22:24:22.706: [0xfa0] EXT: registering extension: Compass [0xd3653f1b]
-28/10/13 22:24:22.706: [0xfa0] EXT: registering extension: s3eSocketOpt [0x09cdcdec]
-28/10/13 22:24:22.707: [0xfa0] EXT: registering extension: s3eExtSocketOpt [0x42fd049d]
-28/10/13 22:24:22.708: [0xfa0] EXT: registering extension: s3eImagePicker [0xd2fc1d51]
-28/10/13 22:24:22.708: [0xfa0] EXT: registering extension: s3eTest [0x168503f0]
-28/10/13 22:24:22.709: [0xfa0] EXT: registering extension: s3eSMS [0x17f480c3]
-28/10/13 22:24:22.709: [0xfa0] EXT: registering extension: s3eMetrics [0x2bc8e047]
-28/10/13 22:24:22.710: [0xfa0] EXT: registering extension: Metrics [0xbe57ec9c]
-28/10/13 22:24:22.710: [0xfa0] EXT: registering extension: s3eLocation [0x91944229]
-28/10/13 22:24:22.711: [0xfa0] EXT: registering extension: Location [0x7604d91e]
-28/10/13 22:24:22.711: [0xfa0] EXT: registering extension: Win32Surface [0x909755c1]
-28/10/13 22:24:22.712: [0xfa0] EXT: registering extension: Win32UIProcessMessage [0x48f2a5ba]
-28/10/13 22:24:22.712: [0xfa0] EXT: registering extension: Win32DataDirChange [0xbfcfc057]
-28/10/13 22:24:22.713: [0xfa0] DEVICE: Initialising CONFIG
-28/10/13 22:24:22.713: [0xfa0] DEVICE: Initialising TIMER
-28/10/13 22:24:22.714: [0xfa0] DEVICE: Initialising COMPRESSION
-28/10/13 22:24:22.714: [0xfa0] DEVICE: DeviceInit done: services=0x0a216148
-28/10/13 22:24:22.715: [0xfa0] EXT: s3eExtGetHash: 0xd31aa8a8 [0x00000000 size=0]
-28/10/13 22:24:22.716: [0xfa0] EXT: initializing extension: s3eWindow
-28/10/13 22:24:22.716: [0xfa0] EXT: initializing extension: s3eWindow 0x5c6857a0
-28/10/13 22:24:22.717: [0xfa0] DEVICE: SetupPaths: 
-28/10/13 22:24:22.717: [0xfa0] LOADER: ParseCommandLineData [-via:"c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\app_vc10x_debug.via"]
-28/10/13 22:24:22.717: [0xfa0] LOADER: setting [commandline]  via=c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\app_vc10x_debug.via
-28/10/13 22:24:22.718: [0xfa0] LOADER: parsing via file: c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\app_vc10x_debug.via
-28/10/13 22:24:22.719: [0xfa0] FILE: s3eFileOpen('c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\app_vc10x_debug.via', 'r') succeeded, id=1550711856 p=0x5c6dfc30
-28/10/13 22:24:22.719: [0xfa0] LOADER: reading 1024 bytes from via files
-28/10/13 22:24:22.719: [0xfa0] FILE: s3eFileClose h=0x5c6dfc30
-28/10/13 22:24:22.720: [0xfa0] LOADER: ParseCommandLineData [-via:"c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\app_vc10x_debug.via" --dll="c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\Debug_app_VC1
-28/10/13 22:24:22.720: [0xfa0] LOADER: setting [commandline]  via=c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\app_vc10x_debug.via
-28/10/13 22:24:22.721: [0xfa0] LOADER: setting [commandline]  dll=c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\Debug_app_VC10X_x86\app.s86
-28/10/13 22:24:22.721: [0xfa0] LOADER: setting [commandline]  data=c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\data
-28/10/13 22:24:22.722: [0xfa0] LOADER: setting [commandline]  checks3edir=1
-28/10/13 22:24:22.722: [0xfa0] LOADER: setting [commandline]  app-icf1=c:/Users/Pietro/Documents/GitHub/Patriot-Missile-Defense/data/app.icf
-28/10/13 22:24:22.723: [0xfa0] LOADER: setting [commandline]  config-txt1=c:/Users/Pietro/Documents/GitHub/Patriot-Missile-Defense/data/app.config.txt
-28/10/13 22:24:22.723: [0xfa0] LOADER: setting [commandline]  config-txt2=c:/marmalade/6.3/modules/iw2d/docs/iw2d.config.txt
-28/10/13 22:24:22.724: [0xfa0] LOADER: setting [commandline]  config-txt3=c:/marmalade/6.3/modules/iwgeom/docs/iwgeom.config.txt
-28/10/13 22:24:22.725: [0xfa0] LOADER: setting [commandline]  config-txt4=c:/marmalade/6.3/modules/iwgl/docs/iwgl.config.txt
-28/10/13 22:24:22.725: [0xfa0] LOADER: setting [commandline]  config-txt5=c:/marmalade/6.3/modules/iwgx/docs/iwgx.config.txt
-28/10/13 22:24:22.726: [0xfa0] LOADER: setting [commandline]  config-txt6=c:/marmalade/6.3/modules/iwgxfont/docs/iwgxfont.config.txt
-28/10/13 22:24:22.726: [0xfa0] LOADER: setting [commandline]  config-txt7=c:/marmalade/6.3/modules/iwresmanager/docs/iwresmanager.config.txt
-28/10/13 22:24:22.727: [0xfa0] LOADER: setting [commandline]  config-txt8=c:/marmalade/6.3/modules/iwutil/docs/iwutil.config.txt
-28/10/13 22:24:22.727: [0xfa0] LOADER: setting [commandline]  config-txt9=c:/marmalade/6.3/s3e/s3e.config.txt
-28/10/13 22:24:22.728: [0xfa0] LOADER: setting [commandline]  config-txt10=c:/marmalade/6.3/s3e\s3e.config.txt
-28/10/13 22:24:22.728: [0xfa0] LOADER: setting [commandline]  s3e-dir=c:/marmalade/6.3/s3e
-28/10/13 22:24:22.729: [0xfa0] FILE: new filesystem: drive=0 type=0 ro=1 name=rom://
-28/10/13 22:24:22.730: [0xfa0] FILE: fs[00]: system[rom://] 'c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\data'
-28/10/13 22:24:22.730: [0xfa0] FILE: fs[03]: system[raw://] ''
-28/10/13 22:24:22.731: [0xfa0] FILE: listed 2 active filesystems
-28/10/13 22:24:22.731: [0xfa0] FILE: new filesystem: drive=1 type=0 ro=0 name=ram://
-28/10/13 22:24:22.732: [0xfa0] FILE: fs[00]: system[rom://] 'c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\data'
-28/10/13 22:24:22.732: [0xfa0] FILE: fs[01]: system[ram://] 'c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\data-ram'
-28/10/13 22:24:22.733: [0xfa0] FILE: fs[03]: system[raw://] ''
-28/10/13 22:24:22.733: [0xfa0] FILE: listed 3 active filesystems
-28/10/13 22:24:22.738: [0xfa0] FILE: new filesystem: drive=0 type=0 ro=1 name=rom://
-28/10/13 22:24:22.738: [0xfa0] FILE: new filesystem: drive=1 type=0 ro=0 name=ram://
-28/10/13 22:24:22.739: [0xfa0] LOADER: Using data directory c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\data as ROM drive
-28/10/13 22:24:22.740: [0xfa0] LOADER: Using directory c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\data-ram as RAM drive
-28/10/13 22:24:22.741: [0xfa0] FILE: s3eFileOpen('raw://c:/Users/Pietro/Documents/GitHub/Patriot-Missile-Defense/data/app.config.txt', 'r') succeeded, id=1000 p=0x5c6e12ac
-28/10/13 22:24:22.741: [0xfa0] FILE: s3eFileClose h=0x5c6e12ac
-28/10/13 22:24:22.742: [0xfa0] FILE: s3eFileOpen('raw://c:/marmalade/6.3/modules/iw2d/docs/iw2d.config.txt', 'r') succeeded, id=1001 p=0x5c6e13c8
-28/10/13 22:24:22.742: [0xfa0] FILE: s3eFileClose h=0x5c6e13c8
-28/10/13 22:24:22.743: [0xfa0] FILE: s3eFileOpen('raw://c:/marmalade/6.3/modules/iwgeom/docs/iwgeom.config.txt', 'r') succeeded, id=1002 p=0x5c6e14e4
-28/10/13 22:24:22.743: [0xfa0] FILE: s3eFileClose h=0x5c6e14e4
-28/10/13 22:24:22.744: [0xfa0] FILE: s3eFileOpen('raw://c:/marmalade/6.3/modules/iwgl/docs/iwgl.config.txt', 'r') succeeded, id=1003 p=0x5c6e1600
-28/10/13 22:24:22.744: [0xfa0] FILE: s3eFileClose h=0x5c6e1600
-28/10/13 22:24:22.745: [0xfa0] FILE: s3eFileOpen('raw://c:/marmalade/6.3/modules/iwgx/docs/iwgx.config.txt', 'r') succeeded, id=1004 p=0x5c6e171c
-28/10/13 22:24:22.746: [0xfa0] FILE: s3eFileClose h=0x5c6e171c
-28/10/13 22:24:22.746: [0xfa0] FILE: s3eFileOpen('raw://c:/marmalade/6.3/modules/iwgxfont/docs/iwgxfont.config.txt', 'r') succeeded, id=1005 p=0x5c6e1838
-28/10/13 22:24:22.747: [0xfa0] FILE: s3eFileClose h=0x5c6e1838
-28/10/13 22:24:22.747: [0xfa0] FILE: s3eFileOpen('raw://c:/marmalade/6.3/modules/iwresmanager/docs/iwresmanager.config.txt', 'r') succeeded, id=1006 p=0x5c6e1954
-28/10/13 22:24:22.748: [0xfa0] FILE: s3eFileClose h=0x5c6e1954
-28/10/13 22:24:22.748: [0xfa0] FILE: s3eFileOpen('raw://c:/marmalade/6.3/modules/iwutil/docs/iwutil.config.txt', 'r') succeeded, id=1007 p=0x5c6e1a70
-28/10/13 22:24:22.749: [0xfa0] FILE: s3eFileClose h=0x5c6e1a70
-28/10/13 22:24:22.749: [0xfa0] FILE: s3eFileOpen('raw://c:/marmalade/6.3/s3e/s3e.config.txt', 'r') succeeded, id=1008 p=0x5c6e1b8c
-28/10/13 22:24:22.755: [0xfa0] FILE: s3eFileClose h=0x5c6e1b8c
-28/10/13 22:24:22.756: [0xfa0] FILE: s3eFileOpen('raw://c:/marmalade/6.3/s3e\s3e.config.txt', 'r') succeeded, id=1009 p=0x5c6e1ca8
-28/10/13 22:24:22.761: [0xfa0] FILE: s3eFileClose h=0x5c6e1ca8
-28/10/13 22:24:22.762: [0xfa0] LOADER: returning pre/post config: 0x00000000 0x00000000
-28/10/13 22:24:22.763: [0xfa0] FILE: s3eFileOpen('raw://c:\marmalade\6.3\s3e/s3e.icf', 'rb') succeeded, id=1010 p=0x5c6e1dc4
-28/10/13 22:24:22.763: [0xfa0] LOADER: Loading config from: c:\marmalade\6.3\s3e/s3e.icf
-28/10/13 22:24:22.765: [0xfa0] FILE: s3eFileClose h=0x5c6e1dc4
-28/10/13 22:24:22.765: [0xfa0] LOADER: Loading app-icf from command line specified location c:/Users/Pietro/Documents/GitHub/Patriot-Missile-Defense/data/app.icf
-28/10/13 22:24:22.766: [0xfa0] FILE: s3eFileOpen('raw://c:/Users/Pietro/Documents/GitHub/Patriot-Missile-Defense/data/app.icf', 'rb') succeeded, id=1011 p=0x5c6e1ee0
-28/10/13 22:24:22.766: [0xfa0] LOADER: Loading config from: raw://c:/Users/Pietro/Documents/GitHub/Patriot-Missile-Defense/data/app.icf
-28/10/13 22:24:22.767: [0xfa0] FILE: s3eFileClose h=0x5c6e1ee0
-28/10/13 22:24:22.768: [0xfa0] LOADER: ParseCommandLineData [-via:"c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\app_vc10x_debug.via"]
-28/10/13 22:24:22.768: [0xfa0] LOADER: setting [commandline]  via=c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\app_vc10x_debug.via
-28/10/13 22:24:22.768: [0xfa0] LOADER: parsing via file: c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\app_vc10x_debug.via
-28/10/13 22:24:22.768: [0xfa0] FILE: s3eFileOpen('c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\app_vc10x_debug.via', 'r') succeeded, id=1012 p=0x5c6e1ffc
-28/10/13 22:24:22.769: [0xfa0] LOADER: reading 1024 bytes from via files
-28/10/13 22:24:22.769: [0xfa0] FILE: s3eFileClose h=0x5c6e1ffc
-28/10/13 22:24:22.769: [0xfa0] LOADER: ParseCommandLineData [-via:"c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\app_vc10x_debug.via" --dll="c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\Debug_app_VC1
-28/10/13 22:24:22.769: [0xfa0] LOADER: setting [commandline]  via=c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\app_vc10x_debug.via
-28/10/13 22:24:22.770: [0xfa0] LOADER: setting [commandline]  dll=c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\Debug_app_VC10X_x86\app.s86
-28/10/13 22:24:22.770: [0xfa0] LOADER: setting [commandline]  data=c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\data
-28/10/13 22:24:22.770: [0xfa0] LOADER: setting [commandline]  checks3edir=1
-28/10/13 22:24:22.770: [0xfa0] LOADER: setting [commandline]  app-icf1=c:/Users/Pietro/Documents/GitHub/Patriot-Missile-Defense/data/app.icf
-28/10/13 22:24:22.771: [0xfa0] LOADER: setting [commandline]  config-txt1=c:/Users/Pietro/Documents/GitHub/Patriot-Missile-Defense/data/app.config.txt
-28/10/13 22:24:22.771: [0xfa0] LOADER: setting [commandline]  config-txt2=c:/marmalade/6.3/modules/iw2d/docs/iw2d.config.txt
-28/10/13 22:24:22.771: [0xfa0] LOADER: setting [commandline]  config-txt3=c:/marmalade/6.3/modules/iwgeom/docs/iwgeom.config.txt
-28/10/13 22:24:22.772: [0xfa0] LOADER: setting [commandline]  config-txt4=c:/marmalade/6.3/modules/iwgl/docs/iwgl.config.txt
-28/10/13 22:24:22.772: [0xfa0] LOADER: setting [commandline]  config-txt5=c:/marmalade/6.3/modules/iwgx/docs/iwgx.config.txt
-28/10/13 22:24:22.772: [0xfa0] LOADER: setting [commandline]  config-txt6=c:/marmalade/6.3/modules/iwgxfont/docs/iwgxfont.config.txt
-28/10/13 22:24:22.772: [0xfa0] LOADER: setting [commandline]  config-txt7=c:/marmalade/6.3/modules/iwresmanager/docs/iwresmanager.config.txt
-28/10/13 22:24:22.773: [0xfa0] LOADER: setting [commandline]  config-txt8=c:/marmalade/6.3/modules/iwutil/docs/iwutil.config.txt
-28/10/13 22:24:22.773: [0xfa0] LOADER: setting [commandline]  config-txt9=c:/marmalade/6.3/s3e/s3e.config.txt
-28/10/13 22:24:22.773: [0xfa0] LOADER: setting [commandline]  config-txt10=c:/marmalade/6.3/s3e\s3e.config.txt
-28/10/13 22:24:22.773: [0xfa0] LOADER: setting [commandline]  s3e-dir=c:/marmalade/6.3/s3e
-28/10/13 22:24:22.774: [0xfa0] LOADER: s3eExecMemoryCheck: Memory free: 1048576K
-28/10/13 22:24:22.775: [0xfa0] FILE: s3eFileOpen('raw://C:\Users\Pietro\AppData\Local\Temp\\_marm_temp_test_', 'w') succeeded, id=1013 p=0x5c6e2118
-28/10/13 22:24:22.775: [0xfa0] FILE: s3eFileClose h=0x5c6e2118
-28/10/13 22:24:22.776: [0xfa0] FILE: new filesystem: drive=4 type=0 ro=0 name=tmp://
-28/10/13 22:24:22.777: [0xfa0] FILE: fs[00]: system[rom://] 'c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\data'
-28/10/13 22:24:22.777: [0xfa0] FILE: fs[01]: system[ram://] 'c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\data-ram'
-28/10/13 22:24:22.778: [0xfa0] FILE: fs[03]: system[raw://] ''
-28/10/13 22:24:22.778: [0xfa0] FILE: fs[04]: system[tmp://] 'C:\Users\Pietro\AppData\Local\Temp\'
-28/10/13 22:24:22.779: [0xfa0] FILE: listed 4 active filesystems
-28/10/13 22:24:22.780: [0xfa0] SURFACE: scaling=1
-28/10/13 22:24:22.787: [0xfa0] SURFACE: s3eSurfaceSetup: PixelType=RGB565, pitch=0, ptr=0x00000000, blit=0
-28/10/13 22:24:22.788: [0xfa0] SURFACE: s3eSurfaceSetup: matches native type
-28/10/13 22:24:22.788: [0xfa0] SURFACE: s3eSurfaceSetup: no user surface needed
-28/10/13 22:24:22.792: [0xfa0] EXT: Registering user-supplied extensions
-28/10/13 22:24:22.794: [0xfa0] FIBRE: stack switch : enabled
-28/10/13 22:24:22.794: [0xfa0] FIBRE: fast switch  : disabled
-28/10/13 22:24:22.795: [0xfa0] FIBRE: global lock  : enabled
-28/10/13 22:24:22.796: [0xfa0] FIBRE: fast lock    : disabled
-28/10/13 22:24:22.797: [0xfa0] FIBRE: thunks       : enabled
-28/10/13 22:24:22.798: [0xfa0] LOADER: Calling s3eDeviceInit()
-28/10/13 22:24:22.798: [0xfa0] DEVICE: DeviceInit: services=0xfffdffff [0xe5dc9eb7]
-28/10/13 22:24:22.799: [0xfa0] DEVICE: Initialising CALLBACKS
-28/10/13 22:24:22.799: [0xfa0] DEVICE: Initialising CRYPTO
-28/10/13 22:24:22.800: [0xfa0] DEVICE: Initialising ERROR
-28/10/13 22:24:22.800: [0xfa0] DEVICE: Initialising SOCKET
-28/10/13 22:24:22.802: [0xfa0] DEVICE: Initialising STORAGE
-28/10/13 22:24:22.802: [0xfa0] DEVICE: Initialising VIBRA
-28/10/13 22:24:22.803: [0xfa0] DEVICE: Initialising KEYBOARD
-28/10/13 22:24:22.803: [0xfa0] DEVICE: Initialising POINTER
-28/10/13 22:24:22.804: [0xfa0] DEVICE: Initialising ACCELEROMETER
-28/10/13 22:24:22.805: [0xfa0] ACCELEROMETER: damping=0 scaling=0
-28/10/13 22:24:22.805: [0xfa0] DEVICE: Initialising SOUND
-28/10/13 22:24:22.831: [0xfa0] SOUND: stereo sound enabled
-28/10/13 22:24:22.832: [0xfa0] SOUND: s3eSoundStop: started=0
-28/10/13 22:24:22.833: [0xfa0] SOUND: SetMasterVolume: 255 -> 256
-28/10/13 22:24:22.833: [0xfa0] DEVICE: Initialising AUDIO
-28/10/13 22:24:22.834: [0xfa0] AUDIO: Number of channels = 16
-28/10/13 22:24:22.834: [0xfa0] DEVICE: Initialising VIDEO
-28/10/13 22:24:22.835: [0xfa0] DEVICE: Initialising LICENSE
-28/10/13 22:24:22.835: [0xfa0] DEVICE: Initialising GL
-28/10/13 22:24:22.836: [0xfa0] DEVICE: DeviceInit done: services=0xfffdffff
-28/10/13 22:24:22.840: [0xfa0] LOADER: s3eExecInit Done
-28/10/13 22:24:22.856: [0xfa0] LOADER: AppVersion: 4 36
-28/10/13 22:24:22.857: [0xfa0] LOADER: S3E Version    : 4.36.0
-28/10/13 22:24:22.858: [0xfa0] LOADER: Arch           : X86
-28/10/13 22:24:22.859: [0xfa0] LOADER: VFP            : 1
-28/10/13 22:24:22.860: [0xfa0] LOADER: App S3E Version: 4.36.0
-28/10/13 22:24:22.861: [0xfa0] LOADER: App arch       : X86
-28/10/13 22:24:22.861: [0xfa0] LOADER: App VFP        : 0
-28/10/13 22:24:22.862: [0xfa0] LOADER: new s3eExecHandle = 0x01485210
-28/10/13 22:24:22.873: [0xfa0] LOADER: Calling s3eDeviceInit(S3E_DEVICE_INIT_MEMORY)
-28/10/13 22:24:22.874: [0xfa0] DEVICE: DeviceInit: services=0x00020000 [0x00020000]
-28/10/13 22:24:22.875: [0xfa0] DEVICE: Initialising MEMORY
-28/10/13 22:24:22.877: [0xfa0] MEMORY: Loader heap size=30000
-28/10/13 22:24:22.886: [0xfa0] MEMORY: Initialised heap 0 [0x07771f64-0x08a84c64] size=20000000
-28/10/13 22:24:22.888: [0xfa0] MEMORY: Initialised heap 7 [0x03e31464-0x03e3dc64] size=51200
-28/10/13 22:24:22.889: [0xfa0] MEMORY: s3eMemorySetUserMemMgr 0x012a3628 0x012a3868 0x012a3340
-28/10/13 22:24:22.890: [0xfa0] DEVICE: DeviceInit done: services=0x00020000
-28/10/13 22:24:22.891: [0xfa0] LOADER: IwS3EGetEntryPoint -> 0x5711848d
-28/10/13 22:24:22.892: [0xfa0] LOADER: Executing S3E 0x01485210 [c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\Debug_app_VC10X_x86\app.s86] entry=0x5711848d
-28/10/13 22:24:22.895: [0xfa0] EXT: s3eExtGetHash: 0xcc0b4a28 [0x5aa8e720 size=76]
-28/10/13 22:24:22.895: [0xfa0] EXT: initializing extension: s3eThread
-28/10/13 22:24:22.896: [0xfa0] EXT: initializing extension: s3eThread 0x5c661d10
-28/10/13 22:24:22.897: [0xfa0] MEMORY: s3eMemorySetUserMemMgr 0x57118f46 0x57118f64 0x57110490
-28/10/13 22:24:22.898: [0xfa0] GX_VERBOSE: IwGxInitBase()
-28/10/13 22:24:22.899: [0xfa0] EXT: s3eExtGetHash: 0x2bc8e047 [0x5aa8e4d0 size=72]
-28/10/13 22:24:22.900: [0xfa0] EXT: initializing extension: s3eMetrics
-28/10/13 22:24:22.900: [0xfa0] EXT: s3eExtGetHash: 0xc667a795 [0x5ba4d6f8 size=8]
-28/10/13 22:24:22.901: [0xfa0] EXT: initializing extension: s3eDebugHeap
-28/10/13 22:24:22.901: [0xfa0] MEMORY: s3eExtDebugHeapAlloc: 20000000 bytes allocated for system debug heap
-28/10/13 22:24:22.905: [0xfa0] UTIL: IwCallStackInit
-28/10/13 22:24:22.908: [0xfa0] GX_VERBOSE: Registering for S3E_SURFACE_SCREENSIZE callback
-28/10/13 22:24:22.909: [0xfa0] SURFACE: s3eSurfaceSetup: PixelType=RGB565, pitch=0, ptr=0x00000000, blit=4
-28/10/13 22:24:22.910: [0xfa0] SURFACE: s3eSurfaceSetup: matches native type
-28/10/13 22:24:22.911: [0xfa0] SURFACE: s3eSurfaceSetup: no user surface needed
-28/10/13 22:24:22.912: [0xfa0] GX: IwGxSetScreenOrient: 0
-28/10/13 22:24:22.924: [0xfa0] IW_GL: EGL: eglGetDisplay returned 08BB31E8
-28/10/13 22:24:23.060: [0xfa0] IW_GL: eglInitialise succeeded - version 1.4
-28/10/13 22:24:23.061: [0xfa0] IW_GL: S3E_EGL_VERSION: 0104
-28/10/13 22:24:23.062: [0xfa0] IW_GL: S3E_GL_VERSION: 0200
-28/10/13 22:24:23.063: [0xfa0] IW_GL: EGL_VENDOR: Google Inc.
-28/10/13 22:24:23.064: [0xfa0] IW_GL: EGL_VERSION: 1.4 (ANGLE 1.0.0.1275)
-28/10/13 22:24:23.065: [0xfa0] IW_GL:     EGL_EXT_create_context_robustness
-28/10/13 22:24:23.065: [0xfa0] IW_GL:     EGL_ANGLE_d3d_share_handle_client_buffer
-28/10/13 22:24:23.066: [0xfa0] IW_GL:     EGL_ANGLE_query_surface_pointer
-28/10/13 22:24:23.067: [0xfa0] IW_GL:     EGL_ANGLE_surface_d3d_texture_2d_share_handle
-28/10/13 22:24:23.067: [0xfa0] IW_GL:     EGL_NV_post_sub_buffer
-28/10/13 22:24:23.068: [0xfa0] GL_CORE: rejecting config 0: EGL_DEPTH_SIZE < 16
-28/10/13 22:24:23.069: [0xfa0] GL_CORE: rejecting config 4: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
-28/10/13 22:24:23.070: [0xfa0] GL_CORE: rejecting config 5 RGB < 565
-28/10/13 22:24:23.070: [0xfa0] GL_CORE: rejecting config 6: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
-28/10/13 22:24:23.071: [0xfa0] GL_CORE: rejecting config 7 RGB < 565
-28/10/13 22:24:23.072: [0xfa0] GL_CORE: rejecting config 8: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
-28/10/13 22:24:23.073: [0xfa0] GL_CORE: rejecting config 9 RGB < 565
-28/10/13 22:24:23.073: [0xfa0] GL_CORE: rejecting config 10: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
-28/10/13 22:24:23.074: [0xfa0] GL_CORE: rejecting config 11 RGB < 565
-28/10/13 22:24:23.075: [0xfa0] GL_CORE: rejecting config 12: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
-28/10/13 22:24:23.076: [0xfa0] GL_CORE: rejecting config 13: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
-28/10/13 22:24:23.076: [0xfa0] GL_CORE: rejecting config 14: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
-28/10/13 22:24:23.077: [0xfa0] GL_CORE: rejecting config 15: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
-28/10/13 22:24:23.078: [0xfa0] GL_CORE: EGL: Chose EGL_CONFIG_ID 3
-28/10/13 22:24:23.101: [0xfa0] IW_GL: GL_VENDOR: Google Inc.
-28/10/13 22:24:23.102: [0xfa0] IW_GL: GL_RENDERER: ANGLE (AMD Radeon HD 6470M/7400M Series)
-28/10/13 22:24:23.103: [0xfa0] IW_GL: GL_VERSION: OpenGL ES 2.0 (ANGLE 1.0.0.1275)
-28/10/13 22:24:23.103: [0xfa0] IW_GL: GL properties reported by driver:
-28/10/13 22:24:23.104: [0xfa0] IW_GL:     GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS: 20
-28/10/13 22:24:23.104: [0xfa0] IW_GL:     GL_SHADER_COMPILER: 1
-28/10/13 22:24:23.105: [0xfa0] IW_GL:     GL_MAX_VERTEX_ATTRIBS: 16
-28/10/13 22:24:23.106: [0xfa0] IW_GL:     GL_MAX_VERTEX_UNIFORM_VECTORS: 254
-28/10/13 22:24:23.106: [0xfa0] IW_GL:     GL_MAX_VARYING_VECTORS: 10
-28/10/13 22:24:23.107: [0xfa0] IW_GL:     GL_MAX_TEXTURE_IMAGE_UNITS: 16
-28/10/13 22:24:23.108: [0xfa0] IW_GL:     GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS: 4
-28/10/13 22:24:23.108: [0xfa0] IW_GL:     GL_MAX_FRAGMENT_UNIFORM_VECTORS: 221
-28/10/13 22:24:23.109: [0xfa0] IW_GL:     GL_MAX_CUBE_MAP_TEXTURE_SIZE: 16384
-28/10/13 22:24:23.110: [0xfa0] IW_GL:     GL_IMPLEMENTATION_COLOR_READ_FORMAT: GL_RGB
-28/10/13 22:24:23.110: [0xfa0] IW_GL:     GL_IMPLEMENTATION_COLOR_READ_TYPE: GL_UNSIGNED_SHORT_5_6_5
-28/10/13 22:24:23.111: [0xfa0] IW_GL:     GL_MAX_RENDERBUFFER_SIZE: 16384
-28/10/13 22:24:23.112: [0xfa0] IW_GL:     GL_POINT_SIZE_MAX: -1
-28/10/13 22:24:23.112: [0xfa0] IW_GL:     GL_MAX_TEXTURE_SIZE: 16384
-28/10/13 22:24:23.113: [0xfa0] IW_GL:     GL_MAX_VIEWPORT_DIMS: (16384, 16384)
-28/10/13 22:24:23.114: [0xfa0] IW_GL: Supported GL_EXTENSIONS:
-28/10/13 22:24:23.114: [0xfa0] IW_GL:     GL_OES_packed_depth_stencil
-28/10/13 22:24:23.115: [0xfa0] IW_GL:     GL_OES_element_index_uint
-28/10/13 22:24:23.115: [0xfa0] IW_GL:     GL_OES_texture_half_float_linear
-28/10/13 22:24:23.116: [0xfa0] IW_GL:     GL_NV_fence
-28/10/13 22:24:23.116: [0xfa0] IW_GL:     GL_EXT_read_format_bgra
-28/10/13 22:24:23.117: [0xfa0] IW_GL:     GL_OES_get_program_binary
-28/10/13 22:24:23.118: [0xfa0] IW_GL:     GL_OES_rgb8_rgba8
-28/10/13 22:24:23.118: [0xfa0] IW_GL:     GL_EXT_texture_compression_dxt1
-28/10/13 22:24:23.119: [0xfa0] IW_GL:     GL_ANGLE_texture_compression_dxt3
-28/10/13 22:24:23.119: [0xfa0] IW_GL:     GL_ANGLE_texture_compression_dxt5
-28/10/13 22:24:23.120: [0xfa0] IW_GL:     GL_ARB_texture_env_combine
-28/10/13 22:24:23.120: [0xfa0] IW_GL:     GL_OES_texture_npot
-28/10/13 22:24:23.121: [0xfa0] IW_GL:     GL_EXT_texture_format_BGRA8888
-28/10/13 22:24:23.122: [0xfa0] IW_GL:     GL_OES_texture_half_float
-28/10/13 22:24:23.122: [0xfa0] IW_GL:     GL_ANGLE_framebuffer_multisample
-28/10/13 22:24:23.123: [0xfa0] IW_GL:     GL_ANGLE_framebuffer_blit
-28/10/13 22:24:23.123: [0xfa0] IW_GL:     GL_OES_standard_derivatives
-28/10/13 22:24:23.124: [0xfa0] IW_GL:     GL_OES_texture_float
-28/10/13 22:24:23.125: [0xfa0] IW_GL:     GL_OES_texture_float_linear
-28/10/13 22:24:23.125: [0xfa0] IW_GL:     GL_EXT_texture_filter_anisotropic
-28/10/13 22:24:23.126: [0xfa0] SURFACE: s3eSurfaceSetup: PixelType=RGB565, pitch=0, ptr=0x00000000, blit=4
-28/10/13 22:24:23.127: [0xfa0] SURFACE: s3eSurfaceSetup: matches native type
-28/10/13 22:24:23.127: [0xfa0] SURFACE: s3eSurfaceSetup: no user surface needed
-28/10/13 22:24:23.134: [0xfa0] FILE: s3eFileOpen('tmp://source_41', 'wb') succeeded, id=1014 p=0x5c6e2234
-28/10/13 22:24:23.135: [0xfa0] FILE: s3eFileClose h=0x5c6e2234
-28/10/13 22:24:23.137: [0xfa0] EXT: s3eExtGetHash: 0xc121bcf7 [0x5aa8e53c size=4]
-28/10/13 22:24:23.138: [0xfa0] EXT: initializing extension: s3eOSExec
-28/10/13 22:24:23.139: [0xfa0] DEVICE: s3eOSExecExecute [0] '"angle_dx11/compiletool.exe" vertex "C:\Users\Pietro\AppData\Local\Temp\source_41" output "C:\Users\Pietro\AppData\Local\Temp/binary_41"'
-28/10/13 22:24:23.295: [0xfa0] DEVICE: s3eOSExecExecute -> 0
-28/10/13 22:24:23.298: [0xfa0] FILE: s3eFileOpen('tmp://binary_41', 'rb') succeeded, id=1015 p=0x5c6e2350
-28/10/13 22:24:23.299: [0xfa0] FILE: s3eFileClose h=0x5c6e2350
-28/10/13 22:24:23.300: [0xfa0] FILE: s3eFileOpen('shader_bin_wp8/f9726e28.bin', 'wb') succeeded, id=1016 p=0x5c6e246c
-28/10/13 22:24:23.301: [0xfa0] FILE: s3eFileClose h=0x5c6e246c
-28/10/13 22:24:23.303: [0xfa0] IW_GL: Compiled shader binary. binaryFormat: 0x93B0, fileName: shader_bin_wp8/f9726e28.bin
-28/10/13 22:24:23.304: [0xfa0] FILE: s3eFileOpen('tmp://source_18467', 'wb') succeeded, id=1017 p=0x5c6e2588
-28/10/13 22:24:23.305: [0xfa0] FILE: s3eFileClose h=0x5c6e2588
-28/10/13 22:24:23.306: [0xfa0] DEVICE: s3eOSExecExecute [0] '"angle_dx11/compiletool.exe" pixel  "C:\Users\Pietro\AppData\Local\Temp\source_18467" output "C:\Users\Pietro\AppData\Local\Temp/binary_18467"'
-28/10/13 22:24:23.447: [0xfa0] DEVICE: s3eOSExecExecute -> 0
-28/10/13 22:24:23.449: [0xfa0] FILE: s3eFileOpen('tmp://binary_18467', 'rb') succeeded, id=1018 p=0x5c6e26a4
-28/10/13 22:24:23.450: [0xfa0] FILE: s3eFileClose h=0x5c6e26a4
-28/10/13 22:24:23.451: [0xfa0] FILE: s3eFileOpen('shader_bin_wp8/4c5a10f0.bin', 'wb') succeeded, id=1019 p=0x5c6e27c0
-28/10/13 22:24:23.452: [0xfa0] FILE: s3eFileClose h=0x5c6e27c0
-28/10/13 22:24:23.454: [0xfa0] IW_GL: Compiled shader binary. binaryFormat: 0x93B0, fileName: shader_bin_wp8/4c5a10f0.bin
-28/10/13 22:24:23.473: [0xfa0] GX: Parsing GL driver strings
-28/10/13 22:24:23.474: [0xfa0] GX_VERBOSE: Hardware capabilities:
-28/10/13 22:24:23.476: [0xfa0] FILE: s3eFileOpen('resource_cache/cachedSize.bin', 'rb') succeeded, id=1020 p=0x5c6e28dc
-28/10/13 22:24:23.477: [0xfa0] FILE: s3eFileClose h=0x5c6e28dc
-28/10/13 22:24:23.477: [0xfa0] UTIL: Added class factory for CIwGxShaderTechnique (hash 0x62ab11c4)
-28/10/13 22:24:23.478: [0xfa0] UTIL: Added class factory for CIwGxCubeMap (hash 0x5474a064)
-28/10/13 22:24:23.479: [0xfa0] GX_VERBOSE: IwGxInit() end
-28/10/13 22:24:23.480: [0xfa0] GX_VERBOSE: _IwGxInitGL()
-28/10/13 22:24:23.480: [0xfa0] GX_VERBOSE: Reported: Max texture stages 20. Max dimensions 16384x16384
-28/10/13 22:24:23.481: [0xfa0] GX_VERBOSE: Default framebuffer binding is 0
-28/10/13 22:24:23.482: [0xfa0] GX_VERBOSE: _IwGxInitGL() end
-28/10/13 22:24:23.483: [0xfa0] FILE: s3eFileClose h=0x5c6e29f8
-28/10/13 22:24:23.484: [0xfa0] EXT: s3eExtGetHash: 0x167d1038 [0x5aa8e4b8 size=8]
-28/10/13 22:24:23.484: [0xfa0] EXT: initializing extension: s3eEval
-28/10/13 22:24:23.485: [0xfa0] FILE: s3eFileClose h=0x5c6e2b14
-28/10/13 22:24:23.486: [0xfa0] UTIL: Added class factory for CIwResTemplateImage (hash 0x4d5ab6b1)
-28/10/13 22:24:23.487: [0xfa0] UTIL: Added class factory for CIwResTemplateMTL (hash 0x3a22b5bb)
-28/10/13 22:24:23.487: [0xfa0] UTIL: Added class factory for CIwResTemplateGROUP (hash 0x4d3980fb)
-28/10/13 22:24:23.488: [0xfa0] UTIL: Added class factory for CIwMaterial (hash 0x2544f997)
-28/10/13 22:24:23.489: [0xfa0] UTIL: Added class factory for CIwResGroup (hash 0xf446397f)
-28/10/13 22:24:23.489: [0xfa0] UTIL: Added class factory for CIwTexture (hash 0x3521f539)
-28/10/13 22:24:23.490: [0xfa0] UTIL: Added class factory for CIwResBuildStyle (hash 0xa59f2593)
-28/10/13 22:24:23.490: [0xfa0] RESMANAGER: Added serialise block for ResGroupMembers
-28/10/13 22:24:23.491: [0xfa0] RESMANAGER: Added serialise block for ResGroupBuildData
-28/10/13 22:24:23.492: [0xfa0] RESMANAGER: Added serialise block for ResGroupChildPaths
-28/10/13 22:24:23.492: [0xfa0] RESMANAGER: Added serialise block for ResGroupHST
-28/10/13 22:24:23.493: [0xfa0] RESMANAGER: Added serialise block for ResGroupDirectory
-28/10/13 22:24:23.494: [0xfa0] RESMANAGER: Added serialise block for ResGroupResources
-28/10/13 22:24:23.494: [0xfa0] RESMANAGER: Added serialise block for ResGroupResourcesOptimised
-28/10/13 22:24:23.495: [0xfa0] RESMANAGER: Setting build style to 'gles2-dx11'
-28/10/13 22:24:23.496: [0xfa0] UTIL: Added class factory for CIwGxFont (hash 0xa68776be)
-28/10/13 22:24:23.496: [0xfa0] UTIL: Added class factory for CIwGxFontTTFont (hash 0xc084661d)
-28/10/13 22:24:23.497: [0xfa0] UTIL: Added class factory for CIwResTemplateGXFONT (hash 0xf4d12aa4)
-28/10/13 22:24:23.524: [0xfa0] UTIL: Found 'resources.group' using default path
-28/10/13 22:24:23.526: [0xfa0] FILE: s3eFileOpen('resources.group', 'r') succeeded, id=1023 p=0x5c6e2c30
-28/10/13 22:24:23.527: [0xfa0] FILE: s3eFileClose h=0x5c6e2c30
-28/10/13 22:24:23.528: [0xfa0] RESMANAGER: Reading asset: fonts/font.gxfont
-28/10/13 22:24:23.529: [0xfa0] UTIL: Found 'fonts/font.gxfont' using default path
-28/10/13 22:24:23.530: [0xfa0] UTIL: Found 'fonts/font.gxfont' using default path
-28/10/13 22:24:23.531: [0xfa0] FILE: s3eFileOpen('fonts/font.gxfont', 'r') succeeded, id=1024 p=0x5c6e2d4c
-28/10/13 22:24:23.532: [0xfa0] FILE: s3eFileClose h=0x5c6e2d4c
-28/10/13 22:24:23.533: [0xfa0] UTIL: Found 'fonts/font.tga' using default path
-28/10/13 22:24:23.534: [0xfa0] FILE: s3eFileOpen('fonts/font.tga', 'rb') succeeded, id=1025 p=0x5c6e2e68
-28/10/13 22:24:23.535: [0xfa0] FILE: s3eFileClose h=0x5c6e2e68
-28/10/13 22:24:23.537: [0xfa0] GX_FONT_VERBOSE: Font build took 5 ms
-28/10/13 22:24:23.537: [0xfa0] RESMANAGER: Reading asset: fonts/font_large.gxfont
-28/10/13 22:24:23.539: [0xfa0] UTIL: Found 'fonts/font_large.gxfont' using default path
-28/10/13 22:24:23.540: [0xfa0] UTIL: Found 'fonts/font_large.gxfont' using default path
-28/10/13 22:24:23.540: [0xfa0] FILE: s3eFileOpen('fonts/font_large.gxfont', 'r') succeeded, id=1026 p=0x5c6e2f84
-28/10/13 22:24:23.541: [0xfa0] FILE: s3eFileClose h=0x5c6e2f84
-28/10/13 22:24:23.542: [0xfa0] UTIL: Found 'fonts/font_large.tga' using default path
-28/10/13 22:24:23.543: [0xfa0] FILE: s3eFileOpen('fonts/font_large.tga', 'rb') succeeded, id=1027 p=0x5c6e30a0
-28/10/13 22:24:23.548: [0xfa0] FILE: s3eFileClose h=0x5c6e30a0
-28/10/13 22:24:23.585: [0xfa0] GX_FONT_VERBOSE: Font build took 43 ms
-28/10/13 22:24:23.586: [0xfa0] UTIL: Found 'data-gles2-dx11/resources.group.bin' using path global 'data-gles2-dx11'
-28/10/13 22:24:23.588: [0xfa0] FILE: s3eFileOpen('data-gles2-dx11/resources.group.bin', 'wb') succeeded, id=1028 p=0x5c6e31bc
-28/10/13 22:24:23.589: [0xfa0] UTIL: Found 'data-gles2-dx11/resources.group.bin.txt' using path global 'data-gles2-dx11'
-28/10/13 22:24:23.590: [0xfa0] FILE: s3eFileOpen('data-gles2-dx11/resources.group.bin.txt', 'wt') succeeded, id=1029 p=0x5c6e32d8
-28/10/13 22:24:23.591: [0xfa0] RESMANAGER: Serialising CIwResList of 2 items
-28/10/13 22:24:23.591: [0xfa0] RESMANAGER: Serialising item 0
-28/10/13 22:24:23.595: [0xfa0] FILE: s3eFileOpen('resource_cache/DXT3/resources.group.bin_font_page0.bin', 'rb') succeeded, id=1030 p=0x5c6e33f4
-28/10/13 22:24:23.596: [0xfa0] FILE: s3eFileClose h=0x5c6e33f4
-28/10/13 22:24:23.597: [0xfa0] UTIL: Found 'resource_cache/DXT3/resources.group.bin_font_page0.bin' using default path
-28/10/13 22:24:23.598: [0xfa0] FILE: s3eFileOpen('resource_cache/DXT3/resources.group.bin_font_page0.bin', 'rb') succeeded, id=1031 p=0x5c6e3510
-28/10/13 22:24:23.599: [0xfa0] FILE: s3eFileClose h=0x5c6e3510
-28/10/13 22:24:23.600: [0xfa0] RESMANAGER: Wrote item: classname 0xa68776be, name 0x7c96e4fc
-28/10/13 22:24:23.601: [0xfa0] RESMANAGER: Serialising item 1
-28/10/13 22:24:23.607: [0xfa0] FILE: s3eFileOpen('resource_cache/DXT3/resources.group.bin_font_large_page0.bin', 'rb') succeeded, id=1000 p=0x5c6e12ac
-28/10/13 22:24:23.608: [0xfa0] FILE: s3eFileClose h=0x5c6e12ac
-28/10/13 22:24:23.609: [0xfa0] UTIL: Found 'resource_cache/DXT3/resources.group.bin_font_large_page0.bin' using default path
-28/10/13 22:24:23.611: [0xfa0] FILE: s3eFileOpen('resource_cache/DXT3/resources.group.bin_font_large_page0.bin', 'rb') succeeded, id=1001 p=0x5c6e13c8
-28/10/13 22:24:23.612: [0xfa0] FILE: s3eFileClose h=0x5c6e13c8
-28/10/13 22:24:23.618: [0xfa0] FILE: s3eFileOpen('resource_cache/DXT3/resources.group.bin_font_large_page1.bin', 'rb') succeeded, id=1002 p=0x5c6e14e4
-28/10/13 22:24:23.619: [0xfa0] FILE: s3eFileClose h=0x5c6e14e4
-28/10/13 22:24:23.620: [0xfa0] UTIL: Found 'resource_cache/DXT3/resources.group.bin_font_large_page1.bin' using default path
-28/10/13 22:24:23.621: [0xfa0] FILE: s3eFileOpen('resource_cache/DXT3/resources.group.bin_font_large_page1.bin', 'rb') succeeded, id=1003 p=0x5c6e1600
-28/10/13 22:24:23.621: [0xfa0] FILE: s3eFileClose h=0x5c6e1600
-28/10/13 22:24:23.628: [0xfa0] FILE: s3eFileOpen('resource_cache/DXT3/resources.group.bin_font_large_page2.bin', 'rb') succeeded, id=1004 p=0x5c6e171c
-28/10/13 22:24:23.629: [0xfa0] FILE: s3eFileClose h=0x5c6e171c
-28/10/13 22:24:23.630: [0xfa0] UTIL: Found 'resource_cache/DXT3/resources.group.bin_font_large_page2.bin' using default path
-28/10/13 22:24:23.631: [0xfa0] FILE: s3eFileOpen('resource_cache/DXT3/resources.group.bin_font_large_page2.bin', 'rb') succeeded, id=1005 p=0x5c6e1838
-28/10/13 22:24:23.632: [0xfa0] FILE: s3eFileClose h=0x5c6e1838
-28/10/13 22:24:23.639: [0xfa0] FILE: s3eFileOpen('resource_cache/DXT3/resources.group.bin_font_large_page3.bin', 'rb') succeeded, id=1006 p=0x5c6e1954
-28/10/13 22:24:23.640: [0xfa0] FILE: s3eFileClose h=0x5c6e1954
-28/10/13 22:24:23.641: [0xfa0] UTIL: Found 'resource_cache/DXT3/resources.group.bin_font_large_page3.bin' using default path
-28/10/13 22:24:23.642: [0xfa0] FILE: s3eFileOpen('resource_cache/DXT3/resources.group.bin_font_large_page3.bin', 'rb') succeeded, id=1007 p=0x5c6e1a70
-28/10/13 22:24:23.643: [0xfa0] FILE: s3eFileClose h=0x5c6e1a70
-28/10/13 22:24:23.645: [0xfa0] RESMANAGER: Wrote item: classname 0xa68776be, name 0x9ef93f86
-28/10/13 22:24:23.646: [0xfa0] FILE: s3eFileClose h=0x5c6e32d8
-28/10/13 22:24:23.647: [0xfa0] FILE: s3eFileClose h=0x5c6e31bc
-28/10/13 22:24:23.648: [0xfa0] UTIL: Found 'data-gles2-dx11/resources.group.bin.debug' using path global 'data-gles2-dx11'
-28/10/13 22:24:23.649: [0xfa0] FILE: s3eFileOpen('data-gles2-dx11/resources.group.bin.debug', 'wb') succeeded, id=1008 p=0x5c6e1b8c
-28/10/13 22:24:23.650: [0xfa0] UTIL: Found 'data-gles2-dx11/resources.group.bin.debug.txt' using path global 'data-gles2-dx11'
-28/10/13 22:24:23.652: [0xfa0] FILE: s3eFileOpen('data-gles2-dx11/resources.group.bin.debug.txt', 'wt') succeeded, id=1009 p=0x5c6e1ca8
-28/10/13 22:24:23.653: [0xfa0] FILE: s3eFileClose h=0x5c6e1ca8
-28/10/13 22:24:23.653: [0xfa0] FILE: s3eFileClose h=0x5c6e1b8c
-28/10/13 22:24:23.654: [0xfa0] UTIL: Found 'data-gles2-dx11/resources.group.hst' using path global 'data-gles2-dx11'
-28/10/13 22:24:23.655: [0xfa0] FILE: s3eFileOpen('data-gles2-dx11/resources.group.hst', 'wb') succeeded, id=1010 p=0x5c6e1dc4
-28/10/13 22:24:23.656: [0xfa0] FILE: s3eFileClose h=0x5c6e1dc4
-28/10/13 22:24:23.659: [0xfa0] UTIL: Found 'data-gles2-dx11/resources.group.bin' using path global 'data-gles2-dx11'
-28/10/13 22:24:23.661: [0xfa0] FILE: s3eFileOpen('data-gles2-dx11/resources.group.bin', 'rb') succeeded, id=1011 p=0x5c6e1ee0
-28/10/13 22:24:23.662: [0xfa0] UTIL: Found 'data-gles2-dx11/resources.group.hst' using path global 'data-gles2-dx11'
-28/10/13 22:24:23.663: [0xfa0] FILE: s3eFileOpen('data-gles2-dx11/resources.group.hst', 'r') succeeded, id=1012 p=0x5c6e1ffc
-28/10/13 22:24:23.663: [0xfa0] FILE: s3eFileClose h=0x5c6e1ffc
-28/10/13 22:24:23.665: [0xfa0] UTIL: Found 'data-gles2-dx11/resources.group.hst' using path global 'data-gles2-dx11'
-28/10/13 22:24:23.665: [0xfa0] FILE: s3eFileOpen('data-gles2-dx11/resources.group.hst', 'rb') succeeded, id=1013 p=0x5c6e2118
-28/10/13 22:24:23.666: [0xfa0] FILE: s3eFileClose h=0x5c6e2118
-28/10/13 22:24:23.668: [0xfa0] UTIL: Found 'data-gles2-dx11/resources.group.bin.debug' using path global 'data-gles2-dx11'
-28/10/13 22:24:23.669: [0xfa0] UTIL: Found 'data-gles2-dx11/resources.group.bin.debug' using path global 'data-gles2-dx11'
-28/10/13 22:24:23.670: [0xfa0] FILE: s3eFileOpen('data-gles2-dx11/resources.group.bin.debug', 'rb') succeeded, id=1014 p=0x5c6e2234
-28/10/13 22:24:23.671: [0xfa0] FILE: s3eFileClose h=0x5c6e2234
-28/10/13 22:24:23.672: [0xfa0] RESMANAGER: Serialising CIwResList of 2 items
-28/10/13 22:24:23.672: [0xfa0] RESMANAGER: Serialising item 0
-28/10/13 22:24:23.673: [0xfa0] RESMANAGER: Read item: classname 0xa68776be, name 0x7c96e4fc
-28/10/13 22:24:23.675: [0xfa0] RESMANAGER: Serialising item 1
-28/10/13 22:24:23.676: [0xfa0] RESMANAGER: Read item: classname 0xa68776be, name 0x9ef93f86
-28/10/13 22:24:23.680: [0xfa0] FILE: s3eFileClose h=0x5c6e1ee0
-28/10/13 22:24:23.681: [0xfa0] GX: IwGxSetScreenOrient: 3
-28/10/13 22:24:23.681: [0xfa0] GX: IwGxSetScreenOrient [800 x 480] orient=3
-28/10/13 22:24:23.682: [0xfa0] GX_VERBOSE: Generating default shader: #define FRAGMENT 
-#define COL_STREAM 
-28/10/13 22:24:23.684: [0xfa0] UTIL: Found 'data-gles2-dx11/shader_bin/0962139f.bin' using path global 'data-gles2-dx11'
-28/10/13 22:24:23.685: [0xfa0] FILE: s3eFileOpen('tmp://source_931', 'wb') succeeded, id=1015 p=0x5c6e2350
-28/10/13 22:24:23.686: [0xfa0] FILE: s3eFileClose h=0x5c6e2350
-28/10/13 22:24:23.688: [0xfa0] DEVICE: s3eOSExecExecute [0] '"angle_dx11/compiletool.exe" pixel  "C:\Users\Pietro\AppData\Local\Temp\source_931" output "C:\Users\Pietro\AppData\Local\Temp/binary_931"'
-28/10/13 22:24:23.831: [0xfa0] DEVICE: s3eOSExecExecute -> 0
-28/10/13 22:24:23.833: [0xfa0] FILE: s3eFileOpen('tmp://binary_931', 'rb') succeeded, id=1016 p=0x5c6e246c
-28/10/13 22:24:23.834: [0xfa0] FILE: s3eFileClose h=0x5c6e246c
-28/10/13 22:24:23.835: [0xfa0] FILE: s3eFileOpen('shader_bin_wp8/5f6f1444.bin', 'wb') succeeded, id=1017 p=0x5c6e2588
-28/10/13 22:24:23.835: [0xfa0] FILE: s3eFileClose h=0x5c6e2588
-28/10/13 22:24:23.837: [0xfa0] IW_GL: Compiled shader binary. binaryFormat: 0x93B0, fileName: shader_bin_wp8/5f6f1444.bin
-28/10/13 22:24:23.838: [0xfa0] GX_VERBOSE: Generating default shader: #define COL_STREAM 
-28/10/13 22:24:23.839: [0xfa0] UTIL: Found 'data-gles2-dx11/shader_bin/b651d54d.bin' using path global 'data-gles2-dx11'
-28/10/13 22:24:23.841: [0xfa0] FILE: s3eFileOpen('tmp://source_30786', 'wb') succeeded, id=1018 p=0x5c6e26a4
-28/10/13 22:24:23.841: [0xfa0] FILE: s3eFileClose h=0x5c6e26a4
-28/10/13 22:24:23.843: [0xfa0] DEVICE: s3eOSExecExecute [0] '"angle_dx11/compiletool.exe" vertex "C:\Users\Pietro\AppData\Local\Temp\source_30786" output "C:\Users\Pietro\AppData\Local\Temp/binary_30786"'
-28/10/13 22:24:23.999: [0xfa0] DEVICE: s3eOSExecExecute -> 0
-28/10/13 22:24:24.001: [0xfa0] FILE: s3eFileOpen('tmp://binary_30786', 'rb') succeeded, id=1019 p=0x5c6e27c0
-28/10/13 22:24:24.002: [0xfa0] FILE: s3eFileClose h=0x5c6e27c0
-28/10/13 22:24:24.003: [0xfa0] FILE: s3eFileOpen('shader_bin_wp8/82896d32.bin', 'wb') succeeded, id=1020 p=0x5c6e28dc
-28/10/13 22:24:24.004: [0xfa0] FILE: s3eFileClose h=0x5c6e28dc
-28/10/13 22:24:24.006: [0xfa0] IW_GL: Compiled shader binary. binaryFormat: 0x93B0, fileName: shader_bin_wp8/82896d32.bin
-28/10/13 22:24:24.023: [0xfa0] GX_VERBOSE: Generating default shader: #define FRAGMENT 
-#define UV0_STREAM 
-#define COL_STREAM 
-#define TEX0 
-#define ALPHA_TEST 7
-28/10/13 22:24:24.025: [0xfa0] UTIL: Found 'data-gles2-dx11/shader_bin/ce71860a.bin' using path global 'data-gles2-dx11'
-28/10/13 22:24:24.026: [0xfa0] FILE: s3eFileOpen('tmp://source_27660', 'wb') succeeded, id=1021 p=0x5c6e29f8
-28/10/13 22:24:24.027: [0xfa0] FILE: s3eFileClose h=0x5c6e29f8
-28/10/13 22:24:24.030: [0xfa0] DEVICE: s3eOSExecExecute [0] '"angle_dx11/compiletool.exe" pixel  "C:\Users\Pietro\AppData\Local\Temp\source_27660" output "C:\Users\Pietro\AppData\Local\Temp/binary_27660"'
-28/10/13 22:24:24.165: [0xfa0] DEVICE: s3eOSExecExecute -> 0
-28/10/13 22:24:24.167: [0xfa0] FILE: s3eFileOpen('tmp://binary_27660', 'rb') succeeded, id=1022 p=0x5c6e2b14
-28/10/13 22:24:24.167: [0xfa0] FILE: s3eFileClose h=0x5c6e2b14
-28/10/13 22:24:24.168: [0xfa0] FILE: s3eFileOpen('shader_bin_wp8/db2af90f.bin', 'wb') succeeded, id=1023 p=0x5c6e2c30
-28/10/13 22:24:24.169: [0xfa0] FILE: s3eFileClose h=0x5c6e2c30
-28/10/13 22:24:24.171: [0xfa0] IW_GL: Compiled shader binary. binaryFormat: 0x93B0, fileName: shader_bin_wp8/db2af90f.bin
-28/10/13 22:24:24.173: [0xfa0] GX_VERBOSE: Generating default shader: #define UV0_STREAM 
-#define COL_STREAM 
-28/10/13 22:24:24.174: [0xfa0] UTIL: Found 'data-gles2-dx11/shader_bin/fc1bed0b.bin' using path global 'data-gles2-dx11'
-28/10/13 22:24:24.175: [0xfa0] FILE: s3eFileOpen('tmp://source_18603', 'wb') succeeded, id=1024 p=0x5c6e2d4c
-28/10/13 22:24:24.176: [0xfa0] FILE: s3eFileClose h=0x5c6e2d4c
-28/10/13 22:24:24.178: [0xfa0] DEVICE: s3eOSExecExecute [0] '"angle_dx11/compiletool.exe" vertex "C:\Users\Pietro\AppData\Local\Temp\source_18603" output "C:\Users\Pietro\AppData\Local\Temp/binary_18603"'
-28/10/13 22:24:24.332: [0xfa0] DEVICE: s3eOSExecExecute -> 0
-28/10/13 22:24:24.334: [0xfa0] FILE: s3eFileOpen('tmp://binary_18603', 'rb') succeeded, id=1025 p=0x5c6e2e68
-28/10/13 22:24:24.335: [0xfa0] FILE: s3eFileClose h=0x5c6e2e68
-28/10/13 22:24:24.336: [0xfa0] FILE: s3eFileOpen('shader_bin_wp8/c2311970.bin', 'wb') succeeded, id=1026 p=0x5c6e2f84
-28/10/13 22:24:24.337: [0xfa0] FILE: s3eFileClose h=0x5c6e2f84
-28/10/13 22:24:24.339: [0xfa0] IW_GL: Compiled shader binary. binaryFormat: 0x93B0, fileName: shader_bin_wp8/c2311970.bin
-28/10/13 22:24:24.369: [0xfa0] GX_VERBOSE: Generating default shader: #define FRAGMENT 
-#define UV0_STREAM 
-#define TEX0 
-28/10/13 22:24:24.370: [0xfa0] UTIL: Found 'data-gles2-dx11/shader_bin/9aec4095.bin' using path global 'data-gles2-dx11'
-28/10/13 22:24:24.371: [0xfa0] FILE: s3eFileOpen('tmp://source_17417', 'wb') succeeded, id=1027 p=0x5c6e30a0
-28/10/13 22:24:24.372: [0xfa0] FILE: s3eFileClose h=0x5c6e30a0
-28/10/13 22:24:24.375: [0xfa0] DEVICE: s3eOSExecExecute [0] '"angle_dx11/compiletool.exe" pixel  "C:\Users\Pietro\AppData\Local\Temp\source_17417" output "C:\Users\Pietro\AppData\Local\Temp/binary_17417"'
-28/10/13 22:24:24.515: [0xfa0] DEVICE: s3eOSExecExecute -> 0
-28/10/13 22:24:24.517: [0xfa0] FILE: s3eFileOpen('tmp://binary_17417', 'rb') succeeded, id=1028 p=0x5c6e31bc
-28/10/13 22:24:24.518: [0xfa0] FILE: s3eFileClose h=0x5c6e31bc
-28/10/13 22:24:24.519: [0xfa0] FILE: s3eFileOpen('shader_bin_wp8/40c2fdfa.bin', 'wb') succeeded, id=1029 p=0x5c6e32d8
-28/10/13 22:24:24.520: [0xfa0] FILE: s3eFileClose h=0x5c6e32d8
-28/10/13 22:24:24.522: [0xfa0] IW_GL: Compiled shader binary. binaryFormat: 0x93B0, fileName: shader_bin_wp8/40c2fdfa.bin
-28/10/13 22:24:24.523: [0xfa0] GX_VERBOSE: Generating default shader: #define UV0_STREAM 
-28/10/13 22:24:24.524: [0xfa0] UTIL: Found 'data-gles2-dx11/shader_bin/2fb6f84a.bin' using path global 'data-gles2-dx11'
-28/10/13 22:24:24.525: [0xfa0] FILE: s3eFileOpen('tmp://source_12977', 'wb') succeeded, id=1030 p=0x5c6e33f4
-28/10/13 22:24:24.526: [0xfa0] FILE: s3eFileClose h=0x5c6e33f4
-28/10/13 22:24:24.528: [0xfa0] DEVICE: s3eOSExecExecute [0] '"angle_dx11/compiletool.exe" vertex "C:\Users\Pietro\AppData\Local\Temp\source_12977" output "C:\Users\Pietro\AppData\Local\Temp/binary_12977"'
-28/10/13 22:24:24.682: [0xfa0] DEVICE: s3eOSExecExecute -> 0
-28/10/13 22:24:24.684: [0xfa0] FILE: s3eFileOpen('tmp://binary_12977', 'rb') succeeded, id=1031 p=0x5c6e3510
-28/10/13 22:24:24.685: [0xfa0] FILE: s3eFileClose h=0x5c6e3510
-28/10/13 22:24:24.686: [0xfa0] FILE: s3eFileOpen('shader_bin_wp8/fbee902f.bin', 'wb') succeeded, id=1000 p=0x5c6e12ac
-28/10/13 22:24:24.687: [0xfa0] FILE: s3eFileClose h=0x5c6e12ac
-28/10/13 22:24:24.689: [0xfa0] IW_GL: Compiled shader binary. binaryFormat: 0x93B0, fileName: shader_bin_wp8/fbee902f.bin
-28/10/13 22:25:12.537: [0x142c] DEVICE: s3eDeviceNotify 2
-28/10/13 22:25:12.538: [0x142c] DEVICE: done s3eDeviceNotify
-28/10/13 22:25:12.539: [0x142c] DEVICE: done RequestQuit
-28/10/13 22:25:12.543: [0xfa0] GX_VERBOSE: IwGxTerminate
-28/10/13 22:25:12.545: [0xfa0] IW_GL: Terminating EGL...
-28/10/13 22:25:12.564: [0xfa0] IW_GL: Terminating EGL... Done
-28/10/13 22:25:12.565: [0xfa0] UTIL: IwCallStackTerm
-28/10/13 22:25:12.566: [0xfa0] FIBRE: calling s3eFibreExit() (rtn=0x00000000)
-28/10/13 22:25:12.566: [0xfa0] FIBRE: s3eFibreExit() 0x0310e660
-28/10/13 22:25:12.567: [0xfa0] FIBRE: s3eFibreExit() to 0x0310e63c from 0x0310e660
-28/10/13 22:25:12.567: [0xfa0] THREAD: s3eThreadCancelAll
-28/10/13 22:25:12.568: [0xfa0] THREAD: done s3eThreadCancelAll
-28/10/13 22:25:12.568: [0xfa0] THREAD: all threads now dead (current=0x00000fa0)
-28/10/13 22:25:12.569: [0xfa0] LOADER: Application has exited, starting cleanup
-28/10/13 22:25:12.569: [0xfa0] LOADER: Done execute S3E 0x01485210 [rtn=0]
-28/10/13 22:25:12.570: [0xfa0] SOUND: s3eSoundStop: started=0
-28/10/13 22:25:12.570: [0xfa0] LOADER: Unloading S3E 0x01485210 [c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\Debug_app_VC10X_x86\app.s86]
-28/10/13 22:25:12.571: [0xfa0] LOADER: deleting DLL: c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\Debug_app_VC10X_x86\app.s86
-28/10/13 22:25:12.574: [0xfa0] DEVICE: Terminating LICENSE
-28/10/13 22:25:12.575: [0xfa0] DEVICE: Terminating VIDEO
-28/10/13 22:25:12.576: [0xfa0] DEVICE: Terminating AUDIO
-28/10/13 22:25:12.577: [0xfa0] DEVICE: Terminating SOUND
-28/10/13 22:25:12.594: [0xfa0] DEVICE: Terminating POINTER
-28/10/13 22:25:12.595: [0xfa0] DEVICE: Terminating ACCELEROMETER
-28/10/13 22:25:12.596: [0xfa0] DEVICE: Terminating GL
-28/10/13 22:25:12.596: [0xfa0] DEVICE: Terminating VIBRA
-28/10/13 22:25:12.597: [0xfa0] DEVICE: Terminating TIMER
-28/10/13 22:25:12.597: [0xfa0] DEVICE: Terminating STORAGE
-28/10/13 22:25:12.598: [0xfa0] DEVICE: Terminating SOCKET
-28/10/13 22:25:12.599: [0xfa0] DEVICE: Terminating CONFIG
-28/10/13 22:25:12.600: [0xfa0] DEVICE: Terminating ERROR
-28/10/13 22:25:12.600: [0xfa0] DEVICE: Terminating MEMORY
-28/10/13 22:25:12.602: [0xfa0] DEVICE: Terminating CRYPTO
-28/10/13 22:25:12.603: [0xfa0] DEVICE: Terminating EXT
-28/10/13 22:25:12.604: [0xfa0] EXT: terminating extension: s3eWindow
-28/10/13 22:25:12.605: [0xfa0] EXT: terminating extension: s3eThread
-28/10/13 22:25:12.605: [0xfa0] DEVICE: Terminating SURFACE
-28/10/13 22:25:12.610: [0xfa0] DEVICE: Terminating KEYBOARD
-28/10/13 22:25:12.613: [0xfa0] DEVICE: Terminating DEBUG
+28/10/13 23:12:41.525: [0xfa0] UTIL: Found 'data-gles2-dx11/shader_bin/9aec4095.bin' using path global 'data-gles2-dx11'
+28/10/13 23:12:41.526: [0xfa0] FILE: s3eFileOpen('tmp://source_20482', 'wb') succeeded, id=1027 p=0x57f930a0
+28/10/13 23:12:41.527: [0xfa0] FILE: s3eFileClose h=0x57f930a0
+28/10/13 23:12:41.530: [0xfa0] DEVICE: s3eOSExecExecute [0] '"angle_dx11/compiletool.exe" pixel  "C:\Users\Pietro\AppData\Local\Temp\source_20482" output "C:\Users\Pietro\AppData\Local\Temp/binary_20482"'
+28/10/13 23:12:41.596: [0xfa0] DEVICE: s3eOSExecExecute -> 0
+28/10/13 23:12:41.598: [0xfa0] FILE: s3eFileOpen('tmp://binary_20482', 'rb') succeeded, id=1028 p=0x57f931bc
+28/10/13 23:12:41.599: [0xfa0] FILE: s3eFileClose h=0x57f931bc
+28/10/13 23:12:41.600: [0xfa0] FILE: s3eFileOpen('shader_bin_wp8/40c2fdfa.bin', 'wb') succeeded, id=1029 p=0x57f932d8
+28/10/13 23:12:41.601: [0xfa0] FILE: s3eFileClose h=0x57f932d8
+28/10/13 23:12:41.603: [0xfa0] IW_GL: Compiled shader binary. binaryFormat: 0x93B0, fileName: shader_bin_wp8/40c2fdfa.bin
+28/10/13 23:12:41.604: [0xfa0] GX_VERBOSE: Generating default shader: #define UV0_STREAM 
+28/10/13 23:12:41.605: [0xfa0] UTIL: Found 'data-gles2-dx11/shader_bin/2fb6f84a.bin' using path global 'data-gles2-dx11'
+28/10/13 23:12:41.606: [0xfa0] FILE: s3eFileOpen('tmp://source_2793', 'wb') succeeded, id=1030 p=0x57f933f4
+28/10/13 23:12:41.607: [0xfa0] FILE: s3eFileClose h=0x57f933f4
+28/10/13 23:12:41.609: [0xfa0] DEVICE: s3eOSExecExecute [0] '"angle_dx11/compiletool.exe" vertex "C:\Users\Pietro\AppData\Local\Temp\source_2793" output "C:\Users\Pietro\AppData\Local\Temp/binary_2793"'
+28/10/13 23:12:41.691: [0xfa0] DEVICE: s3eOSExecExecute -> 0
+28/10/13 23:12:41.693: [0xfa0] FILE: s3eFileOpen('tmp://binary_2793', 'rb') succeeded, id=1031 p=0x57f93510
+28/10/13 23:12:41.694: [0xfa0] FILE: s3eFileClose h=0x57f93510
+28/10/13 23:12:41.695: [0xfa0] FILE: s3eFileOpen('shader_bin_wp8/fbee902f.bin', 'wb') succeeded, id=1000 p=0x57f912ac
+28/10/13 23:12:41.696: [0xfa0] FILE: s3eFileClose h=0x57f912ac
+28/10/13 23:12:41.699: [0xfa0] IW_GL: Compiled shader binary. binaryFormat: 0x93B0, fileName: shader_bin_wp8/fbee902f.bin
+28/10/13 23:12:42.094: [0x1694] DEVICE: s3eDeviceNotify 2
+28/10/13 23:12:42.095: [0x1694] DEVICE: done s3eDeviceNotify
+28/10/13 23:12:42.096: [0x1694] DEVICE: done RequestQuit
+28/10/13 23:12:42.100: [0xfa0] GX_VERBOSE: IwGxTerminate
+28/10/13 23:12:42.102: [0xfa0] IW_GL: Terminating EGL...
+28/10/13 23:12:42.113: [0xfa0] IW_GL: Terminating EGL... Done
+28/10/13 23:12:42.114: [0xfa0] UTIL: IwCallStackTerm
+28/10/13 23:12:42.115: [0xfa0] FIBRE: calling s3eFibreExit() (rtn=0x00000000)
+28/10/13 23:12:42.116: [0xfa0] FIBRE: s3eFibreExit() 0x026bef30
+28/10/13 23:12:42.116: [0xfa0] FIBRE: s3eFibreExit() to 0x026bef0c from 0x026bef30
+28/10/13 23:12:42.117: [0xfa0] THREAD: s3eThreadCancelAll
+28/10/13 23:12:42.118: [0xfa0] THREAD: done s3eThreadCancelAll
+28/10/13 23:12:42.118: [0xfa0] THREAD: all threads now dead (current=0x00000fa0)
+28/10/13 23:12:42.119: [0xfa0] LOADER: Application has exited, starting cleanup
+28/10/13 23:12:42.119: [0xfa0] LOADER: Done execute S3E 0x02825270 [rtn=0]
+28/10/13 23:12:42.120: [0xfa0] SOUND: s3eSoundStop: started=0
+28/10/13 23:12:42.120: [0xfa0] LOADER: Unloading S3E 0x02825270 [c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\Debug_app_VC10X_x86\app.s86]
+28/10/13 23:12:42.121: [0xfa0] LOADER: deleting DLL: c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_app_vc10x\Debug_app_VC10X_x86\app.s86
+28/10/13 23:12:42.124: [0xfa0] DEVICE: Terminating LICENSE
+28/10/13 23:12:42.125: [0xfa0] DEVICE: Terminating VIDEO
+28/10/13 23:12:42.125: [0xfa0] DEVICE: Terminating AUDIO
+28/10/13 23:12:42.126: [0xfa0] DEVICE: Terminating SOUND
+28/10/13 23:12:42.143: [0xfa0] DEVICE: Terminating POINTER
+28/10/13 23:12:42.143: [0xfa0] DEVICE: Terminating ACCELEROMETER
+28/10/13 23:12:42.144: [0xfa0] DEVICE: Terminating GL
+28/10/13 23:12:42.145: [0xfa0] DEVICE: Terminating VIBRA
+28/10/13 23:12:42.145: [0xfa0] DEVICE: Terminating TIMER
+28/10/13 23:12:42.146: [0xfa0] DEVICE: Terminating STORAGE
+28/10/13 23:12:42.146: [0xfa0] DEVICE: Terminating SOCKET
+28/10/13 23:12:42.147: [0xfa0] DEVICE: Terminating CONFIG
+28/10/13 23:12:42.148: [0xfa0] DEVICE: Terminating ERROR
+28/10/13 23:12:42.148: [0xfa0] DEVICE: Terminating MEMORY
+28/10/13 23:12:42.152: [0xfa0] DEVICE: Terminating CRYPTO
+28/10/13 23:12:42.153: [0xfa0] DEVICE: Terminating EXT
+28/10/13 23:12:42.154: [0xfa0] EXT: terminating extension: s3eWindow
+28/10/13 23:12:42.155: [0xfa0] EXT: terminating extension: s3eThread
+28/10/13 23:12:42.156: [0xfa0] DEVICE: Terminating SURFACE
+28/10/13 23:12:42.159: [0xfa0] DEVICE: Terminating KEYBOARD
+28/10/13 23:12:42.161: [0xfa0] DEVICE: Terminating DEBUG
 -- END TRACE --

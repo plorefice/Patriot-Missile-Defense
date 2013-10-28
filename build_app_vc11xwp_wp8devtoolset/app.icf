@@ -1,0 +1,15 @@
+# comments and whitespace stripped by deployment tool
+[S3E]
+MemSize = 20000000
+MemSizeDebug = 20000000
+DispFixRot="FixedLandscape"
+[GX]
+DataCacheSize=60000
+[GL]
+AllowNoDepthBufferClear=1
+PreCompileShaderBinaries=1
+[RESMANAGER]
+resbuildstyle=gles2-dx11
+[s3e]
+SysAppVersion=0.0.1
+SysAppCaption="app"
