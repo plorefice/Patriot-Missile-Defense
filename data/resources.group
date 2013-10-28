@@ -1,0 +1,7 @@
+
+CIwResGroup
+{
+	name "resources"
+	
+	fonts/font.gxfont
+}
