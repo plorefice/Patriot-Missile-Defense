@@ -25,12 +25,16 @@
 
 GameMode g_GameMode = MODE_TITLE;
 
+unsigned GAME_HEIGHT, GAME_WIDTH;
+CIwSVec2 RANGE_X, RANGE_Y;
+
+
 //
 // Input ////////////////////////////////////////////////////////////////////////
 //
 
 float delta_x, delta_y;
-int position_x = 200, position_y = 200;
+int position_x = 350, position_y = 200;
 int pointerTimer = 0;
 bool usingKeyboard = true;
 bool fired = false;

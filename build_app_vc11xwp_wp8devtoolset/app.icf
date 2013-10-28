@@ -1,6 +1,6 @@
 # comments and whitespace stripped by deployment tool
 [S3E]
-MemSize = 20000000
+MemSize = 40000000
 MemSizeDebug = 20000000
 DispFixRot="FixedLandscape"
 [GX]

@@ -22,6 +22,13 @@ void SetupScreen()
     Iw2DSetFont(font);
 
 	screen = CIwSVec2(IwGxGetScreenWidth(), IwGxGetScreenHeight());
+
+	GAME_WIDTH = screen.x - 60;
+	GAME_HEIGHT = screen.y - 60;
+
+	RANGE_X.x = RANGE_Y.x = 10;
+	RANGE_X.y = GAME_WIDTH - 30;
+	RANGE_Y.y = GAME_HEIGHT - 10;
 }
 
 

@@ -19,11 +19,8 @@
 
 #include <list>
 
-const unsigned GAME_HEIGHT = 420;
-const unsigned GAME_WIDTH = 740;
-
-const CIwSVec2 RANGE_X(10,710);
-const CIwSVec2 RANGE_Y(10,410);
+extern unsigned GAME_HEIGHT, GAME_WIDTH;
+extern CIwSVec2 RANGE_X, RANGE_Y;
 
 const float g_RangeSpeed = 0.1f;
 
