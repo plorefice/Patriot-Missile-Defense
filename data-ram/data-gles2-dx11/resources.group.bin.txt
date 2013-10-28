@@ -1,0 +1,8 @@
+ResGroupResources:
+	CIwGxFont (0xa68776be)
+		"font" (0x7c96e4fc)
+		Size: 34477
+	ResList 'CIwGxFont' pos:40 size:34487
+
+ResGroupResources: Wrote 34491 bytes to CIwResGroup "resources"
+
