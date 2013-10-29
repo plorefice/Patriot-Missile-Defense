@@ -1,0 +1,2 @@
+^C:\USERS\PIETRO\DOCUMENTS\GITHUB\PATRIOT-MISSILE-DEFENSE\PATRIOTMISSILEDEFENSE.MKB
+"C:\Marmalade\6.3\s3e\python\python.exe" "C:\Marmalade\6.3\s3e\makefile_builder\mkb.py" "--buildenv=VC10X" "c:/Users/Pietro/Documents/GitHub/Patriot-Missile-Defense/PatriotMissileDefense.mkb" "--default-buildenv=vc11xwp" --msvc-project

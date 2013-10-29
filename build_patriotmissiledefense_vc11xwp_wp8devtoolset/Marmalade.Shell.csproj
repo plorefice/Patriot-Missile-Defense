@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F3C5ACD6-06B6-3749-5684-526784285ED2}</ProjectGuid>
+    <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MarmaladeShell</RootNamespace>
+    <AssemblyName>MarmaladeShell</AssemblyName>
+    <TargetFrameworkIdentifier>WindowsPhone</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <SilverlightApplication>true</SilverlightApplication>
+    <SupportedCultures>
+    </SupportedCultures>
+    <XapOutputs>true</XapOutputs>
+    <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
+    <XapFilename>PatriotMissileDefense_vc11xwp_wp8devtoolset.xap</XapFilename>
+    <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
+    <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
+    <SilverlightAppEntry>MarmaladeShell.App</SilverlightAppEntry>
+    <ValidateXaml>true</ValidateXaml>
+    <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\x86\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|ARM' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\ARM\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|ARM' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\ARM\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DummyMainPage.xaml.cs">
+      <DependentUpon>DummyMainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\AppResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="mwm-splash-240.jpg" />
+    <Content Include="s3e_native.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="s3e_native.winmd">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="libEGL.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="libGLESv2.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Marmalade.App.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="s3eSurface_pixelshader.cso">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="s3eSurface_vertexshader.cso">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_patriotmissiledefense_vc11xwp_wp8devtoolset\Assets\WP8_Icon_Or_Tile_159x159_0_1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_patriotmissiledefense_vc11xwp_wp8devtoolset\Assets\WP8_Icon_Or_Tile_336x336_0_2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\build_patriotmissiledefense_vc11xwp_wp8devtoolset\Assets\WP8_Icon_Or_Tile_99x99_0_0.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PatriotMissileDefense.s86">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PatriotMissileDefense.lic">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="app.icf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="s3e.icf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="s3e_splash.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\data-ram\shader_bin_wp8\82896d32.bin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Link>shader_bin_wp8\82896d32.bin</Link>
+    </Content>
+    <Content Include="c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\data-ram\shader_bin_wp8\40c2fdfa.bin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Link>shader_bin_wp8\40c2fdfa.bin</Link>
+    </Content>
+    <Content Include="c:\users\pietro\documents\github\patriot-missile-defense\data\splashscreen.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Link>splashscreen.jpg</Link>
+    </Content>
+    <Content Include="c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\data-ram\shader_bin_wp8\c2311970.bin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Link>shader_bin_wp8\c2311970.bin</Link>
+    </Content>
+    <Content Include="c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\data-ram\shader_bin_wp8\f9726e28.bin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Link>shader_bin_wp8\f9726e28.bin</Link>
+    </Content>
+    <Content Include="c:\users\pietro\documents\github\patriot-missile-defense\data-ram\data-gles2-dx11\resources.group.bin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Link>resources.group.bin</Link>
+    </Content>
+    <Content Include="c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\data-ram\shader_bin_wp8\fbee902f.bin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Link>shader_bin_wp8\fbee902f.bin</Link>
+    </Content>
+    <Content Include="c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\data-ram\shader_bin_wp8\5f6f1444.bin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Link>shader_bin_wp8\5f6f1444.bin</Link>
+    </Content>
+    <Content Include="c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\data-ram\shader_bin_wp8\4c5a10f0.bin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Link>shader_bin_wp8\4c5a10f0.bin</Link>
+    </Content>
+    <Content Include="c:\Users\Pietro\Documents\GitHub\Patriot-Missile-Defense\data-ram\shader_bin_wp8\db2af90f.bin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Link>shader_bin_wp8\db2af90f.bin</Link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Marmalade.App">
+      <HintPath>.\Marmalade.App.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\AppManifest.xml" />
+    <None Include="Properties\WMAppManifest.xml">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\AppResources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="DummyMainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />
+  <ProjectExtensions />
+  <PropertyGroup>
+    <PreBuildEvent>
+set XDEBUGFLAG=
+set XARCHFLAG=x86
+if "$(ConfigurationName)"=="Debug" set XDEBUGFLAG=-d
+if "$(PlatformName)"=="ARM" set XARCHFLAG=arm
+
+"c:\marmalade\6.3\s3e\bin\s3e_deploy" --exclude-package --exclude-assets --device-debugging -n -o wp8 -a wp8-%XARCHFLAG% %XDEBUGFLAG% $(ProjectDir)deploy_config.py --outputdir=$(ProjectDir)
+</PreBuildEvent>
+  </PropertyGroup>
+</Project>

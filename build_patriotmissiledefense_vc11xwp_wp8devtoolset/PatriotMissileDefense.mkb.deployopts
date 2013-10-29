@@ -1,0 +1,7 @@
+build "WP8-ARM Release"
+outdir "C:/Users/Pietro/Documents/GitHub/Patriot-Missile-Defense/build_patriotmissiledefense_vc11xwp_wp8devtoolset"
+!task !name "Default:wp8" "Package"
+!config !name "Default"
+!config <os> "wp8"
+!config !name "default"
+configlist "Default","default",

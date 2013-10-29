@@ -1,0 +1,50 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Phone
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marmalade.Shell", "Marmalade.Shell.csproj", "{F3C5ACD6-06B6-3749-5684-526784285ED2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CAB50768-D459-A28D-73EC-9D4ED00DFB59} = {CAB50768-D459-A28D-73EC-9D4ED00DFB59}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PatriotMissileDefense_vc11xwp_wp8devtoolset", "PatriotMissileDefense_vc11xwp_wp8devtoolset.vcxproj", "{CAB50768-D459-A28D-73EC-9D4ED00DFB59}"
+EndProject
+Global
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Release|ARM = Release|ARM
+		Debug|X86 = Debug|X86
+		Release|X86 = Release|X86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3C5ACD6-06B6-3749-5684-526784285ED2}.Debug|ARM.ActiveCfg = Debug|ARM
+		{F3C5ACD6-06B6-3749-5684-526784285ED2}.Debug|ARM.Build.0 = Debug|ARM
+		{F3C5ACD6-06B6-3749-5684-526784285ED2}.Debug|ARM.Deploy.0 = Debug|ARM
+		{F3C5ACD6-06B6-3749-5684-526784285ED2}.Release|ARM.ActiveCfg = Release|ARM
+		{F3C5ACD6-06B6-3749-5684-526784285ED2}.Release|ARM.Build.0 = Release|ARM
+		{F3C5ACD6-06B6-3749-5684-526784285ED2}.Release|ARM.Deploy.0 = Release|ARM
+		{F3C5ACD6-06B6-3749-5684-526784285ED2}.Debug|X86.ActiveCfg = Debug|X86
+		{F3C5ACD6-06B6-3749-5684-526784285ED2}.Debug|X86.Build.0 = Debug|X86
+		{F3C5ACD6-06B6-3749-5684-526784285ED2}.Debug|X86.Deploy.0 = Debug|X86
+		{F3C5ACD6-06B6-3749-5684-526784285ED2}.Release|X86.ActiveCfg = Release|X86
+		{F3C5ACD6-06B6-3749-5684-526784285ED2}.Release|X86.Build.0 = Release|X86
+		{F3C5ACD6-06B6-3749-5684-526784285ED2}.Release|X86.Deploy.0 = Release|X86
+		{CAB50768-D459-A28D-73EC-9D4ED00DFB59}.Debug|ARM.ActiveCfg = Debug|ARM
+		{CAB50768-D459-A28D-73EC-9D4ED00DFB59}.Debug|ARM.Build.0 = Debug|ARM
+		{CAB50768-D459-A28D-73EC-9D4ED00DFB59}.Debug|ARM.Deploy.0 = Debug|ARM
+		{CAB50768-D459-A28D-73EC-9D4ED00DFB59}.Release|ARM.ActiveCfg = Release|ARM
+		{CAB50768-D459-A28D-73EC-9D4ED00DFB59}.Release|ARM.Build.0 = Release|ARM
+		{CAB50768-D459-A28D-73EC-9D4ED00DFB59}.Release|ARM.Deploy.0 = Release|ARM
+		{CAB50768-D459-A28D-73EC-9D4ED00DFB59}.Debug|X86.ActiveCfg = Debug|X86
+		{CAB50768-D459-A28D-73EC-9D4ED00DFB59}.Debug|X86.Build.0 = Debug|X86
+		{CAB50768-D459-A28D-73EC-9D4ED00DFB59}.Debug|X86.Deploy.0 = Debug|X86
+		{CAB50768-D459-A28D-73EC-9D4ED00DFB59}.Release|X86.ActiveCfg = Release|X86
+		{CAB50768-D459-A28D-73EC-9D4ED00DFB59}.Release|X86.Build.0 = Release|X86
+		{CAB50768-D459-A28D-73EC-9D4ED00DFB59}.Release|X86.Deploy.0 = Release|X86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

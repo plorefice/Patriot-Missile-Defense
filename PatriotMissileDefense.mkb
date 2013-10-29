@@ -1,0 +1,30 @@
+subprojects
+{
+	iw2d
+	PatriotMissileDefense
+}
+
+deployments
+{
+    caption="Patriot Missile Defense"
+    long-caption="Patriot Missile Defense"
+    icon=icons
+	assets=default
+}
+#### AUTO GENERATED deployment settings from DeployTool.exe. Do not edit below this line ####
+deployments
+{
+	["Default"]
+	app-icf='data/app.icf'
+	icon='icons/icon.png'
+	provider='Pietro Lorefice'
+	splashscreen='data/splashscreen.jpg'
+	version-major=0
+	version-minor=1
+	version-revision=0
+	wp8-author='Pietro Lorefice'
+	wp8-description='A retro shooting game'
+	wp8-publisher-id='{ddb16f06-a317-4cd1-904a-2dfd55808386}'
+	["artbuild"]
+	["default"]
+}
